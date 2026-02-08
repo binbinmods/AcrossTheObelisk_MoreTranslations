@@ -4,7 +4,7 @@ buffer_description=Previene<g> <ChargesMultiplier></g> <y>efectos perjudiciales<
 courage_description=Resistencia a <hol>Sagrado</hol>, <sha>Sombra</sha> y <min>Mente</min> <g>+<Resistance1> %</g>.
 energize_description=Ganas<g> <ChargesMultiplier> de energía extra</g> <w>el siguiente turno.</w>
 evasion_description=Previene <g><ChargesMultiplier></g> <y>golpes</y>.
-fast_description=Velocidad <g>+<ChargesMultiplier></g>.
+fast_description=Velocidad <g><CharacterStatModifiedValuePerStackTotal></g>.
 fortify_description=El bloqueo no se pierde <w>al final de la ronda</w>.
 furnace_description=<o>Daño de Fuego</o><y> +<ChargesMultiplier></y>.
 fury_description=Daño infligido <y>+<AuraDamageIncreasedPercentPerStack> %</y>.<br3><w>Al final del turno</w>, sufres <r><ChargesAux1> Sangrado</r>.
@@ -16,7 +16,7 @@ mitigate_description=Daño recibido<y> -<ChargesMultiplier></y>.<br3>Cargas máx
 powerful_description=Daño y curación realizados <y>+<AuraDamageIncreasedPercentPerStack> %</y>.<br3>Cargas máximas: <y><MaxCharges></y>.
 regeneration_description=Cura<g> <ChargesMultiplier> PS</g> <w>al comienzo del turno</w>.
 reinforce_description=Resistencia a <sla>Corte</sla>, <blu>Impacto</blu> y <pie>Perforación</pie> <g>+<Resistance1> %</g>.
-sharp_description=Daño de <sla>Corte</sla> y <pie>Perforación</pie><y> +<ChargesMultiplier></y>.
+sharp_description=Daño de <sla>Corte</sla> y <pie>Perforación</pie><y> +<AuraDamageIncreasedPerStack></y>.
 shield_description=Ganas <b><ChargesMultiplier> bloqueo(s) </b><w>al comienzo de la ronda</w>.
 stanzai_description=Daño de <min>Mente</min><y> +1</y>.<br3><w>Al final del turno</w>, ganas <b>Estrofa II</b>.<br3>No se puede purgar.
 stanzaii_description=Daño de <min>Mente</min><y> +2</y>.<br3><w>Al final del turno</w>, ganas <b>1 de Energizar</b> y <b>Estrofa III</b>.<br3>No se puede purgar.
@@ -25,11 +25,11 @@ stealth_description=Daño y curación realizados<y> +<AuraDamageIncreasedPercent
 stealthbonus_description=Daño y curación realizados<y> +<AuraDamageIncreasedPercentPerStack> %</y>.<br3><b>No puede ser objeto de un ataque directo</b>.<br3><w>Elimina Sigilo</w> después usar una carta.
 taunt_description=<w>Te conviertes en el objetivo</w> de todas las cartas hostiles del oponente.
 thorns_description=Inflige<pie> <ChargesMultiplier> de Perforación</pie> al atacante cuando este objetivo <w>es golpeado</w> por un enemigo.
-vitality_description=PS máx.<y> +<CharacterStatModifiedPerStack></y>.
+vitality_description=PS máx. <y><CharacterStatModifiedPerStack></y>.
 bleed_description=<r>Pierdes <DamageWhenConsumedPerCharge> PS</r> <w>al comienzo del turno</w>.
 burn_description=<o>Resistencia a Fuego</o><r> -<ResistAux1> %</r>.<br3> Sufres <o><ChargesMultiplier> de daño de Fuego</o> <w>al comienzo del turno</w>.
-chill_description=<col>Resistencia a Hielo</col><r> -<ResistAux1> %</r>.<br3>Velocidad<r> -<ChargesAux2></r>.
-crack_description=<blu>Daño de Impacto</blu> recibido <y>+<ChargesMultiplier></y>.
+chill_description=<col>Resistencia a Hielo</col><r> -<ResistAux1> %</r>.<br3>Velocidad<r> -<ChillSpeed></r>.
+crack_description=<blu>Daño de Impacto</blu> recibido <y>+<IncreasedDirectDamageReceivedPerStack></y>.
 dark_description=<sha>Resistencia a Sombra</sha><r> -<ResistAux1> %</r>.<br3>Cuando llega a <w><ExplodeAtStacks> cargas</w>, sufres <sha><DamageWhenConsumedPerCharge> de daño de Sombra</sha>; después, elimina todas las cargas.
 daze_description=Velocidad<r> <CharacterStatModifiedValue></r>.
 decay_description=Curación recibida <r><HealReceivedPercent> %</r>.
@@ -39,19 +39,66 @@ exhaust_description=
 fatigue_description=Ganas <r><ChargesMultiplier> menos de energía</r> <w>el próximo turno.</w>
 paralyze_description=<w>Pierdes el próximo turno</w>.
 insane_description=<min>Resistencia a Mente</min><r> -<ResistAux1> %</r>.<br3>Daño infligido <r> -<DamageAux1> %</r>.
+/////todo: frag changed <charesmultiplier> to 1
 mark_description=Daño recibido<y> +<ChargesMultiplier></y>.<br3>Previene<g> <ChargesMultiplier> </g><y>cargas de Sigilo</y>.
-poison_description=<r>Pierdes <DamageWhenConsumedPerCharge> PS</r> <w>al final del turno</w>.
+poison_description=<r>Pierdes <DamageWhenConsumedPerCharge> PS</r> al <w>final del turno</w>.
 sanctify_description=<w>Resistencia a Sagrado</w><r> -<ResistAux1> %</r>.<br3>El atacante recupera <g><ChargesMultiplier> PS</g> cuando <w>este objetivo es golpeado</w> por un enemigo.
 shackle_description=Velocidad<r> reducida a 0</r>.
 sight_description=Revela<y> <ChargesMultiplier></y> carta(s).
 silence_description=No puedes jugar cartas de <b>hechizo</b>.
-slow_description=Velocidad<r> -<ChargesMultiplier></r>.
+slow_description=Velocidad <r><CharacterStatModifiedValuePerStackTotal></r>.
 spark_description=<lig>Resistencia a Rayo</lig><r> -<ResistAux1> %</r>.<br3>Inflige <lig><ChargesMultiplier> de daño de Rayo</lig> a los lados del objetivo <w>al comienzo del turno</w>.
-stress_description=Robas <r><ChargesMultiplier> carta(s) menos</r> el próximo turno.</w>
+stress_description=Robas <r><ChargesMultiplier> carta(s) menos</r> <w>el próximo turno.</w>
 vulnerable_description=Todas las resistencias<r> -<ResistAux1> %</r>.<br3>Cargas máximas: <y><MaxCharges></y>.
 weak_description=Daño y curación realizados <r>-50 %</r>.
-wet_description=<lig>Daño de Rayo</lig> recibido <y>+<ChargesAux1></y>.<br3>Previene <g><ChargesMultiplier></g> <y>carga(s) de Quemadura</y>.
+wet_description=<lig>Daño de Rayo</lig> recibido <y>+<IncreasedDirectDamageReceivedPerStack></y>.<br3>Previene <g><ChargesMultiplier></g> <y>carga(s) de Quemadura</y>.
 //////////////////////////////// TRANSLATION ENDS HERE
 zeal_description=Todas las resistencias<g> +<ResistAux1> %</g>.<br3>Curación recibida de <w>Santificar</w> <g>+<ChargesMultiplier> %</g>.<br3>Daño infligido<y> +<DamageZeal> %</y>.
 scourge_description=Daño recibido de <w>explosión de Oscuridad</w> <y>+<ChargesMultiplier> %</y><br3>Propaga un <y>50 %</y> de las <w>cargas de Oscuridad</w> de este objetivo a sus lados y sufre <sha><ChargesAux1_chill> daño de Sombra </sha>al <w>comienzo del turno</w>.
 luckyscarab_description=Completa los requisitos de cada escarabajo para obtener una bonificación al final del combate.<br3><y>Escarabajo dorado</y>: Mátalo <w>antes de que escape</w> para obtener <nobr>+150 <sprite name=gold></nobr> por héroe.<br3><col>Escarabajo de cristal</col>: Mátalo <w>después de que use la carta Cristalizar</w> y <w>antes de que escape</w> para obtener <nobr>150 <sprite name=dust></nobr> por héroe.<br3><g>Escarabajo de jade</g>: Mátalo <w>antes de que escape</w> para obtener <nobr>50 <sprite name=gold></nobr>, <nobr>50 <sprite name=dust></nobr> y <nobr>50 <sprite name=experience></nobr> por héroe.
+//////
+spellsword_description=Daño infligido <y>+<AuraDamageIncreasedPerStack> por carga</y>.<br3>Daño recibido <y>-1 por carga</y>.<br3>Cargas máximas <y> <MaxCharges></y>.<br3>Las cargas no se pueden aumentar mediante los efectos de las cartas.
+reloading_description=No puedes jugar cartas <b>"Ataque a distancia"</b>.<br3>No se puede disipar ni prevenir.
+/////
+scourge_description=Daño recibido de <w>explosión de Oscuridad</w> <y>+<ChargesMultiplier> %</y><br3>Propaga <y><aura:dark,50> cargas de Oscuridad</y> a los lados de este objetivo y sufre <sha><ChargesAux1_chill> daño de Sombra</sha> al <w>comienzo del turno</w>.
+rust_description=<w>Aumenta el efecto</w> de Grieta, Veneno y Lentitud en un <y>50 %</y>.<br3><w>Reduce el efecto</w> de Rapidez, Afilado y Mojado en un <y>50 %</y>.<br3>Previene <g><ChargesMultiplier></g> <y>cargas de Reforzar</y>.
+bleedendturn_description=<r>Pierdes <DamageWhenConsumedPerCharge> PS</r> al <w>final del turno</w>.
+blessNoHeal_description=Daño infligido <y>+<AuraDamageIncreasedPerStack></y>.
+bluntAndFireDamage_description=Daño de <blu>Impacto</blu> y <o>Fuego</o> <y>+<AuraDamageIncreasedPerStack></y>.
+burnColdDamage_description=Resistencias a <o>Fuego</o> y <col>Hielo</col> <r>-<ResistAux1> %</r>.<br3>Sufres <col><ChargesMultiplier> de daño de Hielo</col> al <w>comienzo del turno</w>.
+burnDoubleDamage_description=Quemadura inflige el doble de daño.
+chill_description=<col>Resistencia a Hielo</col> <r>-<ResistAux1> %</r>.<br3>Velocidad <r><CharacterStatModifiedValuePerStackTotal></r>.
+chillReinforce_description=Aplica {0} cargas de Reforzar al <w>final del turno</w>.
+crackBlock_description=Reduce las cargas de Bloqueo obtenidas en un {0}.
+crackVulnerable_description=Aplica {0} cargas de Vulnerable al <w>final del turno</w>.
+darkEndOfTurn_description=Las cargas de Oscuridad también explotarán al <w>final del turno</w>.
+furynobleed_description=Daño infligido <y>+<AuraDamageIncreasedPercentPerStack> %</y>.
+markAlsoSlashingResistance_description=<sla>Resistencia a Corte</sla> <r>-<ResistAux1> %</r>.
+regenerationSides_description=También cura héroes a los lados de este objetivo.
+sharpnopierce_description=Daño de <sla>Corte</sla> <y>+<AuraDamageIncreasedPerStack></y>.
+sharpnoslash_description=Daño de <pie>Perforación</pie> <y>+<AuraDamageIncreasedPerStack></y>.
+sharpShadow_description=Daño de <sla>Corte</sla>, <pie>Perforación</pie> y <sha>Sombra</sha> <y>+<AuraDamageIncreasedPerStack></y>.
+sparkVoltaicTrait_description=Sufres <lig><ChargesMultiplier> daño de Rayo</lig> cuando se activa.
+sparkSideCharges_description=Aplica el 30 % de sus cargas como <lig>cargas de Chispa</lig> a los lados de este objetivo al <w>comienzo del turno</w>.
+sparkSlow_description=Aplica {0} cargas de Lentitud al <w>final del turno</w>.
+stanzaiInspire_description=Daño de <min>Mente</min> <y>+1</y>.<br3>Cuando se elimina <w>al final del turno</w>, ganas <b>Estrofa II</b> y <b>1 de Inspiración</b>.<br3>No se puede purgar.
+stanzaiiNo3_description=Daño de <min>Mente</min> <y>+2</y>.<br3>Cuando se elimina <w>al final del turno</w>, ganas <b>1 de Energizar</b>.<br3>No se puede purgar.
+wetAlsoColdDamage_description=<col>Daño de Hielo</col> recibido <y>+<IncreasedDirectDamageReceivedPerStack2></y>.
+wetAlsoLightningResistance_description=<lig>Resistencia a Rayo</lig> <r>-<ResistAux1> %</r>.
+wetcold_description=<lig>Daño de Rayo</lig> recibido <y>+<IncreasedDirectDamageReceivedPerStack></y>.<br3><col>Daño de Hielo</col> recibido <y>+<IncreasedDirectDamageReceivedPerStack2></y>.<br3>Previene <g><ChargesMultiplier></g> <y>carga(s) de Quemadura</y>.
+thornspoison_description=Aplica <y><ChargesCurrentHalf> cargas de Veneno</y> al atacante cuando este objetivo <w>es golpeado</w> por un enemigo.
+thornsHoly_description=Inflige <hol><ChargesMultiplier> de Sagrado</hol> al atacante cuando este objetivo <w>es golpeado</w> por un enemigo.
+///////
+shackleWebweaver_description=Velocidad <r>reducida a 0</r>. <br3>Daño infligido <r>-30 %</r>. <br3><w>Elimina <b>Evasión</b> del objetivo</w>. <br3>Al <w>final del turno</w>, sufres <r>2 de Lentitud</r> por carga, después elimina 1 carga.
+///
+leech_description=Todas las resistencias <r>-<ResistAux1>%</r>. <br>Cuando llega a <w><ExplodeAtStacks> cargas</w>, explota: elimina todas las cargas, luego aplica <r>1 de <ACOnExplode> por carga</r> y cura a todos los aliados <g><HealPerChargeOnExplode></g>.
+infuse_description=<w>Aumenta el efecto</w> de Reforzar, Aislamiento y Valor un <y><CustomAuxValue>%</y>. <br><w>Reforzar en el objetivo</w> aumenta el <w>daño físico</w> en <y><ChargesAux2></y>. <br><w>Aislamiento en el objetivo</w> aumenta el <w>daño elemental</w> en <y><ChargesAux2></y>. <br><w>Valor en el objetivo</w> aumenta el <w>daño místico</w> en <y><ChargesAux2></y>.<br>Cargas máximas <y><MaxCharges></y>.
+runeblue_description=Fortificar +<y><ChargesAux1></y>. <br>Además, al alcanzar 2 cargas, el bloqueo de daño otorga <y>{0}</y> de Escudo. <br>Al alcanzar 3 cargas, el bloqueo de daño también otorga <y>{0}</y> de Escudo a todos los aliados.
+runered_description=Marca +<y><ChargesAux1></y>. <br>Además, al alcanzar 2 cargas, infligir daño a un enemigo le aplica Marca. <br>Al alcanzar 3 cargas, infligir daño a un enemigo también aplica Marca a los lados del objetivo.
+runegreen_description=Curación realizada +<y><ChargesAux1></y>. <br>Además, al alcanzar 2 cargas, la curación realizada otorga 2 de Vitalidad. <br>Al alcanzar 3 cargas, la curación realizada otorga 2 de Vitalidad a todos los aliados.
+invulnerableunremovable_description=Inmune al daño y los efectos perjudiciales. Se trata de una forma corrupta de invulnerabilidad y no se puede purgar.
+///// DLC Threads of Dreams
+sleep_description=<sla>Somnolencia</sla>: Pierdes el próximo turno.
+
+//Batch 3
+runered_description=Marca +<y>1</y>. <br>Además, al alcanzar 2 cargas, infligir daño a un enemigo le aplica Marca. <br>Al alcanzar 3 cargas, infligir daño a un enemigo también aplica Marca a los lados del objetivo.

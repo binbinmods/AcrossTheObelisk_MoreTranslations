@@ -1,8 +1,8 @@
 {
-    "name": "MoreTranslations_SoU",
-    "version_number": "1.1.1",
-    "website_url": "https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations",
-    "description": "Custom translations, updated for Sands of Ulminin.",
+    "name": "MoreTranslations",
+    "version_number": "1.2.0",
+    "website_url": "https://github.com/binbinmods/AcrossTheObelisk_MoreTranslations",
+    "description": "Custom translations, updated for AtO v1.7.3.2 (post Necropolis of the Damned).",
     "dependencies": [
         "BepInEx-BepInExPack_AcrossTheObelisk-5.4.21"
     ]

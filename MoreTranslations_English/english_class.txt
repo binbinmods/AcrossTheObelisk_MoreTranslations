@@ -68,3 +68,27 @@ queen_name=Amelia
 queen_description=After unifying the kingdom with the Wolf Wars, Amelia noticed that her magical powers were somehow becoming unstable over time. To protect the kingdom, she decided to exile herself far away.<br><br>When she learned of her daughter's kidnapping, her magical powers were unleashed and at that moment she decided to use them to create a spatial rift and return to Senenthia as soon as possible.
 queen_strength=Mage specialized in cold magic and vanishing cards.
 engineer_name=Nenukil
+engineer_description=Nenukil was the chief engineer of the Black Forge. He was saved by Amelia when the Black Forge's ancient machine was activated, causing a burst of energy. Feeling indebted to her, Nenukil warned Amelia of the impending Obsidian uprising.<br><br>He helped quell the uprising and, when it was over, left with Amelia for Senenthia, remaining at her side until she went into exile.
+engineer_strength=Scout specialized in tactical combat and defense.
+//////////////////////////
+valkyrie_name=Sigrun
+valkyrie_description=The fishermen of the Sahti villages met Sigrun on a deserted island where a large crater appeared overnight. She had lost part of her memory and did not know how she had gotten there.<br><br>The villagers believe her to be an angel from a civilization thought to live in the clouds and welcomed Sigrun into their village. As thanks for taking care of her, Sigrun has decided to go on a journey to cleanse the Sahti coasts of fish men and pirates.
+valkyrie_strength=A mage who is proficient in the way of the scout.
+alchemist_name=Bernard
+alchemist_description=The hermit living in a shell at the bottom of the sea has his sleep disturbed by the arrival of adventurers seeking healing herbs for the local tribes.<br><br>With the seabed and its inhabitants altered by the awakening of the obelisk, Bernard decides it is a good time to embark on one last journey in search of the philosopher's stone in an attempt to prolong his already long life.
+alchemist_strength=A scout who is proficient in the way of the healer.
+/////// 1.6 Sunken Temple
+priestess_name=Tulah
+priestess_description=Long ago, Tulah was a priestess who went too far in her pursuit to help others and became corrupted in the process. She was forced to hide with her brood, feeding on those she once sought to protect.<br><br>Fortunately, thanks to the chaotic nature of the rifts and the help of a group of adventurers, Tulah managed to escape her fate and is now free to assist them on their quests.
+priestess_strength=A healer specialized in summoning her brood.
+/////// Necropolis
+bloodmage_name=Velarion
+bloodmage_description=Born of noble blood and darker lineage, Velarion is the half-vampire son of the Count, raised within the castle's cursed halls. Groomed in the art of blood magic, he was slowly consumed by his father's influence until a final moment of clarity drove him to flee the castle. Now wandering the Dusk Lands, he seeks redemption through forbidden arts, channeling his blood magic to heal allies and punish those who spill innocent blood.
+bloodmage_strength=A healer who is proficient in the way of the mage.
+deathknight_name=Nevermoor
+deathknight_description=Once crowned prince of the Dusk Lands, Nevermoor watched helplessly as the Count's corruption spread through his homeland, turning his kin into monsters and himself into something far worse. Now a brooding were-raven bound by duty and grief, Nevermoor wandered the Witch Woods longing to reclaim his throne… even if it meant wielding the same darkness that stole it from him.
+deathknight_strength=A warrior who is proficient in the way of the healer.
+//Rhonan
+beastmaster_name=Rhonan
+beastmaster_description=Once a mighty warlord of a nomadic rhino tribe, he led his people across the wilds with strength, discipline, and an uncanny connection to the creatures that lived beside them. After the Obelisk shattered and his homeland was lost, he abandoned the path of conquest and became a quiet wanderer. Now he travels the ruined lands, reading tracks, sensing danger, and stepping in only when needed. Though his power is undeniable, he moves with the patience of someone who has learned from the wild, determined to uncover the truth behind the disaster and protect those who remain.
+beastmaster_strength=A scout who is proficient in the way of the warrior.

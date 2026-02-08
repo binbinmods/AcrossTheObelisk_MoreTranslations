@@ -151,19 +151,19 @@ bigbadwolf_description=Gain +1% to All damage done for every 3 hp above 100 hp y
 dinnerisready=Dinner is Ready
 dinnerisready_description=At the start of your turn, shuffle one of these cards: "Premium Meat", "Meat", or "Spoiled Meat" into each hero deck.
 gluttony=Gluttony
-gluttony_description=When you play a "Food" card, Gain 1 Energy and 2 Vitality. (2 times/turn)
+gluttony_description=When you play a "Food" card, gain 1 Energy and 2 Vitality. (2 times/turn)
 threestarchef=Three Star Chef
 threestarchef_description=Replaces the random meat from the "Butcher" and "Dinner is Ready" talents with guaranteed "Gourmet Meat".
 pillage=Pillage
 sausagefactory=Sausage Factory
 feedtherich=Feed The Rich
 givetothepoor=Give To The Poor
-//////////////////////////////// TRANSLATION ENDS HERE
+//////////////////////////////// 
 threestarchef_description=The talent "Butcher" always guarantees "Gourmet Meat". In the talent "Dinner Is Ready", "Spoiled meat" is replaced by "Gourmet meat".
 overflow=Overflow
 overflow_description=At full health, Sanctify heals for 35% of the health that would have healed you at your sides instead.
 hatred=Hatred
-hatred_description=>When you are under 50% of your Max HP, all damage done +30%. For every 1% of missing HP below 50%, gain an additional 4% to all damage done. 
+hatred_description=When you are under 50% of your Max HP, all damage done +30%. For every 1% of missing HP below 50%, gain an additional 4% to all damage done. 
 warriorduality=Warrior Duality
 warriorduality_description=When you play a Warrior card, reduce the cost of the highest cost Healer card in you hand by 1 until discarded. When you play a Healer card, reduce the cost of the highest cost Warrior card in you hand by 1 until discarded. (4 times/turn)
 magicduality=Magic Duality
@@ -184,3 +184,112 @@ sacredfire=Sacred Fire
 sacredfire_description=Sanctify +2, Burn +1.
 vampirism_description=Bleed +1, Chill +1. All Damage done +30%. Heal yourself for 30% of the damage done.
 absolutedarkness_description=Dark +2. Dark on enemies increases the damage of the dark explosion by 1% per charge.
+//////////////////////////////// TRANSLATION ENDS HERE
+eldritch=Eldritch
+eldritch_description=When you play a "Spell" card that costs 2 or more Energy, gain 1 Spellsword.
+timeloop=Time Loop
+timeloop_description=Change the "Spell" card type requirement of Eldritch to any card type. Once per combat, when you reach 5 Spellsword, shuffle all the mage cards in your vanish pile into your deck with cost reduced by 3 and gain 1 inspire.
+frostswords=Frost Swords
+frostswords_description=Reduce the cost requirement of Eldritch to 1 or more Energy, but Spellsword increases all damage done by 1 per charge instead. When you reach 5 Spellswords, put a "Frost Discharge" card into your hand.
+timeparadox=Time Paradox
+timeparadox_description=Gain the "Time Loop" trait. If you already had it, then it can be activated twice per combat. Once per combat when you play the "Eldritch Discharge" card, put a copy of it with cost 0 into your deck.
+unlimitedblades=Unlimited Blades
+unlimitedblades_description=If you have less than 3 Spellsword charges at the start of the turn, gain up to 3 Spellsword charges. Spellsword maximum charges increased to 12.
+///////////////
+absolutedarkness_description=Dark +2. Dark on enemies increases the damage of the dark explosion by 35%.
+//////////////  Patch 1.4 //////////////////////
+loadedgun=Loaded Gun
+loadedgun_description=At the start of your turn, reduce the cost of the "Ranged Attack" cards in your hand by 2 until they are discarded. When you play a "Ranged Attack" card you suffer "Reloading".
+doublebarrel=Double Barrel
+doublebarrel_description=When you play a "Ranged Attack" card, gain 2 fury and 1 fast. You suffer "Reloading" after playing 2 "Ranged Attack" cards instead of 1.
+mountedcannon=Mounted Cannon
+mountedcannon_description=When you play a "Defense" card that costs energy, put a "Blast!" card in your hand.
+greasedgears=Greased Gears
+greasedgears_description=All Damage done +20%. Immune to Slow. Fast on this hero increases all damage done by 1 per charge.
+exoskeleton=Exoskeleton
+exoskeleton_description=When you play a "Defense" card that costs energy, refund 1 Energy and gain 1 Fortify. (2 times / turn)
+//////////////  Patch 1.6 //////////////////////
+warmaiden=War Maiden
+warmaiden_description=At the start of your turn, gain 1 Powerful. With Stanza II you gain 2 Powerful, and with Stanza III you gain 3 Powerful.
+hermit=Hermit
+hermit_description=At the start of your turn, apply 1 Poison and 1 Rust to a random enemy.
+scoutduality=Scout Duality
+scoutduality_description=When you play a Scout card, reduce the cost of the highest cost Mage card in you hand by 1 until discarded. When you play a Mage card, reduce the cost of the highest cost Scout card in you hand by 1 until discarded. (3 times/turn)
+healerduality=Healer Duality
+healerduality_description=When you play a Healer card, reduce the cost of the highest cost Scout card in you hand by 1 until discarded. When you play a Scout card, reduce the cost of the highest cost Healer card in you hand by 1 until discarded. (3 times/turn)
+warriorduality_description=When you play a Warrior card, reduce the cost of the highest cost Healer card in you hand by 1 until discarded. When you play a Healer card, reduce the cost of the highest cost Warrior card in you hand by 1 until discarded. (3 times/turn)
+magicduality=Mage Duality
+magicduality_description=When you play a Mage card, reduce the cost of the highest cost Warrior card in you hand by 1 until discarded. When you play a Warrior card, reduce the cost of the highest cost Mage card in you hand by 1 until discarded. (3 times/turn)
+corrosion=Corrosion
+corrosion_description=Rust +1. At the end of your turn, apply 1 Poison to all monsters for each Wet charge on them and apply 1 Vulnerable for each Rust charge on them.
+philosophersstone=Philosopher's Stone
+philosophersstone_description=At the end of your turn, grant 1 Bless and 1 Vitality to all heroes for each Rust charge on you. Healer Duality can be activated 4 times per turn.
+alkahest=Alkahest
+alkahest_description=Poison +2, Rust +1, Vulnerable +1. Vulnerable on monsters have +8 Max. Charges.
+spellsinger=Spell Singer
+spellsinger_description=When you play a "Song" card, put a Fire, Cold, or Lightning random Spell card of the same cost +1 in your hand with cost 0 and Vanish. (1 times/turn)
+valhalla=Valhalla
+valhalla_description=Powerful +1. Powerful on heroes have +8 Max. charges. Scout Duality can be activated 4 times per turn.
+ragnarok=Ragnarok
+ragnarok_description=Spell Singer can be activated twice per turn and the base cost of the free spell given is increased by +2 with Stanza II and by +3 with Stanza III (instead of +1).
+unholyblight_description=Scourge on enemies can stack and spread 100% of the dark charges. Mage Duality can be activated 4 times per turn.
+beaconoflight_description=Sanctify +1. The bonus of Overflow is increased to 70% and removes the full health requirement. Warrior Duality can be activated 4 times per turn.
+////
+ragnarok_description=Gain the "Spell Singer" trait. If you already had it, then it can be activated twice per turn and the base cost of the free spell given is increased by +2 with Stanza II and by +3 with Stanza III.
+hermit_description=At the start of your turn, apply 1 Poison and 1 Rust to a random enemy.
+philosophersstone_description=At the end of your turn, grant 2 Bless and 2 Vitality to all heroes plus 1 more for each Rust charge on you. Healer Duality can be activated 4 times per turn.
+///// 1.6 Sunken Temple  /////
+broodmother=Broodmother
+broodmother_description=At the start of the combat, Shuffle 1 "Spiderling" card into each hero deck.
+templelurkers=Temple Lurkers
+templelurkers_description=Sanctify +1. Replace Broodmother's "Spiderling" cards with "Temple Lurker" cards. If you have the "Cocoon" or "Lianty" pet, replace it with the "Temple Lurker" pet.
+mentalscavengers=Mental Scavengers
+mentalscavengers_description=Poison +1, Insane +1. Replace Broodmother's "Spiderling" cards with "Mental Scavenger" cards. If you have the "Cocoon" or "Lianty" pet, replace it with the "Mental Scavenger" pet.
+spiderqueen=Spider Queen
+spiderqueen_description=Corrupt Broodmother's "Temple Lurker" or "Mental Scavenger" cards. If you have the "Temple Lurker" or "Mental Scavenger" pet, corrupt it.
+webweaver=Webweaver
+webweaver_description=At the start of your first turn, apply 6 Insane, 6 Poison, and 1 Shackle to all enemies. Shackle on enemies is removed at the end of turn and reduces damage done by 30%. When Shackle on enemies is removed, they suffer 2 Slow.
+//////FRAG Dev
+reaping=Reaping
+reaping_description=At three Red runes, reduce the cost of the "Damage" cards in your hand by 1 until they are discarded.
+replenishing=Replenishing
+replenishing_description=At three Green runes, reduce the cost of the "Healing spell" cards in your hand by 1 until they are discarded.
+vampirismbloodmage=Bloodbound
+vampirismbloodmage_description=When you apply Bleed on enemies, apply 1 Leech.
+crimsonripple=Crimson Ripple
+crimsonripple_description=Bleed +1. Bleed on enemies also reduces Fire resistance by 0.5% per charge. Applying Bleed on enemies also applies 1 Burn 1 Dark to the target's sides. [2 times/turn]
+voracious=Voracious
+voracious_description=Leech +1. Leech explosion's Heal is increased by 50% and additonally grants 1 Regeneration to all Heroes.
+energyspike=Energy Spike
+energyspike_description=When Leech explodes on enemies, grant 1 Energize to all heroes.
+hemostasis=Hemostasis
+hemostasis_description=When Leech explodes on enemies, grant 1 Vitality 1 Inspire to all Heroes.
+runeweaver=Runeweaver
+runeweaver_description=When you play a card, for every 2 energy spent, gain a rune:<br>Damaging = Red Rune<br>Defenses = Blue Rune<br>Healing Spells = Green Rune
+glareofdoom=Glare Of Doom
+glareofdoom_description=Mark +1. Mark on enemies now increases damage taken by 2 per charge.<br>At three Blue runes, reduce the cost of the "Skill" cards in your hand by 1 until they are discarded.
+runicempowerment=Runic Empowerment
+runicempowerment_description=When Nevermoor applies Reinforce or Courage, all Heroes gain 1 Infuse (3 times/turn). At three Blue runes, reduce the cost of the "Defense" cards in your hand by 1 until they are discarded.
+
+
+
+
+
+wrathfulresonance=Wrathful Resonance
+vitalresonance=Vital Resonance
+
+//Rhonan
+trainer=Trainer
+trainer_description=At the start of the combat, put <crd=pettrainer,1> into your hand.
+beasttamer=Beast Tamer
+packinstinct=Pack Instinct
+adaptivetactics=Adaptive Tactics
+adaptivetactics_description=When you activate a pet, reduce the cost of the highest cost card in your hand by 1 until discarded. (3 times/turn)
+huntersrhythm=Hunter's Rhythm
+huntersrhythm_description=When you activate a pet, the pet's owner gains 1 Energy and 1 Mitigate. (3 times/turn)
+roarofthewild=Roar of the Wild
+masterscommand=Master's Command
+primalawakening=Primal Awakening
+primalawakening_description=This hero's pet is corrupted and also increases their aura charges by 10% every time it activates.
+spiritlink=Spirit Link
+spiritlink_description=Pets increase their owner's aura charges by 5% every time they activate.

@@ -66,8 +66,8 @@ insulate_description=Resistencia a <o>Fuego</o>, <col>Hielo</col> y <lig>Rayo</l
 insulate_descriptionExtended=Resistencia a <o>Fuego</o>, <col>Hielo</col> y <lig>Rayo</lig> <g>+30 %</g>.<br3>Elimina 1 carga <w>al comienzo del turno</w>.
 invulnerable_description=Inmune al daño y los efectos perjudiciales.
 invulnerable_descriptionExtended=Inmune al daño y los efectos perjudiciales.<br3>Elimina 1 carga <w>al comienzo del turno</w>.
-jump(bonus%)_description=Repite el efecto de la carta en otro objetivo aleatorio <w>X veces.</w> Cada vez, el daño y la cura realizados obtienen <y>+Bonus %</y>.
-jump(bonus%)_descriptionExtended=Repite el efecto de la carta en otro objetivo aleatorio <w>X veces.</w> Cada vez, el daño y la cura realizados obtienen <y>+Bonus %</y>.
+jump(bonus%)_description=Repite el efecto de la carta en otro objetivo aleatorio <w>X veces.</w> Cada vez, el daño y la cura realizados obtienen <y>+bonif. %</y>.
+jump(bonus%)_descriptionExtended=Repite el efecto de la carta en otro objetivo aleatorio <w>X veces.</w> Cada vez, el daño y la cura realizados obtienen <y>+bonif. %</y>.
 mark_description=Daño recibido<y> +1 por carga</y>.<br3>Previene<g> 1 </g><y>Sigilo por carga</y>.
 mark_descriptionExtended=Daño recibido<y> +1 por carga</y>.<br3>Previene<g> 1 </g><y>Sigilo por carga</y>. Elimina 1 carga cuando esto ocurre.<br3><w>Elimina <b>Sigilo</b> del objetivo.</w><br3>Elimina 1 carga <w>al final del turno</w>.
 mitigate_description=Daño recibido<y> -1 daño por carga</y>.
@@ -136,7 +136,7 @@ weak_description=Daño y curación realizados<r> -50 %</r>.
 weak_descriptionExtended=Daño y curación realizados<r> -50 %</r>.<br3>Elimina 1 carga <w>al final del turno</w>.
 wet_description=<lig>Daño de Rayo</lig> recibido <y>+1 por carga</y>.<br3>Previene<g> 1 </g><y>Quemadura por carga</y>.<br3><w>Elimina <o>Quemadura</o> del objetivo</w>.
 wet_descriptionExtended=<lig>Daño de Rayo</lig> recibido <y>+1 por carga</y>.<br3>Previene<g> 1 </g><y>Quemadura por carga</y>; elimina 1 carga cuando esto ocurre.<br3><w>Elimina <o>Quemadura</o> del objetivo</w>.<br3>Elimina 1 carga <w>al final del turno</w>.
-/////////////////
+//////////////////////////////// TRANSLATION ENDS HEREd
 zeal_description=Todas las resistencias<g> +7 % por carga</g>.<br3>Curación recibida de <w>Santificar</w> <g>+20 % por carga</g>.<br3>Daño infligido<y> +1 % </y>por<w> carga de Quemadura</w>.<br3>Elimina todas las cargas <w>al final del turno</w>.
 zeal_descriptionExtended=Todas las resistencias<g> +7 % por carga</g>.<br3>Curación recibida de <w>Santificar</w> <g>+20 % por carga</g>.<br3>Daño infligido<y> +1 % </y>por<w> carga de Quemadura</w>.<br3>Elimina todas las cargas <w>al final del turno</w>.
 scourge_description=Daño recibido de <w>explosión de Oscuridad</w> <y>+10 % por carga</y>.<br3>Propaga un <y>50 %</y> de las <w>cargas de Oscuridad</w> de este objetivo a sus lados y sufre <sha>1 de daño de Sombra </sha>por <w>carga de Enfriamiento</w> al <w>comienzo del turno</w>; después elimina todas las cargas.<br3>Este daño <w>se puede bloquear</w> y no se ve afectado por otros modificadores.
@@ -145,3 +145,46 @@ escapes_description=El personaje abandona el combate.
 escapes_descriptionExtended=El personaje abandona el combate.
 luckyscarab_description=Completa los requisitos de cada escarabajo para obtener una bonificación al final del combate.<br3><y>Escarabajo dorado</y>: Mátalo <w>antes de que escape</w> para obtener 150 de oro por héroe.<br3><col>Escarabajo de cristal</col>: Mátalo <w>después de que use la carta Cristalizar</w> y <w>antes de que escape</w> para obtener 150 fragmentos por héroe. <br3><g>Escarabajo de jade</g>: Mátalo <w>antes de que escape</w> para obtener 50 de oro, 50 fragmentos y 50 de experiencia por héroe.
 luckyscarab_descriptionExtended=Completa los requisitos de cada escarabajo para obtener una bonificación al final del combate.<br3><y>Escarabajo dorado</y>: Mátalo <w>antes de que escape</w> para obtener 150 de oro por héroe.<br3><col>Escarabajo de cristal</col>: Mátalo <w>después de que use la carta Cristalizar</w> y <w>antes de que escape</w> para obtener 150 fragmentos por héroe. <br3><g>Escarabajo de jade</g>: Mátalo <w>antes de que escape</w> para obtener 50 de oro, 50 fragmentos y 50 de experiencia por héroe.
+//////
+spellsword_description=Daño infligido <y>+2 por carga</y>.<br3>Daño recibido <y>-1 por carga</y>.<br3>Cargas máximas <y>5</y>.<br3>Las cargas no se pueden aumentar mediante los efectos de las cartas.
+spellsword_descriptionExtended=Daño infligido <y>+2 por carga</y>.<br3>Daño recibido <y>-1 por carga</y>.<br3>Cargas máximas <y>5</y>.<br3>Las cargas no se pueden aumentar mediante los efectos de las cartas.
+reloading_description=No puedes jugar cartas <b>"Ataque a distancia"</b>.<br3>Elimina 1 carga <w>al final del turno</w>.<br3>No se puede disipar ni prevenir.
+reloading_descriptionExtended=No puedes jugar cartas <b>"Ataque a distancia"</b>.<br3>Elimina 1 carga <w>al final del turno</w>.<br3>No se puede disipar ni prevenir.
+/////
+rust_description=<w>Aumenta el efecto</w> de Grieta, Veneno y Lentitud en un <y>50 %</y>.<br3><w>Reduce el efecto</w> de Rapidez, Afilado y Mojado en un <y>50 %</y>.<br3>Previene<g> 1 </g><y>carga de Reforzar</y> y elimina 1 carga cuando esto ocurre.<br3><w>Elimina <b>Reforzar</b> del objetivo.</w><br3>Elimina 1 carga al <w>final del turno</w>.
+rust_descriptionExtended=<w>Aumenta el efecto</w> de Grieta, Veneno y Lentitud en un <y>50 %</y>.<br3><w>Reduce el efecto</w> de Rapidez, Afilado y Mojado en un <y>50 %</y>.<br3>Previene<g> 1 </g><y>carga de Reforzar</y> y elimina 1 carga cuando esto ocurre.<br3><w>Elimina <b>Reforzar</b> del objetivo.</w><br3>Elimina 1 carga al <w>final del turno</w>.
+/////
+metamorph_description=Este personaje se transforma en uno diferente y restablece su vida y sus efectos de estado.
+metamorph_descriptionExtended=Este personaje se transforma en uno diferente y restablece su vida y sus efectos de estado.
+////
+leech_description=<r>-1 % por carga</r> a todas las resistencias. Cuando llega a <w>25 cargas</w>, explota: elimina todas las cargas; después, aplica <r>1 de Sangrado por carga</r> y cura a todos los aliados <g>1 PS por carga</g>.
+leech_descriptionExtended=<r>-1 % por carga</r> a todas las resistencias.<br>Cuando llega a <w>25 cargas</w>, explota: elimina todas las cargas; después, aplica <r>1 de Sangrado</r> por carga y cura a todos los aliados <g>1 PS por carga</g>.<br>Elimina 1 carga <w>al final del turno</w>.
+
+infuse_description=<w>Aumenta el efecto</w> de Reforzar, Aislamiento y Valor en un <y>50%</y>. <br><w>Reforzar en el objetivo</w> aumenta el <w>daño físico</w> en <y>1 por carga de Infundir</y>. <br><w>Aislamiento en el objetivo</w> aumenta el <w>daño elemental</w> en <y>1 por carga de Infundir</y>. <br><w>Valor en el objetivo</w> aumenta el <w>daño místico</w> en <y>1 por carga de Infundir</y>.
+infuse_descriptionExtended=<w>Aumenta el efecto</w> de Reforzar, Aislamiento y Valor en un <y>50%</y>. <br><w>Refuerzo en el objetivo</w> aumenta el <w>daño físico</w> en <y>1 por carga de Infundir</y>. <br><w>Aislamiento en el objetivo</w> aumenta el <w>daño elemental</w> en <y>1 por carga de Infundir</y>. <br><w>Valor en el objetivo</w> aumenta el <w>daño místico</w> en <y>1 por carga de Infundir</y>. <br>Cargas máximas <y>10</y>. <br>Elimina 1 carga al <w>final del turno</w>.
+
+runeblue_description=<bl>Fortificar</bl> <y>+1 por carga</y>. <br>Además, al alcanzar <y>2</y> cargas, el <w>bloqueo de daño otorga</w> <bl>10 de Escudo</bl>. <br>Al alcanzar <y>3</y> cargas, el <w>bloqueo de daño también otorga</w> <bl>10 de Escudo</bl> a todos los aliados.
+runeblue_descriptionExtended=<bl>Fortificar</bl> <y>+1 por carga</y>. <br> Además, al alcanzar <y>2</y> cargas, el <w>bloqueo de daño otorga</w> <bl>10 de Escudo</bl>. <br>Al alcanzar <y>3</y> cargas, el <w>bloqueo de daño también otorga</w> <bl>10 de Escudo</bl> a todos los aliados. <br>Cargas máximas <y>3</y>. No se puede purgar a menos que se especifique.
+
+runered_description=<r>Marca</r> <y>+1 por carga</y>. Además, al alcanzar 2 cargas, <w>infligir daño a un enemigo le aplica Marca</w>. <br>Al alcanzar <y>3 </y>cargas, <w>infligir daño a un enemigo también aplica Marca a los lados del objetivo</w>.
+runered_descriptionExtended=<r>Marca</r> <y>+1 por carga</y>. <br>Además, al alcanzar <y>2</y> cargas, <w>infligir daño a un enemigo le aplica Marca</w>. <br>Al alcanzar <y>3</y> cargas, <w>infligir daño a un enemigo también aplica Marca a los lados del objetivo</w>. <br>Cargas máximas <y>3</y>. No se puede purgar a menos que se especifique.
+
+runegreen_descrition=Curación realizada <y>+2 por carga</y>. <br>Además, al alcanzar <y>2</y> cargas, la <w>curación realizada otorga</w> <bl>2 de Vitalidad</bl>. <br>Al alcanzar <y>3</y> cargas, la <w>curación realizada otorga</w> <bl>2 de Vitalidad</bl> <w>a todos los aliados</w>.
+runegreen_descriptionExtended=Curación realizada <y>+2 por carga</y>.<br>Además, al alcanzar <y>2</y> cargas, la <w>curación realizada otorga</w> <bl>2 de Vitalidad</bl>.<br>Al alcanzar <y>3</y> cargas, la <w>curación realizada otorga</w> <bl>2 de Vitalidad</bl> a todos los aliados</w>.<br>Cargas máximas: <y>3</y>. No se puede purgar a menos que se especifique.
+
+////
+invulnerableunremovable_description=Inmune al daño y los efectos perjudiciales. Se trata de una forma corrupta de invulnerabilidad y no se puede purgar.
+invulnerableunremovable_descriptionExtended=Inmune al daño y los efectos perjudiciales.<br3>Se trata de una forma corrupta de invulnerabilidad y no se puede purgar.
+
+//// DLC Threads of Dreams
+nightmareEcho_descriptionExtended=Crea una copia corrupta de una carta de héroe al azar. Cuando se juega, inflige <w>15 de daño de Mente</w> al héroe y aplica <w>4 de Insano</w> en lugar de su efecto original.
+nightmareEchoA_descriptionExtended=Crea una copia corrupta de una carta de héroe al azar. Cuando se juega, inflige <w>20 de daño de Mente</w> al héroe y aplica <w>4 de Insano</w> en lugar de su efecto original.
+nightmareEchoB_descriptionExtended=Crea una copia corrupta de una carta de héroe al azar. Cuando se juega, inflige <w>15 de daño de Mente</w> al héroe y aplica <w>7 de Insano</w> en lugar de su efecto original.
+corruptedEcho_descriptionExtended=Cuando un enemigo usa una carta que inflige daño, él mismo recibe todo el daño.
+transferPain_descriptionExtended=Intercambia PS con el sirviente del Retejedor.
+nightmareImage_descriptionExtended=Crea una imagen de pesadilla. Las ilusiones son copias exactas de las unidades reales. Imitan sus estadísticas y habilidades, pero pueden ser reveladas por algunas habilidades y recibir daño extra de todas las fuentes.
+sleep_descriptionExtended=<sla>Somnolencia</sla>: Pierdes el próximo turno; después, elimina <y>1 acumulación</y>. Si los <y>PS</y> están al <y>50 %</y> o menos cuando se aplica, gana <y>2 acumulaciones</y> en su lugar. Mientras la habilidad está activa, los efectos negativos recibidos se duplican.
+
+//Batch 3
+runered_description=<r>Marca</r> <y>+1</y>. Además, al alcanzar 2 cargas, <w>infligir daño a un enemigo le aplica Marca</w>. <br>Al alcanzar <y>3 </y>cargas, <w>infligir daño a un enemigo también aplica Marca a los lados del objetivo</w>.
+runered_descriptionExtended=<r>Marca</r> <y>+1</y>. <br>Además, al alcanzar <y>2</y> cargas, <w>infligir daño a un enemigo le aplica Marca</w>. <br>Al alcanzar <y>3</y> cargas, <w>infligir daño a un enemigo también aplica Marca a los lados del objetivo</w>. <br>Cargas máximas <y>3</y>. No se puede purgar a menos que se especifique.

@@ -17,9 +17,9 @@ cantor_description=Al comienzo de tu turno, ganas 1 Estrofa I.
 chastise=Castigar
 chastise_description=Cuando juegas una carta "Hechizo Sagrado", añade una carta "Castigo sagrado" mejorada al azar con un coste de 0 y Eliminar en tu mano (1 vez/turno).
 choir=Coro
-choir_description=En tu primer turno, otorga Estrofa I a todos los héroes. Estrofa III ya no aplica Fatiga y Estrés.
+choir_description=Durante tu turno, otorga Estrofa I a todos los héroes. Estrofa III ya no aplica Fatiga y Estrés.
 countermeasures=Contramedidas
-countermeasures_description=Espinas +1. Ganas 3 de Espinas cuando recibes un golpe (3 veces/turno).
+countermeasures_description=Ganas 3 de Espinas cuando recibes un golpe (3 veces/turno).
 darkfeast=Festín oscuro
 darkfeast_description=Al comienzo de tu turno, por cada 8 de Oscuridad que tengas, reduce en 1 el coste de las cartas de tu mano hasta que se descarten.
 defensemastery=Dominio defensivo
@@ -69,7 +69,7 @@ markfordeath_description=Marca +3.
 marksmanship=Puntería
 marksmanship_description=Cuando juegas una carta "Ataque a Distancia", ganas 2 de Afilado.
 mentalleech=Sanguijuela mental
-mentalleech_description=Al final de tu turno, aplica 1 de Locura a todos los monstruos y cura a todos los héroes por un 20 % de todas las cargas de Locura y un 10 % de todas las cargas de Visión en el juego. -Esta curación no tiene bonificaciones-
+mentalleech_description=Al final de tu turno, aplica 1 de Insano a todos los monstruos y cura a todos los héroes por un 20 % de todas las cargas de Insano y Visión en el juego. -Esta curación no tiene bonificaciones-
 minddevourer=Devorador mental
 minddevourer_description="Sanguijuela mental" se activa dos veces al final de tu turno.
 mojo=Mojo
@@ -139,7 +139,7 @@ widesleeves_description=Cuando juegas una carta "Arma pequeña", coloca una cart
 wildfire=Fuego fatuo
 wildfire_description=Quemadura +4.
 fanfare_description=Cuando juegas una carta "Hechizo de Canción" que cuesta energía, devuelve 1 de energía y otorga 2 de regeneración al héroe más dañado (3 veces/turno).
-choir_description=Durante tu turno, otorga Estrofa I a todos los héroes. Estrofa III no se elimina al final del turno.
+choir_description=En tu primer turno, otorga Estrofa I a todos los héroes. Estrofa III no se elimina al final del turno.
 cantor_description=Al comienzo de tu turno, si no tienes ninguna Estrofa, ganas Estrofa I.
 queenofthorns_description=Siempre que obtienes cargas de bloqueo, en lugar de obtener un bloqueo, ganas un 30 % de esas cargas como espinas.
 countermeasures_description=Espinas +1. Ganas 3 de Espinas cuando recibes un golpe (3 veces/ronda).
@@ -158,12 +158,12 @@ pillage=Pillaje
 sausagefactory=Fábrica de salchichas
 feedtherich=Alimentar a los ricos
 givetothepoor=Dar a los pobres
-//////////////////////////////// TRANSLATION ENDS HERE
+////////////////////////////////
 threestarchef_description=El talento "Carnicero" siempre garantiza una "Carne gourmet". En el talento "La cena está lista", la "Carne estropeada" es reemplazada por "Carne gourmet".
 overflow=Desbordamiento
 overflow_description=Cuando tu salud está al máximo, Santificar cura a los personajes que estén a tu lado un 35 % de los PS que te habrían correspondido a ti.
 hatred=Odio
-hatred_description=Cuando tus PS máx. están por debajo del 50 %, todo el daño infligido aumenta un 30 %. Por cada 1 % de PS que pierdes por debajo del 50 %, todo el daño infligido aumenta un 4 % adicional. 
+hatred_description=Cuando tus PS máx. están por debajo del 50 %, todo el daño infligido aumenta un 30 %. Por cada 1 % de PS que pierdes por debajo del 50 %, todo el daño infligido aumenta un 4 % adicional.
 warriorduality=Dualidad guerrera
 warriorduality_description=Cuando juegas una carta de guerrero, reduce en 1 el coste de la carta de sanador más cara de tu mano hasta que se descarte. Cuando juegas una carta de sanador, reduce en 1 el coste de la carta de guerrero más cara de tu mano hasta que se descarte (4 veces/turno).
 magicduality=Dualidad mágica
@@ -184,3 +184,104 @@ sacredfire=Fuego sacro
 sacredfire_description=Santificar +2, Quemadura +1.
 vampirism_description=Sangrado +1, Enfriamiento +1. Todo el daño infligido +30 %. Te curas por el 30 % del daño infligido.
 absolutedarkness_description=Oscuridad +2. La Oscuridad en los enemigos aumenta el daño de la explosión de Oscuridad en un 1 % por cada carga.
+//////////////////////////////// TRANSLATION ENDS HERE
+eldritch=Sobrenatural
+eldritch_description=Cuando juegas una carta "Hechizo" que cuesta 2 o más de energía, ganas 1 Espada mágica.
+timeloop=Bucle temporal
+timeloop_description=Cambia el requisito de tipo de carta "Hechizo" de Sobrenatural a cualquier tipo de carta. Una vez por combate, cuando obtienes 5 Espadas mágicas, baraja todas las cartas de mago de tu pila de cartas eliminadas en tu mazo (el coste se reduce en 3) y ganas 1 de Inspiración.
+frostswords=Espadas de hielo
+frostswords_description=Reduce el requisito de coste de Sobrenatural a 1 o más de Energía, pero Espada mágica aumenta todo el daño infligido en 1 por carga. Cuando llegas a 5 Espadas mágicas, coloca una carta "Descarga helada" en tu mano.
+timeparadox=Paradoja temporal
+timeparadox_description=Obtienes el atributo "Bucle temporal". Si ya lo tenías, entonces puedes activarlo dos veces por combate. Una vez por combate, cuando juegas la carta "Descarga sobrenatural", coloca una copia en tu mazo con un coste de 0.
+unlimitedblades=Cuchillas ilimitadas
+unlimitedblades_description=Si tienes menos de 3 cargas de Espada mágica al comienzo del turno, ganas hasta 3 cargas de Espada mágica. Las cargas máximas de Espada mágica aumentan a 12.
+///////////////
+absolutedarkness_description=Oscuridad +2. La Oscuridad en los enemigos aumenta el daño de la explosión de Oscuridad en un 35 %.
+//////////////  Patch 1.4 //////////////////////
+loadedgun=Pistola cargada
+loadedgun_description=Al comienzo de tu turno, reduce en -2 el coste de las cartas "Ataque a distancia" de tu mano hasta que se descarten. Cuando juegas una carta "Ataque a distancia", sufres "Recargando".
+doublebarrel=Doble cañón
+doublebarrel_description=Cuando juegas una carta "Ataque a Distancia", ganas 2 de Furia y 1 de Rapidez. Sufres "Recargando" tras jugar dos cartas "Ataque a distancia" en vez de una.
+mountedcannon=Cañón montado
+mountedcannon_description=Cuando juegues una carta "Defensa" que cueste energía, pon una carta "¡Explosión!" en tu mano.
+greasedgears=Engranajes engrasados
+greasedgears_description=Todo el daño infligido +20 %. Inmune a Lentitud. Rapidez en este héroe aumenta todo el daño infligido en 1 por carga.
+exoskeleton=Exoesqueleto
+exoskeleton_description=Cuando juegues una carta "Defensa" que cueste energía, ganas 1 de energía y 1 de Fortificar. (2 veces/turno)
+//////////////  Patch 1.6 //////////////////////
+warmaiden=Doncella de guerra
+warmaiden_description=Al comienzo de tu turno, ganas 1 de Poderoso. Con Estrofa II ganas 2 de Poderoso y con Estrofa III, 3 de Poderoso.
+hermit=Ermitaño
+hermit_description=Al comienzo de tu turno, aplica 1 de Veneno y 1 de Herrumbre a un enemigo al azar.
+scoutduality=Dualidad exploradora
+scoutduality_description=Cuando juegas una carta de explorador, reduce en 1 el coste de la carta de mago más cara de tu mano hasta que se descarte. Cuando juegas una carta de mago, reduce en 1 el coste de la carta de explorador más cara de tu mano hasta que se descarte (3 veces/turno).
+healerduality=Dualidad sanadora
+healerduality_description=Cuando juegas una carta de sanador, reduce en 1 el coste de la carta de explorador más cara de tu mano hasta que se descarte. Cuando juegas una carta de explorador, reduce en 1 el coste de la carta de sanador más cara de tu mano hasta que se descarte (3 veces/turno).
+warriorduality_description=Cuando juegas una carta de guerrero, reduce en 1 el coste de la carta de sanador más cara de tu mano hasta que se descarte. Cuando juegas una carta de sanador, reduce en 1 el coste de la carta de guerrero más cara de tu mano hasta que se descarte (3 veces/turno).
+magicduality=Dualidad mágica
+magicduality_description=Cuando juegas una carta de mago, reduce en 1 el coste de la carta de guerrero más cara de tu mano hasta que se descarte. Cuando juegas una carta de guerrero, reduce en 1 el coste de la carta de mago más cara de tu mano hasta que se descarte (3 veces/turno).
+corrosion=Corrosión
+corrosion_description=Herrumbre +1. Al final del turno, aplica 1 de Veneno a todos los monstruos por cada carga de Mojado que posean y 1 de Vulnerable por cada carga de Herrumbre que posean.
+philosophersstone=La piedra filosofal
+philosophersstone_description=Al final del turno, otorga 1 de Bendición y 1 de Vitalidad a todos los héroes por cada carga de Herrumbre que tengas. Dualidad sanadora puede activarse 4 veces por turno.
+alkahest=Alkahest
+alkahest_description=Veneno +2, Herrumbre +1, Vulnerable +1. +8 cargas máximas de Vulnerable para los monstruos.
+spellsinger=Cantor de hechizos
+spellsinger_description=Cuando juegues una carta "Canción", coloca una carta de Fuego, Hielo o Rayo al azar del mismo coste +1 en tu mano, con coste de 0 y Eliminar (1 vez/turno).
+valhalla=Valhalla
+valhalla_description=Poderoso +1. Poderoso en héroes tiene +8 cargas máximas. Dualidad exploradora puede activarse 4 veces por turno.
+ragnarok=Ragnarok
+ragnarok_description=Cantor de hechizos puede activarse dos veces por turno y el coste base del hechizo gratuito otorgado aumenta en +2 con la Estrofa II y en +3 con la Estrofa III (en lugar de +1).
+unholyblight_description=Los enemigos afectados por Flagelo pueden acumular y propagar el 100 % de las cargas de Oscuridad. Dualidad mágica puede activarse 4 veces por turno.
+beaconoflight_description=Santificar +1. Aumenta la bonificación de Desbordamiento al 70 % y elimina el requisito de salud completa. Dualidad guerrera puede activarse 4 veces por turno.
+////
+ragnarok_description=Obtienes el atributo "Cantor de hechizos". Si ya lo tenías, entonces puedes activarlo dos veces por turno y el coste base del hechizo gratuito otorgado aumenta en +2 con la Estrofa II y en +3 con la Estrofa III.
+hermit_description=Al comienzo de tu turno, aplica 1 de Veneno y 1 de Herrumbre a un enemigo al azar.
+philosophersstone_description=Al final del turno, otorga 2 de Bendición y 2 de Vitalidad a todos los héroes, y 1 más por cada carga de Herrumbre que tengas. Dualidad sanadora puede activarse 4 veces por turno.
+///// 1.6 Sunken Temple  /////
+broodmother=Madre de progenie
+broodmother_description=Al comienzo del combate, baraja 1 carta "Cría de araña" en el mazo de cada héroe.
+templelurkers=Acechadores del templo
+templelurkers_description=Santificar +1. Sustituye las cartas "Cría de araña" de Madre de progenie por cartas "Acechador del templo". Al levantar, si tienes la mascota "Capullo" o "Lianty", se sustituye por la mascota "Acechador del templo".
+mentalscavengers=Saqueador mental
+mentalscavengers_description=Insano +1, Veneno +1. Sustituye las cartas "Cría de araña" de Madre de progenie por cartas "Saqueador mental". Al levantar, si tienes la mascota "Capullo" o "Lianty", se sustituye por la mascota "Saqueador mental".
+spiderqueen=Reina araña
+spiderqueen_description=Mejora las cartas "Acechador del templo" y "Saqueador mental" a su versión corrupta. Al levantar, si tienes la mascota "Acechador del templo" o "Saqueador mental", se corrompe.
+webweaver=Tejedora
+webweaver_description=Al comienzo de tu primer turno, aplica 6 de Insano, 6 de Veneno y 1 de Encadenar a todos los enemigos. Encadenar a los enemigos se elimina al final del turno y reduce el daño infligido un 30 %. Cuando se elimina Encadenar a los enemigos, sufren 2 de Lentitud.
+//////FRAG Dev
+reaping=Cosechar
+reaping_description=A las tres runas rojas, reduce en 1 el coste de las cartas «Daño» de tu mano hasta que se descarten.
+replenishing=Reponer
+replenishing_description=A las tres runas verdes, reduce en 1 el coste de las cartas «Hechizo de Curación» de tu mano hasta que se descarten.
+vampirismbloodmage=Vínculo de sangre
+vampirismbloodmage_description=Cuando apliques Sangrado a los enemigos, aplica 1 de Sanguijuela.
+crimsonripple=Onda carmesí
+crimsonripple_description=Sangrado +1. Sangrado en los enemigos también provoca un -0,5 % de resistencia a Fuego por carga. Aplicar Sangrado a los enemigos también aplica 1 de Quemadura y 1 de Oscuridad a los lados del objetivo. (2 veces/turno)
+voracious=Voraz
+voracious_description=Sanguijuela +1. La curación de la explosión de Sanguijuela aumenta un 50 % y, además, otorga 1 de Regeneración a todos los héroes.
+energyspike=Pico de energía
+energyspike_description=Cuando Sanguijuela explota, otorga 1 de Energizar a todos los héroes.
+hemostasis=Hemostasia
+hemostasis_description=Cuando Sanguijuela explota, otorga 1 de Vitalidad y 1 de Inspiración a todos los héroes.
+runeweaver=Tejerrunas
+runeweaver_description=Cuando juegas una carta, por cada 2 de energía gastada, obtienes una runa:<br>Daño = Runa roja<br>Defensas = Runa azul<br>Hechizos de curación = Runa verde
+glareofdoom=Resplandor de la perdición
+glareofdoom_description=Marca +1. La Marca en los enemigos ahora provoca +2 de daño por carga.<br>Con tres runas azules, reduce en 1 el coste de las cartas de "Habilidad" en tu mano hasta que sean descartadas.
+runicempowerment=Empoderamiento rúnico
+runicempowerment_description=Cuando Nevermoor aplica Reforzar o Valor, todos los héroes obtienen 1 de Infundir (3 veces/turno). A las tres runas azules, reduce en 1 el coste de las cartas «Defensa» de tu mano hasta que se descarten.
+
+
+
+
+
+wrathfulresonance=Wrathful Resonance
+vitalresonance=Vital Resonance
+
+//Batch 3
+templelurkers_description=Santificar +1. Sustituye las cartas "Cría de araña" de Madre de progenie por cartas "Acechador del templo". Si tienes la mascota "Capullo" o "Lianty", se sustituye por la mascota "Acechador del templo".
+mentalscavengers_description=Veneno +1, Insano +1. Sustituye las cartas "Cría de araña" de Madre de progenie por cartas "Saqueador mental". Si tienes la mascota "Capullo" o "Lianty", se sustituye por la mascota "Saqueador mental".
+spiderqueen_description=Corrompe las cartas "Acechador del templo" o "Saqueador mental" de Madre de progenie. Si tienes la mascota "Acechador del templo" o "Saqueador mental", se corrompe.
+webweaver_description=Al comienzo de tu primer turno, aplica 6 de Insano, 6 de Veneno y 1 de Encadenar a todos los enemigos. Encadenar a los enemigos se elimina al final del turno y reduce el daño infligido un 30 %. Cuando se elimina Encadenar a los enemigos, sufren 2 de Lentitud.
+crimsonripple_description=Sangrado +1. Sangrado en los enemigos también reduce un 0,5 % la resistencia a Fuego por carga. Aplicar Sangrado a los enemigos también aplica 1 de Quemadura y 1 de Oscuridad a los lados del objetivo. [2 veces/turno]
+glareofdoom_description=Marca +1. La Marca en los enemigos ahora aumenta el daño recibido en 2 por carga.<br>Con tres runas azules, reduce en 1 el coste de las cartas de "Habilidad" en tu mano hasta que sean descartadas.

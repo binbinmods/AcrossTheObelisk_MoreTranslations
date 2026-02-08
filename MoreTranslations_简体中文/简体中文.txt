@@ -65,9 +65,6 @@ blocked=格挡
 evaded=闪避
 resisted=抵抗
 currentHp=当前生命值
-#########
-######### CreateTextMenu
-#########
 menuPlay=开始游戏
 menuLoadGame=载入游戏
 menuChallenge=方尖碑挑战
@@ -130,9 +127,6 @@ lightning=闪电
 mind=心灵
 holy=神圣
 shadow=暗影
-#########
-######### CreateTextGameplay
-#########
 index=索引
 loading=加载中
 deck=牌组
@@ -272,7 +266,7 @@ filterCards=筛选器
 filterCardsDes=使用明确的修饰词缀筛选卡牌。
 affordableCards=可用
 affordableCardsDes=仅显示当前碎片数量可以制作的卡牌。
-craftCards=魔力煅炉
+craftCards=魔力熔炉
 craftCardsButtonDes=为你的牌组锻造卡牌。
 craftRarityBlocked=该稀有度在此处不可用。
 craftMaxCards=该卡牌允许的最大锻造数
@@ -306,9 +300,6 @@ youCanDiscardUpTo=你最多可丢弃：{0} 张卡牌
 youCanVanishUpTo=你最多可消耗：{0} 张卡牌
 youCanAdd=你可以添加：1 张卡牌
 youCanAddPlural=你可以添加：{0} 张卡牌
-#########
-######### performance bonus
-#########
 roundNumber=回合 {0}
 excellent=卓越
 good=良好
@@ -321,9 +312,6 @@ performanceBonus=表现加成
 combatPerformance=战斗表现
 combatPerformanceDes=用更少的回合数尽快击杀你的敌人，以获得更好的奖励。每个回合都很重要……
 dreadfulNoReward=你的战斗表现很糟糕，因此你未能获得任何卡牌奖励。
-#########
-######### rewards
-#########
 combatRewards=战斗奖励
 eventRewards=事件奖励
 eventRewardsSubtitle=选择一张卡牌或一堆碎片
@@ -335,9 +323,6 @@ itemRewardsChosing=角色正在选择：
 chooseCards=从下列卡牌中进行选择
 chooseDust=选择碎片
 notEnoughGold=金币／碎片不足
-#########
-######### finish run
-#########
 finishRun=奖励将根据你的冒险表现而有所不同。开始新的游戏时，你可以在城镇领取此奖励。
 questEndsIn=你的任务结束于
 actNumber=第 {0} 幕
@@ -357,9 +342,6 @@ currencyRetentionBonus=总数的 <q>%
 gameReward=游戏奖励
 mpBonus=多人模式加成（+<q>%）
 itemBonus=物品加成（+<q>%）
-#########
-######### event rolls
-#########
 eventRolls=事件掷点：
 singleDesc=每个人抽一张牌，結果只会单独影响一名角色。
 groupDesc=每个人抽一张牌，结果相互叠加。
@@ -376,9 +358,6 @@ rollCard={0} 卡牌
 highest=最高
 lowest=最低
 closest=最接近
-#########
-######### event actions
-#########
 healPercent=[治疗 {0}%]
 eventBag=这个袋子含有你在冒险过程中发现的所有有用物品。
 eventMissingOptions=隐藏选项
@@ -442,9 +421,6 @@ show=显示
 chooseEnergy=选择耗费多少能量来施放这个法术。
 chooseEnergyAvailable=可用能量：
 chooseEnergyMax=最大能量分配：
-#########
-######### CreateTextLobby
-#########
 exitGameConfirm=确定要离开？
 exitGameConfirmLoss=所有进度将会丢失。
 exitGameConfirmSave=当前进度已保存。
@@ -482,9 +458,6 @@ regionEU=欧洲地区
 regionUS=美国地区
 regionASIA=亚洲地区
 lfgLobby=<color=#DB9D6A>你正在寻找伙伴一起游玩吗？</color><br>立即加入我们官方 Discord 社区的 #LFG 频道吧！
-#########
-######### CreateTextSelection
-#########
 adventure=冒险
 beginAdventure=开始冒险
 teamSelection=队伍选择
@@ -527,9 +500,6 @@ cantLevelUp=你只能在城镇或地图界面中提升等级。
 cantGiveGoldDivination=在占卜回合期间，你无法给予金币或碎片。
 gameSeed=游戏种子
 gameSeedInput=请输入新的游戏种子。
-#########
-######### CreateTextCards
-#########
 requireSkill=需要{0}
 priority=优先级：{0}
 global=全球
@@ -596,9 +566,6 @@ look=检视
 onDraw=抽牌阶段
 onEndTurn=结束阶段
 endTurn=回合结束
-#########
-######### CreateTextCombat
-#########
 newTurn=回合开始
 chooseDiscard=选择要丢弃的卡牌。
 chooseTopDeck=选择要放置在牌组顶部的卡牌。
@@ -743,7 +710,7 @@ itemInitialCurrency=初始金币和碎片 {0}
 itemCharges={0} 充能 {1}
 itemEnergyRegeneration={0} 再生 {1}
 itemAllDamages=所有伤害 {0}
-itemSingleDamage={0} {1} 伤害 /// +1 damage
+itemSingleDamage={0} {1} 伤害 
 itemXDamages={0} 伤害 {1}
 itemHealDone=治疗输出 {0}
 itemCombatStart=战斗开始
@@ -768,20 +735,20 @@ itemWhenHandEmpty=如果你打出一张<sprite name=card>后手牌为空
 itemChanceToDispel={0} 机率：<br>驱散{1}
 itemEveryRound=每个回合
 itemEveryNRounds=每 {0} 个回合
-itemForEveryCharge=你每施加 {0} 个充能，/// "haste"
-itemApplyEnemies=对全体怪物施加 {0}/// "haste"
-itemApplyHeroesFromMonster=对全体英雄施加 {0}/// "haste"
-itemApplyHeroes=全体英雄获得 {0}/// "haste"
-itemApplyRandomHero=一名随机英雄获得 {0}/// "haste"
-itemApplyRandomEnemy=对一个随机怪物施加 {0}/// "haste"
-itemApplyHighestFlatHpEnemy=对生命值最高的怪物施加 {0}/// "haste"
-itemApplyLowestFlatHpEnemy=对生命值最低的怪物施加 {0}/// "haste"
-itemApplyHighestFlatHpHero=对生命值最高的英雄施加 {0}/// "haste"
-itemApplyLowestFlatHpHero=对生命值最低的英雄施加 {0}/// "haste"
-itemApplyForEvery=你每施加 {0} 个充能，施加 {1}/// "haste"
+itemForEveryCharge=你每施加 {0} 个充能，
+itemApplyEnemies=对全体怪物施加 {0}
+itemApplyHeroesFromMonster=对全体英雄施加 {0}
+itemApplyHeroes=全体英雄获得 {0}
+itemApplyRandomHero=一名随机英雄获得 {0}
+itemApplyRandomEnemy=对一个随机怪物施加 {0}
+itemApplyHighestFlatHpEnemy=对生命值最高的怪物施加 {0}
+itemApplyLowestFlatHpEnemy=对生命值最低的怪物施加 {0}
+itemApplyHighestFlatHpHero=对生命值最高的英雄施加 {0}
+itemApplyLowestFlatHpHero=对生命值最低的英雄施加 {0}
+itemApplyForEvery=你每施加 {0} 个充能，施加 {1}
 itemApplyForEnergyUsed=每使用 {0}：
-itemWhenYouPlay=打出一个 {0}/// "Cold spell" 时
-itemWhenYouApply=施加 {0}/// "Cold spell" 时
+itemWhenYouPlay=打出一个 {0}
+itemWhenYouApply=施加 {0}
 itemCustomTextMaxChargesIncrasedYouApply=你施加的 {0} 拥有 {1} 最大充能
 itemCustomTextMaxChargesIncrasedOnHeroes=英雄身上的{0}拥有 {1} 最大充能
 itemCustomTextMaxChargesIncrasedOnEnemies=怪物身上的{0}拥有 {1} 最大充能
@@ -789,19 +756,20 @@ itemCustomTextExplodeChargesMonsters=怪物身上的{0}充能为 {1} 时爆炸
 itemCustomTextAllResistHealingReceived=英雄身上的每层{0}充能给予 +{1}% 所有抗性和 +{2}% 获得的治疗
 itemTheNext=下张{0}
 itemWhenKilled=死亡时
-itemDestroyStartTurn=最后一回合
-itemLastUse=最后 1 次使用次数
-itemLastUses=最后 {0} 次使用次数
+itemDestroyStartTurn=持续一回合
+itemLastUse=持续 1 次
+itemLastUses=持续 {0} 次
 itemOncePerCombat=每场战斗一次
 itemTheNext=下张{0}{1}
 itemRecoverSelf=回复 {0} 生命值
+itemRecoverMonsters=所有怪物恢复 {0} 生命值
 itemRecoverLowestHPMonster=生命值最低的怪物回复 {0} 生命值
-itemRecoverHeroes=全体英雄回复 {0} 生命值/// All heroes gain "haste"
-itemReduce=将你手牌中 {0} 张随机{1}的费用减少 {2} {3}/// reduce the cost of 1 random "Song" in your hand by 1
-itemReduceTurn=将你手牌中 {0} 张随机{1}的费用减少 {2} 直到丢弃为止 {3}/// reduce the cost of 1 random "Song" in your hand by 1 this turn
-itemReduceHighestTurn=将你手牌中 {0} 张费用最高的{1}，其费用减少 {2} 直到丢弃为止 {3}/// reduce the cost of 1 random "Song" in your hand by 1 this turn
+itemRecoverHeroes=全体英雄回复 {0} 生命值
+itemReduce=将你手牌中 {0} 张随机{1}的费用减少 {2} {3}
+itemReduceTurn=将你手牌中 {0} 张随机{1}的费用减少 {2} 直到丢弃为止 {3}
+itemReduceHighestTurn=将你手牌中 {0} 张费用最高的{1}，其费用减少 {2} 直到丢弃为止 {3}
 itemReduceHighestPermanent=将你手牌中 {0} 张费用最高的{1}，其费用减少 {2} {3}
-itemDiscount={0} 魔力煅炉、祭坛和物品店的额外折扣
+itemDiscount={0} 魔力熔炉、祭坛和物品店的额外折扣
 itemDieRetain=死亡时，额外保留 {0} 金币和碎片
 itemResurrectHP=以 {0} 的生命值复活
 customSOR=死亡时，以 50% 的生命值复活，并摧毁复活卷轴。
@@ -1057,7 +1025,7 @@ dustDescription=碎片：用于锻造和转换卡牌
 supplyDescription=物资：用于改善城镇建筑及其服务<br>（最多 500）
 corruptionReward=腐化奖励
 corruptionAltarUpgrade=队伍将获得一次进入<color=#E0A44E>升级祭坛</color>的机会。
-corruptionGainGold=队伍将获得<br><sprite name=gold> {0} <sprite name=dust> {1} 
+corruptionGainGold=队伍将获得<br><sprite name=gold> {0} <sprite name=dust> {1}
 corruptionGainGold2=队伍将获得<br><sprite name=gold> {0} <sprite name=dust> {1} <sprite name=supply> {2}
 corruptionRemoveCard=每位英雄将能够从牌组中免费<color=#E0A44E>移除一张牌</color>
 corruptionRemoveCard2=每位英雄将能够从牌组中免费<color=#E0A44E>移除两张牌</color>。
@@ -1142,7 +1110,7 @@ savedDeckDeleteConfirm=是否删除此牌组？
 craftDeck=锻造牌组
 craftWillCost=锻造此牌组的费用为：
 craftCant=你无法锻造此牌组。
-craftDeckNeed=锻造已保存的牌组需要所有卡牌可在魔力锻炉中使用。<br><br>如果你的当前牌组存在 <color=#FFF>受伤、恩惠、特殊或腐化牌 </color>，<color=#F00>你将无法</color>保存或加载牌组。
+craftDeckNeed=锻造已保存的牌组需要所有卡牌可在魔力锻炉中使用。<br><br>如果你的当前牌组存在 <color=#FFF>受伤、恩惠、特殊或腐化牌 </color>，<color=#F88>你将无法</color>保存或加载牌组。
 conflictPlayerChooses={0}选择
 conflictPlayerWins={0}获胜
 ngDescription=难度更高的游戏模式，专为高级别的英雄和升级后的城镇准备。在此模式下，腐化牌会更频繁地掉落。
@@ -1231,7 +1199,7 @@ madnessCorruptor0Help=在战斗中，如果表现加成达到“失望”，所�
 madnessCorruptor1=<i=decay>衰败
 madnessCorruptor1Help=全体英雄的治疗输出 -3，所获得的治疗 <nobr>-25%</nobr>。
 madnessCorruptor2=<i=bless>剥夺力量
-madnessCorruptor2Help=光环／诅咒充能拥有最大值：<line-height=120%><br></line-height>（50）祝福、标记、再生、锐利、潜行、活力、潮湿<line-height=120%><br></line-height>（100）破甲、狂怒、疯狂、超度、预见<line-height=120%><br></line-height>（200）流血、灼烧、冰冻、毒素、护盾、感电、荆棘<line-height=120%><br></line-height>（400）格挡
+madnessCorruptor2Help=光环／诅咒充能拥有最大值：<line-height=50%><br></line-height>（50）祝福、标记、再生、锐利、潜行、活力、潮湿<line-height=50%><br></line-height>（100）破甲、狂怒、疯狂、超度、预见<line-height=50%><br></line-height>（200）流血、灼烧、冰冻、毒素、护盾、感电、荆棘<line-height=50%><br></line-height>（400）格挡
 madnessCorruptor3=<i=insulate>抵抗力强的怪物
 madnessCorruptor3Help=全体怪物获得额外 +15% 的所有抗性
 madnessCorruptor4=<i=gold>赤贫
@@ -1241,7 +1209,7 @@ madnessCorruptor5Help=所有怪物卡牌的光环或诅咒充能 +1。
 madnessCorruptor6=<i=dice>随机战斗
 madnessCorruptor6Help=非事件的战斗均是随机生成。在每场随机战斗中，都会出现一个“冠军”怪物，并随机分配一种抗性。
 madnessCorruptor7=<i=bossIcon>绝望
-madnessCorruptor7Help=敌人拥有最强大的卡牌与附魔可供他们使用。<line-height=120%><br></line-height>腐化机制大大增加了难度。
+madnessCorruptor7Help=敌人拥有最强大的卡牌与附魔可供他们使用。<line-height=50%><br></line-height>腐化机制大大增加了难度。
 championMonster=冠军怪物
 help=帮助
 madnessCorruptors=可用腐化者
@@ -1264,7 +1232,7 @@ eventMythic=神话事件
 eventCharacter=角色事件
 cardPlayerDescription=即便是最细微的决定也会铸就你的命运。请注意：<color=#C59559>这些卡牌洗牌完毕后，你必须从中选择一张。</color>
 chooseWisely=做出明智的选择
-madnessHelp=<align=left><color=#FFF>每个疯狂难度级别都会增加新的修改因子，使游戏的整体难度增加。以下是部分因子的详细说明。</color><br><br><u>衰竭：</u>打出一张导致牌组重新洗牌的卡牌时，你会遭受衰竭，导致该回合内进入你手牌中的任何牌均需花费额外能量。<br><br><u>重伤和致命伤：</u>你在事件中失败时，获得的受伤牌将会变得更加强大。<br><br><u>无宝箱奖励：</u>无法拾取此前游戏的奖励宝箱，初始金币/碎片是有限的。使用这个修改因子，你在游戏结束时不会获得奖励宝箱。<br><br><u>更难的事件掷点：</u>事件掷点更难获得所需的点数，掷点高低视事件而定。</align>
+madnessHelp=<align=left><color=#FFF>每个疯狂难度级别都会增加新的修改因子，使游戏的整体难度增加。以下是部分因子的详细说明。</color><br><br><b>衰竭：</b>打出一张导致牌组重新洗牌的卡牌时，你会遭受衰竭，导致该回合内进入你手牌中的任何牌均需花费额外能量。<br><br><b>重伤和致命伤：</b>你在事件中失败时，获得的受伤牌将会变得更加强大。<br><br><b>无宝箱奖励：</b>无法拾取此前游戏的奖励宝箱，初始金币/碎片是有限的。使用这个修改因子，你在游戏结束时不会获得奖励宝箱。<br><br><b>更难的事件掷点：</b>事件掷点更难获得所需的点数，掷点高低视事件而定。</align>
 exhaust=<u>衰竭：</u>打出一张导致牌组重新洗牌的卡牌时，你会遭受衰竭，导致该回合内进入你手牌中的任何牌均需花费额外能量。
 madnessOptionsText=疯狂 {0} 加成列表
 replyProbability=成功概率：{0}
@@ -1428,6 +1396,7 @@ minstrel=流浪乐师
 paladin=圣骑士
 valkyrie=女武神
 warlock=术士
+bloodmage=血法师
 AdventureCompletedCardback=冒险
 AdventureCompletedMadnessCardback=疯狂
 ObeliskCompletedCardback=方尖碑
@@ -1473,7 +1442,7 @@ savedConfigDeleteConfirm=是否删除此配置？
 savedConfigCant=已保存的槽位只能在游戏开始前使用。
 perkBarDescription=所有英雄均可在游戏中获得专精点。
 chooseOnePerk=选择其中<u>一项</u>专精。
-slashing=斩击/// this must have the same translate as "slash"
+slashing=斩击
 customMainperkPoison2b=敌人身上的每层毒素还会减少其 0.3% 的暗影抗性。
 customMainperkPoison2c=敌人身上的毒素会额外造成 50% 的伤害，回合结束时失去所有充能。
 customMainperkDark2b=该英雄身上的黑暗将在 38 层充能时爆炸。
@@ -1486,7 +1455,7 @@ customMainperkSanctify2b=敌人身上的每层超度会减少 1.5% 的神圣抗�
 customMainperkSanctify2c=该英雄使用超度击中怪物时，还会对目标造成其超度充能 25% 的神圣伤害。
 customMainperkChill2b=敌人身上的每层冰冻也会减少其 0.3% 打击抗性。
 customMainperkChill2c=敌人身上的每 4 层冰冻转而减少 1 速度。
-customMainperkChill2d=该英雄身上的每 8 层冰冻转而减少 1 速度，回合结束时每 14 层冰冻也会获得 1 加固。 
+customMainperkChill2d=该英雄身上的每 8 层冰冻转而减少 1 速度，回合结束时每 14 层冰冻也会获得 1 加固。
 customMainperkBurn2b=该英雄身上的每 8 层灼烧也会增加 1 速度，每层灼烧转而减少 0.3% 火焰抗性。
 customMainperkBurn2c=灼烧会造成寒冰伤害。
 customMainperkVulnerable0b=敌人身上的易伤最多可叠加至 12 层，回合结束时会减少 1 层充能。
@@ -1506,7 +1475,7 @@ customMainperkRegeneration1a=该英雄身上的再生也会治疗其身边的英
 customMainperkRegeneration1b=该英雄身上的每层再生也会使其获得的治疗提升 1%。
 customMainperkRegeneration1c=英雄身上的每层再生也会提升 0.5% 的暗影抗性，回合开始时不会失去充能。
 customMainperkPowerful1b=该英雄身上的强效最多可叠加至 12 层，回合结束时会减少 1 层。
-customMainperkPowerful1c=该英雄身上的每层强效会提升 10% 的伤害输出和治疗输出，回合结束时失去所有充能。
+customMainperkPowerful1c=该英雄身上的每层强效会提升 8% 的伤害输出和治疗输出，最大充能层数减少 2，回合结束时失去所有充能。
 customMainperkEnergy2a=该英雄打出一张费用为 6 能量或以上的卡牌时，返还 1 能量。
 customMainperkEnergy2b=在第 2 回合开始时，该英雄获得 1 能量。
 customMainperkEnergy2c=在第 4 回合开始时，该英雄获得 2 能量。
@@ -1514,13 +1483,13 @@ customMainperkMark1a=该英雄对标记免疫。
 customMainperkMark1b=回合结束与阻挡潜行时，敌人身上的标记不会失去充能。
 customMainperkMark1c=敌人身上的每层标记也会减少 0.3% 的斩击抗性。
 customMainperkSight1b=敌人身上的预见也会在施加时移除潜行，只有处于指定状态下才能被驱散。
-customMainperkSight1c=你施加的充能 +3。敌人身上的预见无法被缓冲或免疫所阻挡，回合结束时失去所有充能。  
+customMainperkSight1c=你施加的充能 +3。敌人身上的预见无法被缓冲或免疫所阻挡，回合结束时失去所有充能。
 customMainperkStealth1a=英雄身上的每层潜行会提升 25% 的伤害输出和治疗输出。
 customMainperkStealth1b=该英雄身上的潜行在回合开始时不会失去充能。
 customMainperkStealth1c=英雄身上的每层潜行也会提升 5% 的所有抗性。
 customMainperkFury1b=该英雄身上的每层狂怒转而提升 1% 的伤害，回合结束时不再施加流血。
-customMainperkFury1c=该英雄身上的每层狂怒转而提升 5% 的伤害。该英雄身上的流血会额外造成 50% 伤害，无法被缓冲或免疫阻挡。 
-customMainperkBleed2b=该英雄身上的流血会在回合结束时造成伤害，只有处于指定状态下才能被驱散。该英雄身上的狂怒最大充能层数为 25。 
+customMainperkFury1c=该英雄身上的每层狂怒转而提升 5% 的伤害。该英雄身上的流血会额外造成 50% 伤害，无法被缓冲或免疫阻挡。
+customMainperkBleed2b=该英雄身上的流血会在回合结束时造成伤害，只有处于指定状态下才能被驱散。该英雄身上的狂怒最大充能层数为 25。
 customMainperkBleed2c=你施加的充能 +2。敌人身上的流血会在回合结束时造成伤害，无法被缓冲或免疫所阻挡。
 customMainperkSharp1a=该英雄身上的每层锐利转而提升 1.5% 的斩击伤害，不再提升刺击伤害。
 customMainperkSharp1b=该英雄身上的每层锐利转而提升 1.5% 的刺击伤害，不再提升斩击伤害。
@@ -1530,10 +1499,10 @@ customMainperkStanza0b=该英雄身上的诗节 I 在回合结束时也会提供
 customMainperkStanza0c=该英雄无法获得诗节 III。
 customMainperkReinforce0=该英雄在首个回合获得 1 加固。该英雄身上的加固只有处于指定状态下才能被净化。
 customMainperkReinforce1b=英雄身上的加固转而提升 35% 斩击、刺击和打击的抗性。
-customMainperkReinforce1c=该英雄身上的每层加固转而提升 7% 斩击、刺击和打击的抗性。最大充能层数为 8。 
+customMainperkReinforce1c=该英雄身上的每层加固转而提升 7% 斩击、刺击和打击的抗性。最大充能层数为 8。
 customMainperkInsulate0=该英雄在首个回合获得 1 绝缘。该英雄身上的绝缘只有处于指定状态下才能被净化。
 customMainperkInsulate1b=英雄身上的绝缘转而提升 35% 火焰、寒冰和闪电的抗性。
-customMainperkInsulate1c=该英雄身上的每层绝缘转而提升 7% 火焰、寒冰和闪电的抗性。最大充能层数为 8。 
+customMainperkInsulate1c=该英雄身上的每层绝缘转而提升 7% 火焰、寒冰和闪电的抗性。最大充能层数为 8。
 customMainperkCourage0=该英雄在首个回合获得 1 英勇。该英雄身上的英勇只有处于指定状态下才能被净化。
 customMainperkCourage1b=英雄身上的英勇转而提升 35% 神圣、暗影和心灵的抗性。
 customMainperkCourage1c=该英雄身上的每层英勇转而提升 7% 神圣、暗影和心灵的抗性。最大充能层数为 8。
@@ -1545,30 +1514,31 @@ customMainperkInsane2c=英雄身上的每层疯狂转而减少 0.5 心灵抗性�
 customMainperkWet1a=敌人身上的每层潮湿也会提升 1 寒冰伤害承受。
 customMainperkWet1b=敌人身上的每层潮湿也会减少 1% 的闪电抗性，回合结束时不会失去充能。
 customMainperkWet1c=英雄身上的每层潮湿转而阻挡 3 灼烧充能，回合结束时不会失去充能。
-customMainperkFortify1a=该英雄身上的坚守可以叠加，每层坚守会提升 1 打击和火焰伤害。最大充能层数为 50。 
+customMainperkFortify1a=该英雄身上的坚守可以叠加，每层坚守会提升 1 打击和火焰伤害。最大充能层数为 50。
 customMainperkFortify1b=该英雄在首个回合获得 1 坚守。该英雄身上的坚守只有处于指定状态下才能被净化。
 customMainperkFortify1c=回合结束时，英雄身上的每层坚守也会给予 7 格挡充能。
-customMainperkSpark2b=回合开始时，敌人身上的感电也会对其两侧施加自身充能 30% 的感电。 
+customMainperkSpark2b=回合开始时，敌人身上的感电也会对其两侧施加自身充能 30% 的感电。
 customMainperkSpark2c=回合结束时，敌人身上的每 14 层感电也会施加 1 减速。
 customMainperkCrack2b=敌人身上的每层破甲也会使其获得的格挡减少 0.5。
 customMainperkCrack2c=回合结束时，敌人身上的每 14 层破甲也会施加 1 易伤。
 emptySave=[空位]
 madnessCorruptor1Help=全体英雄的治疗输出 -3，所获得的治疗 <nobr>-25%</nobr>，而且活力只能提供已获得最大生命值 50% 的治疗
 faeborg=费堡森林
-act1Intro=小队成员跨过方尖碑之时，瞬间发现自己来到了其他地方，离瑟能西亚的森林十分遥远。<br><br>由此揭开了方尖碑的一个奥秘……在古时候，人们需要沿路穿行数日，方可抵达这片土地，因此方尖碑曾被当作运输工具使用。<br><br>他们寻找着公主和汉什克公爵来过此地的迹象，并发现了两组往外延伸的足迹。<br><br>小队成员朝地平线上望去，另一座方尖碑映入眼帘，并且处于活跃之中。方尖碑的激活无疑与公主和汉什克公爵有关，小队的下一个目的地已然明确。 
+act1Intro=小队成员跨过方尖碑之时，瞬间发现自己来到了其他地方，离瑟能西亚的森林十分遥远。<br><br>由此揭开了方尖碑的一个奥秘……在古时候，人们需要沿路穿行数日，方可抵达这片土地，因此方尖碑曾被当作运输工具使用。<br><br>他们寻找着公主和汉什克公爵来过此地的迹象，并发现了两组往外延伸的足迹。<br><br>小队成员朝地平线上望去，另一座方尖碑映入眼帘，并且处于活跃之中。方尖碑的激活无疑与公主和汉什克公爵有关，小队的下一个目的地已然明确。
 act2Intro=小队跨过了第二座方尖碑，跟之前一样，他们发现了公主和汉什克公爵最近的踪迹。<br><br>此时他们想起，以强大的魔力著称的瑟能西亚女王也在前几年失踪了。公主会不会继承了这些力量？而汉什克公爵是否想将这些力量据为己用？<br><br>太多的疑问在心头萦绕，眼下已经无路可退。就算不惜一切代价，他们也要找到汉什克公爵。<br><br>不出意料，远方的地平线上也有一座活跃的方尖碑。<br><br>这一次，小队成员意识到，如果自己的速度够快，或许就能赶上他们。
 act3Intro=尽管早就习惯了穿越方尖碑，可这次的感觉却有所不同。<br><br>环顾四周之时，眼前的景象令小队成员感到十分震惊。万里烟云、古老废墟悬浮在他们的身旁……他们在哪里？显然，步行或其它正常途径是不可能来到这片地方的。<br><br>小队成员可以感受到四周弥漫着强烈的魔法气息，毫无疑问，这一定是汉什克公爵利用方尖碑的意图所在。<br><br>在远方地平线上，一座巨型楼梯升起于云层之上……那是小队成员必须抵达的地方，以此查明汉什克公爵到底在谋划什么。
+act3bIntro=虽然他们已经习惯了穿过方尖碑，但这一次，那种感觉却带着一丝不祥。<br><br>当他们睁开眼睛时，已然置身于一片雾气弥漫、低语萦耳的扭曲密林之中……仿佛是被一股无形之力拽入了另一个完全不同的世界。<br><br>在一旁的地面上，躺着汉谢克勋爵冰冷的尸体。他那镶宝的颈饰已经破碎，一颗宝石不见了。以他那样的力量，不可能如此轻易倒下。<br><br>远处，一座漆黑的城堡高塔直刺天空。无论是什么杀死了汉谢克，又无论公主将面对怎样的命运，答案都隐藏在那座城堡的墙壁之中。
 actEndGame=恭喜！你成功完成了普通难度的游戏。<br><br>疯狂级别已解锁。现在你可以增加游戏的难度，并根据自己的喜好进行调整，例如在每场战斗中都会出现随机敌人等。<br><br>此外，在疯狂级别还会出现全新的腐化物品。腐化物品比普通物品更加强大。每一级的难度均会提升腐化物品与腐化牌的出现概率。<br><br>我们希望你能喜欢这款游戏，还有更多精彩内容即将到来，你真诚的亚当和哈维尔。
 cinematicIntro0=一切都发生于公主 16 岁生日的时候。
 cinematicIntro1=那时，公主的房间突然迸发出一股能量，
 cinematicIntro2=席卷了整个瑟能西亚王国。
-cinematicIntro3=皇家卫队搜查了城堡的各个角落， 
+cinematicIntro3=皇家卫队搜查了城堡的各个角落，
 cinematicIntro4=还是没能发现公主以及宫廷魔术师汉什克公爵的踪迹。
 cinematicIntro5=国王派出士兵在王国范围内搜寻，却无一人返回。
-cinematicIntro6=公主的踪迹消失在古老森林的深处， 
+cinematicIntro6=公主的踪迹消失在古老森林的深处，
 cinematicIntro7=就在那块沉睡了数世纪之久的远古方尖碑附近……
 cinematicIntro8=绝望之下，国王颁布了一项皇家法令。
-cinematicIntro9=宣布任何将公主安全送回的人将会予以嘉奖。 
+cinematicIntro9=宣布任何将公主安全送回的人将会予以嘉奖。
 cinematicIntro10=消息很快传遍了整个王国。
 cinematicIntro11=不少冒险者小队摩拳擦掌，准备调查方尖碑。
 cinematicIntro12=而这是其中一支小队的故事。
@@ -1635,7 +1605,7 @@ cardsIncreaseAura=光环充能增加 {0}%
 transmute=转换
 transform=转化
 upgrade=升级
-cardbackDLCSpooky=使坏
+cardbackDLCSpooky=诡计
 cardbackWeeklyHalloween=招待
 requiredDLC=你需要拥有 DLC “{0}”
 requiredWeekly=你需要完成每周挑战<nobr>“<color=#FFF>{0}</color>”</nobr><br><line-height=10%><br><line-height=100%><size=-3>* 部分挑战仅在特殊活动期间提供
@@ -1644,7 +1614,7 @@ customTrickorTreat=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br>
 minDeckCards=牌组的最低卡牌数量（不包括恩惠牌和受伤牌）：<size=+1><color=#FFFFFF><n></color>
 profileMenu=当前档案：<size=+5><color=#B0B0B0>{0}</color></size>
 profileCreate=【新建档案】
-challengeThirdFloorReward=抵达挑战的第三层即可解锁卡牌。
+challengeThirdFloorReward=抵达挑战的第三层即可解锁这些卡背。
 langCommunity=* 由社区成员创作
 itemCorruptionUpgrade=* 当英雄装备同一物品两次时，该物品将会转化为腐化版。
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -1745,7 +1715,7 @@ itemEveryRoundRound=每个回合
 menuLog=战斗日志
 youMustSelectHero=你必须选择下列英雄：<br><color=#FFC555>{0}</color>
 townTutorial=城镇教程
-townTutorialStep0=进入魔力煅炉，为 {1} 购买一张“{0}”卡牌。
+townTutorialStep0=进入魔力熔炉，为 {1} 购买一张“{0}”卡牌。
 townTutorialStep1=进入祭坛，为 {1} 升级“{0}”卡牌。
 townTutorialStep2=进入军械库，为 {1} 购买一件“{0}”。
 tutorialTownNeedComplete=你需要完成城镇教程
@@ -1775,7 +1745,7 @@ wolfWars=狼之战争
 wolfWarsIntro=在嫁给瑟能西亚国王的数年之后，阿米莉亚女王努力增进国内各大种族的联系，并欢迎他们团结在同一旗帜之下。<br><br>由于不断遭受狼人的骚扰与猎杀，大多数种族满怀希望地接受了这个提议。然而，酋长戈里奥想要继续统治森林的东北部，并主张他的狼人享有自由狩猎的权利。<br><br>阿米莉亚女王与酋长戈里奥进行了数月的谈判，但最终后者选择了终止谈判。戈里奥悍然宣布，他的狼人不会被驯服，任何胆敢进入森林的人都将成为他的猎物。<br><br>在国内各大种族的恳求下，护民心切的阿米莉亚女王决定发起进攻，推翻戈里奥。
 bandit=强盗
 food=食物
-roadmapHomeText=<tit>大家好！</tit>我们的游戏刚刚发布了1.1版本更新，并且推出了大量免费内容：两个新的子区域、新的物品以及战斗日志等各种新功能。<br><br>此外，我们还发布了首个剧情 DLC——《狼之战争》，其中包括一位全新英雄、各种皮肤等其它内容。希望你们会喜欢这些新内容！<br><br><tit>接下来的安排？</tit>我们将会对英雄百科进行小幅调整。同时我们还会专注于首个大型 DLC 的更新、一个充满全新敌人、物品、事件的大型区域（出现在第 2 幕和第 3 幕），以及推出新的英雄！
+roadmapHomeText=<tit>大家好！</tit>我们的游戏刚刚发布了 1.1 版本更新，并且推出了大量免费内容：两个新的子区域、新的物品以及战斗日志等各种新功能。<br><br>此外，我们还发布了首个剧情 DLC——《The Wolf Wars》，其中包括一位全新英雄、各种皮肤等其它内容。希望你们会喜欢这些新内容！<br><br><tit>接下来的安排？</tit>我们将会对英雄百科进行小幅调整。同时我们还会专注于首个大型 DLC 的更新、一个充满全新敌人、物品、事件的大型区域（出现在第 2 幕和第 3 幕），以及推出新的英雄！
 requiredEvent=你需要完成事件“{0}”
 
 challengeHydra=危险水域
@@ -1868,11 +1838,11 @@ customCrystallize=每位英雄可获得 150<i=dust>的额外奖励。
 escapes=逃离
 luckyscarab=幸运圣甲虫
 useSupplies=使用补给来提高该角色的级别。
-useSuppliesAvailable=【 {0}  <sprite name=supply> 可用 】  /// 10 <supplies> 可用
+useSuppliesAvailable=【 {0}  <sprite name=supply> 可用 】  
 useSuppliesRequirement=* 需要角色级别达到 10 级且城镇升级完全解锁。
 
 customMeatBagA=<i=slashing>抗性<bl>+3%</bl><br><act>【第一回合】</act><br>将<crd=premiummeat,1>、<crd=meat,1>或<crd=spoiledmeat,1>洗入你的牌组。
-customMeatBagB=<i=slashing>抗性<bl>+5</bl><br><act>【第一回合】</act><br>将<crd=premiummeat,1>、<crd=meat,1>或<crd=spoiledmeat,1>洗入你的牌组。
+customMeatBagB=<i=slashing>抗性<bl>+5%</bl><br><act>【第一回合】</act><br>将<crd=premiummeat,1>、<crd=meat,1>或<crd=spoiledmeat,1>洗入你的牌组。
 cardsVanish=消耗{0}
 
 itemSixPerTurn=每回合 6 次
@@ -1884,7 +1854,7 @@ impedingDoomDesc=如果表现加成达到“失望”时，所有英雄都会遭
 resistantMonstersDesc=全体怪物获得额外 +10% 的所有抗性
 decadenceDesc=全体英雄所获得的治疗 <nobr>-20%</nobr>，而且活力只能治疗已获得最大生命值的 50%
 
-customMainperkPowerful1c=该英雄身上的每层强效会提升 10% 的伤害输出和治疗输出，最大充能层数减少 3，回合结束时失去所有充能。
+customMainperkPowerful1c=该英雄身上的每层强效会提升 8% 的伤害输出和治疗输出，最大充能层数减少 2，回合结束时失去所有充能。
 customMainperkInspire0a=该英雄在回合开始时获得 1 启迪。
 customMainperkSharp1d=英雄身上的每层锐利也会增加 1 暗影伤害。
 
@@ -1972,8 +1942,9 @@ always=总是
 all=所有
 disabled=禁用
 
-card=卡牌
 ////////////// Christmas DLC
+card=卡牌
+
 keyQ=手
 keyW=田
 keyE=水
@@ -2001,17 +1972,393 @@ keyB=月
 keyN=弓
 keyM=一
 keyShift=Shift
-keyReturn=Accept
-keyDelete=Delete
+keyReturn=接受
+keyDelete=删除
 
-customScaraby=All resistances <bl>+5%</bl><br>Increases the chance of a scarab spawning in Acts 2 and 3 by up to <bl>40%</bl>.
-customScarabyrare=All resistances <bl>+8%</bl><br>Increases the chance of a scarab spawning in Acts 2 and 3 by up to <bl>50%</bl>.<br>Scourge scarabs do not spawn.
+customScaraby=所有抗性 <bl>+5%</bl><br>提升第 2 和第 3 幕中圣甲虫出现的概率，至多<bl>40%</bl>。
+customScarabyrare=所有抗性 <bl>+8%</bl><br>提升第 2 和第 3 幕中圣甲虫出现的概率，至多 <bl>50%</bl>。<br>灾祸圣甲虫不会出现。
 
-queen=Queen
-princess=Princess
-empress=Empress
-engineer=Engineer
-mechanic=Mechanic
-artificer=Artificer
-chatWelcome=Welcome to <u>{0}</u> game. You will be able to communicate with the rest of the players through this chat window. Also note that each one of them will be referenced with the same color for the rest of the game. Enjoy!
-maximumEnchantments=A character can have a maximum of three active enchantments. If a new one is applied, the oldest will be removed.
+queen=女王
+princess=公主
+empress=皇后
+engineer=工程师
+mechanic=工匠
+artificer=发明家
+chatWelcome=欢迎来到<u>{0}</u>游戏。你能够通过此聊天窗口与其他玩家进行交流。此外，在游戏中，每位玩家将以相同的颜色进行标识。尽情享受吧！
+maximumEnchantments=一个角色最多可以拥有三个激活的附魔。如果在此之上应用新的附魔，最老的附魔将被移除。
+
+login=登录
+loginParadoxAccount=使用 Paradox 账户登录
+loginIntroduce=输入账户数据
+forgotPassword=忘记密码？
+createAccount=创建新账户
+emailAddress=电子邮箱地址
+rememberMe=记住我
+send=发送
+createParadoxAccount=创建 Paradox 账户
+createReceiveNews=<space=35>我想收到来自《Across the Obelisk》和 Paradox Interactive 的新闻和优惠
+dateBirth=生日
+termsUse=阅读使用条款
+privacyPolicy=阅读隐私政策
+disclaimer=点击“创建帐户”即表示你已阅读、理解并接受我们的使用条款和隐私政策。
+createAccount=创建账户
+year=年
+month=月
+day=日
+region=国家/地区
+month1=一月
+month2=二月
+month3=三月
+month4=四月
+month5=五月
+month6=六月
+month7=七月
+month8=八月
+month9=九月
+month10=十月
+month11=十一月
+month12=十二月
+
+pdxErrorEmail=电子邮件地址无效。
+pdxErrorPassword=密码无效，必须包含 6 到 128 个字符。
+pdxErrorRegion=必须选择国家/地区。
+pdxErrorBirth=必须选择生日。
+pdxErrorInvalidAuthentication=密码不符。
+pdxErrorUnknownAuthorization=未知的授权问题。
+pdxErrorMiscErrorRetry=请求发生错误。请在几分钟后重试。
+pdxErrorLoginFields=必须输入电子邮件和密码。
+pdxCreateSuccess=感谢你创建 Paradox 账户！我们已向你发送了电子邮件地址的确认链接。
+pdxLogoutConfirm=想要登出 Paradox 吗？
+pdxSteamLinkConfirm=是否要将 Paradox 账户与 Steam 关联？
+
+holypenance=神圣忏悔
+holypenanceDesc=使用超度击中怪物时，还会对目标造成其超度充能 25% 的神圣伤害。
+challengeChristmas=平安夜
+cardbackWeeklyChristmas=平安夜
+customHolyNight=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+1</bl><br><gl>- 每个回合 -</gl><br>全体英雄遭受 <rd>2</rd> 层<i=sanctify> <rd>2</rd> 层<i=chill>
+customThreeGhost=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br><gl>- 每个回合 -</gl><br>增加<crd=pastghost,1>、<crd=presentghost,1>或<crd=futureghost,1>到全体怪物。
+customTheGrinch=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br><gl>- 每个回合 -</gl><br>增加<crd=stealcorruption,1>到全体怪物。
+customChristmasTree=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+1</bl><br><gl>- 战斗开始 -</gl><br>将<crd=goodkid,1>或<crd=badkid,1>洗入每位英雄的牌组。
+
+reloading=重新加载中
+spellsword=法术之剑
+
+//////////////
+
+itemCustomTextMaxChargesIncrasedOnThisHero=此英雄身上的{0}拥有 +{1} 最大充能
+shadyDeal=违法交易
+shadyDealDesc=在不平等的交易中用碎片换取金币。您可以对自己控制的每一个角色使用一次。
+shadyDealLeft=使用次数剩余 {0} 次
+shopIncrease=费用增加 {0} 
+shopDiscount=费用减少 {0} 
+halloween=万圣节
+
+///////////
+combatLogRoll=悬停在卡牌名称上可查看详情
+deleteProfile=删除档案【{0}】
+doYouWantToDeleteProfile=是否删除档案 {0}？
+challengeLunar=春节
+cardbackWeeklyLunar=春节
+
+///////////
+customMysticNight=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+1</bl><br><gl>- 每个回合 -</gl><br>全体英雄遭受 <br><rd>2</rd> 层<i=insane> <rd>2</rd> 层<i=sanctify> <rd>1</rd><i=dark>层
+customThreeDragons=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br><gl>- 每个回合 -</gl><br>增加<crd=greendragon,1>、<crd=yellowdragon,1>或<crd=bluedragon,1>到全体怪物。
+customLanternFestival=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br><gl>- 每个回合 -</gl><br>一个随机怪物获得 <rd>2<i=bless> 2</rd> 层<i=buffer>
+customFirecrackers=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+1</bl><br><gl>- 每个回合 -</gl><br>对一个随机英雄造成 <rd>5<i=fire></rd> 和施加 <rd>2 层<i=burn></rd>。
+logout=登出
+
+///////////////////////////// new patch 1.4
+uprising=黑曜石暴动
+uprisingIntro=很久以前，一支矮人探险队在维克拉斯火山内发现了一架远古机器。随着时间推移，矮人在机器周围建起了一座城市，但他们始终未曾将机器投入使用。<br><br>而随着瑟能西亚王国新任命的顾问阿米莉亚的来访，一切都发生了改变。当首席工程师南努科尔向她展示机器时，机器对阿米莉亚潜在的力量产生了反应，接着发生了能量爆炸。<br><br>阿米莉亚利用魔法控制住了爆炸，并救下了南努科尔。从那时起，机器开始运转，产生了前所未有的能量。<br><br>几周后，南努科尔找到阿米莉亚，并告知她掌管黑色熔炉的两名矮人将军准备接管维克拉斯，并利用他们新获得的力量制造战争机器。<br><br>阿米莉亚别无选择，只能趁着事情还未发展到一发不可收拾前，集结起一小支军队来镇压此次暴动。
+floorNumber=第 {0} 层
+multiclass=多重职业
+mapLegendRift=魔能裂隙
+legacySounds=经典音效
+legacySoundsDes=优先使用经典音效
+legacySoundsSheepOwl=经典“绵羊”和“猫头鹰”音效
+legacySoundsSheepOwlDes=始终使用经典怪物音效
+customRocketBoots=该英雄身上的迅捷可以叠加，但会在回合开始时失去所有充能。
+customRocketBootsA=所有抗性 <bl>+3%</bl><br>该英雄身上的迅捷可以叠加，但会在回合开始时失去所有充能。
+customRocketBootsB=所有抗性 <bl>+6%</bl><br>该英雄身上的迅捷可以叠加，但会在回合开始时失去所有充能。
+customRocketBootsRare=所有抗性 <bl>+10%</bl><br>速度 <bl>+1</bl><br>该英雄身上的迅捷可以叠加，但会在回合开始时失去所有充能。
+challengeRise=机器崛起
+cardbackRiseOfTheMachines=rptd_challengeRise
+gunner=枪手
+itemReduceAll=将你手牌中全部 {0} 张牌的费用{2}减少 {1}
+itemReduceTurnAll=将你手牌中全部 {0} 张牌的费用{2}减少 {1}，直到丢弃为止
+itemIncrease=将你手牌中 {0} 张随机{1}的费用{3}增加 {2}
+itemIncreaseAll=将你手牌中全部 {0} 张牌的费用{2}增加 {1}
+itemIncreaseTurn=将你手牌中 {0} 张随机{1}的费用{3}增加 {2}，直到丢弃为止
+itemIncreaseTurnAll=将你手牌中全部 {0} 张牌的费用{2}增加 {1}，直到丢弃为止
+itemRecoverRandomHPHero=一名随机英雄恢复 {0} 生命值
+itemRecoverRandomHPMonster=一个随机怪物恢复 {0} 生命值
+
+//////// to be updated
+crossplayToggle=跨网络游玩
+enabled=开启
+region=地区
+customTurboBoots=所有抗性 <bl>+14%</bl><br>速度 <bl>+1</bl><br>该英雄身上的迅捷可以叠加，但会在回合开始时失去所有充能。
+customTurboBootsRare=所有抗性 <bl>+22%</bl><br>速度 <bl>+2</bl><br>该英雄身上的迅捷可以叠加，但会在回合开始时失去所有充能。
+howToContent=如何访问此内容
+howToDLCSkin=想要选择此 DLC 中包含的任意皮肤，你只能新开一局游戏。然后，在角色选择界面，你需要点击角色的卷轴图标来打开其自定义菜单。接着，点击“皮肤”按钮就可以选择自定义皮肤了。
+howToDLCCharacter=拥有此 DLC 后将默认解锁该角色。<br><br>想要使用此角色游玩，只需在角色选择界面，将此角色拖拽至你想要填补的位置即可。
+howToDLCUlminin=在第 1 幕和第 2 幕结束时，你现在可以穿过黄色的传送门，将你和你的队伍传送至古老的乌尔米宁大陆。<br><br>想要游玩此 DLC 中包含的新角色，你需要通过在乌尔米宁完成相应的任务来解锁这些角色。之后，在每次冒险开始时选择这些新角色即可。
+howToDLCWW=当你在游玩第 1 幕“瑟能西亚”时，可以在地图东北部找到尤格的营地。在完成与他的会面，即可访问他的日记。阅读日记，你的冒险就此开始了。<br><br>想要选择此 DLC 中包含的任意皮肤，你只能新开一局游戏。然后，在角色选择界面，你需要点击角色的卷轴图标来打开其自定义菜单。接着，点击“皮肤”按钮就可以选择自定义皮肤了。
+howToDLCObsidian=想要访问 DLC“黑曜石暴动”的内容，在第 1 幕和第 2 幕结束时，你和你的队伍需要穿过红色的传送门并前往维克拉斯。在维克拉斯中部，你将看到火山斜坡上出现的一道巨大的魔能裂隙。<br><br>想要选择此 DLC 中包含的任意皮肤，你只能新开一局游戏。然后，在角色选择界面，你需要点击角色的卷轴图标来打开其自定义菜单。接着，点击“皮肤”按钮就可以选择自定义皮肤了。
+crossplayDescription=** 要禁用跨平台游戏，请从当前服务器区域断开，并使用复选框！
+/// after 1.4.0
+howToDLCPet=此内容包还包括一只宠物。要获得和使用它，你必须在角色造访游戏中的任何城镇时，在军械库建筑中购买它（宠物店功能必须已通过城镇升级获得）。
+sellSupplies=出售物资
+networkKick=踢出
+networkMute=静音
+networkUnmute=解除静音
+flask=瓶子
+whatIf=如果？
+magnuswhatiftext=如果马格努斯是作为法师被戈里奥抚养长大的，会怎么样？
+gustavwhatiftext=如果古斯塔夫是被召唤到这个世界的，而不是转生，会怎么样？
+sylviewhatiftext=如果塞尔维被狐狸精附身了，会怎么样？
+nezglektwhatiftext=如果飞船船长是纳兹格雷特，而不是茨尼莫，会怎么样？
+malukahwhatiftext=如果麦卢卡被阿克亚的蛇神诅咒了，会怎么样？
+laiawhatiftext=如果莱亚小时候没有被选为巴斯黛的圣骑士，会怎么样？
+navaleawhatiftext=如果纳瓦蕾尔没有被送往乌尔米宁，而是和自己的亲人在一起，会怎么样？
+yoggerwhatiftext=如果尤格是个素食主义者，会怎么样？
+ottiswhatiftext=如果奥迪斯崇拜的是另一种神，会怎么样？
+evelynwhatiftext=如果艾芙琳没有跟阿米莉亚走，而是留在爷爷身边，会怎么样？
+corneliuswhatiftext=如果科尼利厄斯选择钻研另一种魔法，会怎么样？
+andrinwhatiftext=如果安德兰加入了一个有点奇怪的刺客公会，会怎么样？
+rust=锈蚀
+ping=Ping
+players=玩家
+crossPlayDisabled=跨网络游玩已禁用。
+crossPlayDisabledByPDXAccount=要启用跨网络游玩，你必须先登录 Paradox 账户。
+crossPlay=跨平台游玩
+loggedPDXitem=你必须先登录 Paradox 账户才能使用此物品。
+brokenBarriers=破损的屏障
+roomDoesNotExist=你尝试加入的房间不存在，或者你的跨平台游戏配置与房间不匹配
+///// 1.5 Patch
+alchemist=炼金术士
+apothecary=药剂师
+sage=贤者
+skald=北地诗人
+angel=天使
+madnessCorruptor8=<i=experience> 均衡
+madnessCorruptor8Help=在同场战斗中，所有温度表战斗奖励都等同于“优秀”表现奖励。
+madnessPermanentInjuries=<i=paralyze> 伤势永久存在，无法被消除
+dreadnought=无畏战舰
+sahti=萨蒂群岛
+cardAlreadyInDeck=已拥有此基础卡牌
+cardNameAlreadyInDeck={0} 已在你的牌组中
+cardWillOverwrite=你的 {0} 复制卡牌将会被此张卡牌覆盖。确定选用这张吗？
+staticElectricity=静电
+eerieAtmosphere=诡异气氛
+dampCavern=潮湿洞穴
+randomCombats=随机战斗
+despair=绝望
+randomCombatsDesc=非事件的战斗均是随机生成。在每场随机战斗中，都会出现一个“冠军”怪物，并随机分配一种抗性。
+despairDesc=敌人拥有最强大的卡牌与附魔可供他们使用。
+requiredSingularityComplete=你需要完成奇点模式。
+requiredSingularityLevel=你需要完成疯狂级别 {0} 的奇点模式。
+singularity=奇点
+singularityCompletedCardback=奇点
+singularityCompletedMadnessCardback=狂热
+mainMenuSingularityDescription=<color=#FFD98F>以一套新的规则、相同的解锁内容，以及十个全新的疯狂级别来开始冒险。</color><br><br>英雄只能拥有任意一张可玩卡牌的复制体，并以全新的牌组开始。<br><br>升级奖励卡牌会更加普通，但是祭坛升级有限制且禁用占卜。<br><br>此外，游戏间的城镇升级和宝箱奖励也将不复存在。
+madnessSingularityBeat=在疯狂级别中完成奇点游戏模式，即可进入下一级别。
+singularityCards=奇点卡牌
+//// 2nd batch
+singularitySingleplayer=奇点单人游戏
+singularityMultiplayer=奇点多人游戏
+singularityCardsDescription=在奇点中，角色会以一套与冒险模式不同的卡牌游戏开始游戏。这些是该角色的初始卡牌。
+singularityDifferentInitialCards=在奇点中，每名角色都有一套不同于冒险模式的新初始卡牌。<br><br>点击<color=#F1D2A9>奇点卡牌</color>按钮即可查看。
+mainMenuSingularityShortDescription=<color=#FFD98F>全新的冒险方式。</color><br><br>英雄们只能拥有一张任意可玩卡牌的副本，另外还有更多独特的规则。
+metamorph=变形
+cardsMetamorph=该角色变成了{0}
+evolve=进化
+cardsEvolve=该角色进化成了{0}
+cannotBeDispelled=只有处于指定状态下才能被驱散。
+cannotBePurged=只有处于指定状态下才能被净化。
+cannotBePrevented=无法被阻挡。
+cannotBeDispelledOrPrevented=无法被驱散或阻挡。
+lossesAllChargesEndOfTurn=<w>回合结束</w>时失去所有充能。
+notLoseChargesStartTurn=<w>回合开始</w>时不会失去充能。
+notLoseChargesEndTurn=<w>回合结束</w>时不会失去充能。
+notLoseChargesPreventingStealth=阻挡潜行时不会失去充能。
+canStackCharges=可获得充能。
+allResistances=全抗性 <g>+<ResistAux1>%</g>。
+allResistancesNegative=全抗性 <r>-<ResistAux1>%</r>。
+bluntResistance=<blu>打击抗性</blu> <g>+<ResistAux1>%</g>。
+bluntResistanceNegative=<blu>打击抗性</blu> <r>-<ResistAux1>%</r>。
+holyResistance=<hol>神圣抗性</hol> <g>+<ResistAux1>%</g>。
+mindResistance=<min>心灵抗性</min> <g>+<ResistAux1>%</g>。
+shadowResistance=<sha>暗影抗性</sha> <g>+<ResistAux1>%</g>。
+shadowResistanceNegative=<sha>暗影抗性</sha> <r>-<ResistAux1>%</r>。
+maximumCharges=最大充能层数 <y><MaxCharges></y>。
+healingDonePercentPerStack=完成的治疗 <y>+<HealDonePercentPerStack>%</y>。
+healReceivedPercentPerStack=获得的治疗 <y>+<HealReceivedPercentPerStack>%</y>。
+maxHPModified=最大生命值 <y><CharacterStatModifiedPerStack></y>。
+speedModified=速度<r><CharacterStatModifiedValuePerStackTotal></r>。
+chargesReducedByEndTurn=<w>回合结束</w>时充能降低 {0}。
+lossesAllChargesEndRound=<w>回合结束</w>时失去所有充能。
+lossesAllChargesEndRoundGainBlock=<w>回合结束</w>时失去所有充能，并赋予<y>{0}格挡</y>。
+sahtiIslands=萨蒂群岛
+shoresOfSahti=萨蒂海岸
+sandsOfUlminin=乌尔米宁沙地
+challengePirates=啊嗨，海盗！
+cardbackPiratesAhoy=啊嗨，海盗！
+communityCardback=社区卡背
+communityCardbackWinnerAug24=8 月 24 日社区卡背比赛获胜者。<br><color=#FFF>Kate 原创。</color>
+itemIncreaseHighestDiscarded=将你手牌{3}中 {0} 张费用最高的{1}，其费用提升 {2} 直到丢弃为止
+cardbackWolfWars=狼之战争
+cardbackObsidianUprising=黑曜石暴动
+cardbackTrickOrTreat=不招待就使坏
+dlcHomeText=DLC 信息<br><size=-5><color=#B0B0B0>显示包</color></size>
+dlcHomeClose=<< 关闭
+disabledInSingularity=<color=#ff8888>此建筑在游玩奇点时将禁用</color>
+howToDLCSahti=在第 1 幕和第 2 幕结束时，你现在可以穿过蓝绿色传送门，将你和你的队伍传送至海盗肆虐的萨蒂海岸。
+cantAccessDLC=无法加载此存档，您的账户缺少某些内容：{0}
+cantAccessDLCCoop=无法加载此存档，其中一名玩家缺少某些内容：{0}
+///////
+visitDLCPage=访问 DLC 页面
+characterDies=<b>{0}</b> 死亡
+characterResurrects=<b>{0}</b> 复活
+relatedCard=相关卡牌
+noCharactersWereAffected=没有角色受到影响
+///// 1.6 Sunken Temple  /////
+priestess=女祭司
+matriarch=女族长
+weaver=编织者
+sunken=沉没神庙
+sunkenIntro=百多年前，阿夸尔瀑布神殿曾是神鸟教的势力范围，阿夸尔瀑布的人族因此力压沼泽中所有的冷血种族。 在神鸟的影响下，这些冷血种族世世代代被人族奴役。<br><br>神鸟教为阿夸尔瀑布的人类带来了繁荣，但这一切都是牺牲了无数蜥蜴人、娜迦，以及鳄鱼人换来的。<br><br>然而，神鸟对鲜血的无尽渴望最终让冷血种族不堪忍受。 随着神鸟祭祀所需的奴隶越来越多，众多种族意识到只有奋起反抗冷血主子和暴虐翼神才能寻得一线生机。<br><br>随着力争自由的呼声越来越高，神鸟教也变得愈发暴虐。 然而，一名默默无闻的女祭司的努力与牺牲成为了一切的转折点……
+madnessPermanentInjuries=<i=paralyze>城镇里的伤患无处安置。
+///////
+howToDLCTemple=想要解锁《Sunken Temple》DLC，在第 1 幕和第 2 幕结束时，你和你的队伍可以穿过绿色传送门，传送至阿夸尔瀑布的土地上。 在阿夸尔瀑布的中心，你会检测到一个庞大的魔能裂隙。<br><br>想要选择此 DLC 中包含的任意皮肤，你只能新开一局游戏。 然后，在角色选择界面，你需要点击角色的卷轴图标来打开其自定义菜单。 然后，你需要点击"皮肤"按钮就可以选择自定义皮肤了。
+challengeThirdFloorReward=抵达挑战的第三层即可解锁这些卡背。
+SunkenTemple=沉没神庙
+////// FOR 1.6 //////////////////
+soldier=士兵
+outlaw=亡命客
+sectarium=龟背石
+/////FRAG/////
+itemLoseHPSelf=失去 {0} 生命值
+cardsGainOneOf=获得 {0}
+cardsSufferOneOf=获得 {0}
+cardsGrantOneOf=赋予 {0}
+cardHealAllHeroesPerDamage=治疗所有英雄相当于伤害值的 {0}%
+itemChanceToPurge={0} 几率： <br> 净化 {1}
+itemChanceToDispelSelf={0} 几率： <br> 驱散自身的 {1}
+cardsDispelSelf=驱散自身的 {0}
+itemWhenBlockReachesZero=格挡归零
+leech=吸血
+infuse=灌注
+runered=红色符文
+runeblue=蓝色符文
+runegreen=绿色符文
+dojo=战斗测试工具
+card_oblivion=使用后让所有卡牌消失。<br>
+card_puppeteer=生命值损失 25% 后脱离战斗。
+dealDamageToAllMonsters=对所有怪物造成 {0}
+dealDamageToAllHeroes=对所有英雄造成 {0}
+cardsStealAurasFromRandomEnemy=从随机怪物身上偷取 {0} 个光环
+locked=已锁定
+optionalTelemetry=可选遥测
+optionalTelemetryDescription=为提升游戏性能和优化体验，我们会基于合法利益收集游戏数据。
+optionalTelemetryTooltip=如果玩家选择关闭可选遥测，且玩家已成年并接受了相关法律协议，我们仍会收集必要的遥测数据。
+
+witchwoods=暮影之境
+castlecourtyard=城堡庭院
+castlespire=城堡塔楼
+
+howToDLCNecro=在第 3 幕结束时，你将可以穿过黑色传送门，将你和你的队伍传送至暮影之境的鬼域。<br><br>拥有此 DLC 后将默认解锁这些角色。 想要使用这些角色游玩，只需在角色选择界面，将这些角色拖拽至你想要填补的位置即可。<br><br>此内容包还包括三只宠物。 要获得和使用前两只，你必须在角色造访游戏中的任何城镇时，在军械库建筑中购买它们（宠物店功能必须已通过城镇升级获得）。 第三只宠物则需要在暮影之境完成对应任务后方可解锁， 解锁后同样可在军械库建筑中购买。
+
+itemCorruptionTitle=物品腐化
+itemCorruptionDesc=你可以腐化选定的一件物品，并将其转化为最强大的版本。<br><br>然而，这不是一件容易的任务，如果失败，反而会损坏卡牌。<br><br>你也可以使用牺牲来增加成功的几率。
+
+itemApplyFrontEnemy=对前排怪物施加 {0}
+itemLeechExplosion=对怪物造成吸血爆炸时触发
+
+equipmentOfHero=heroEquipment=<color=#bbb><hero>装备</color>
+
+customUselessI=-宏大的梦想，终成一地废墟-
+customDeformedI=-闪耀之物，未必能久存-
+cardbackNecropolis=诅咒幽冥城
+
+dontApplyOnBosses=(对头目无效)
+sighthero=预见
+invulnerableunremovable=无敌
+
+bloodMist=血雾
+infestation=害虫横行
+
+spooky=惊悚
+
+modePractice=练习模式
+
+//new perks
+customMainperkInfuse0a=该英雄在战斗开始时获得 1 灌注。
+customMainperkInfuse0b=该英雄身上的灌注效果现在转为使加固、绝缘与英勇的效果提升 75%，但不再增加伤害。
+customMainperkInfuse0c=该英雄获得灌注时，获得 1 缓冲。
+customMainperkLeech0a=现在对敌人吸血时每层充能使敌人全抗性 -1.5%，但在爆炸时不再提供治疗效果。
+customMainperkLeech0b=现在对敌人吸血时将在 18 层充能时爆炸。
+customMainperkLeech0c=吸血爆炸现在将对敌人施加冰冻效果，而非流血效果。
+customMainPerkRust0b=敌人身上的“锈蚀”现在改为使“破甲”、“毒素”和“减速”的效果每层提高 20%。(最多 12 层)
+customMainPerkRust0c=敌人身上的锈蚀效果现在每层充能会使所受荆棘伤害提高 5%，但不再每层消耗 1 点加固。
+customMainPerkScourge0b=灾祸效果现在还会根据灼烧充能数对敌人造成等量的暗影伤害。
+customMainPerkScourge0c=灾祸效果现在还会根据疯狂充能数对敌人造成等量的暗影伤害。
+customMainPerkZeal0b=英雄身上的狂热充能现在改为在回合结束时移除 1 层。
+customMainPerkZeal0c=该英雄身上的狂热充能现在最多可以叠加至 10 层，且每层充能会转为提升 5% 全元素抗性及 12% 超度效果，但不再增加造成的伤害。回合结束时移除 1 层充能
+cardsanditems=卡牌和物品
+enemySelection=敌人选择
+zoneSelection=区域选择
+zoneList=区域列表
+combatSelection=战斗选择
+customAuxValuePerCharge=每次充能 {0}%
+
+/////// DLC Threads of Dreams
+dreams=梦境世界
+howToDLCDream=想要解锁《Threads of Dreams》DLC，在第 1 幕和第 2 幕结束时，你和你的队伍必须穿过紫色传送门，传送至梦境世界。
+dreamIntro=空气闪烁着微光，看不见的波浪在涌动，现实世界仿佛正在逐渐褪色。 瑟能西亚的远古记录中提到过“梦境面纱”，这件神秘的神器曾经将现实世界与梦境世界分离开来。 如今，这道屏障正在崩塌。<br><br>怪象丛生：影子朝着不可能的方向移动，水面倒映出不存在的景象，星辰在白昼中闪耀如常。 当地人窃窃私语，谈论着就算在清醒时也一直如影随形的幻象。<br><br>古老卷轴记载了织梦者的故事，那是一群生活在梦境与现实之间的神秘部族。 族人们努力保持着平衡，但有一个人违背了誓言。<br><br>面纱消失了。 每流逝一个小时，两个世界之间的边界就变得越来越模糊。
+sleep=睡眠
+illusionTutorialTitle=幻象
+illusionTutorialText=幻象是真实单位的精确复制品。 它们会模仿属性和能力，不过某些技能可以使其无所遁形，且会受到所有来源的额外伤害。
+descriptionTransferPain=-与重织者仆从交换生命值-
+descriptionNightmareImage=<size=-.15><color=#5E3016>[回合结束时]</color><br><br>-创建梦魇意象-
+descriptionNightmareEcho=-创建一张英雄卡牌的腐化复制体-
+descriptionMasterReweaver=<size=-.15><color=#444>[下一个 ({0}) 英雄<color=#5E3016>攻击</color>]</color><br>其承受所有伤害<br><br></color>
+descriptionMindSpike=伤害 <color=#263abc>+{0}</color><br> <color=#444>[本局每次打出的<color=#64381d>梦魇回响</color>  <sprite name=card>]</color>
+nightmareecho=梦魇回响
+nightmareechoa=梦魇回响
+nightmareechob=梦魇回响
+corruptedEcho=腐化回响
+transferPain=转移疼痛
+nightmareImage=梦魇意象
+mindSpike=精神刺
+prepareAction=准备
+rushAction=冲刺
+studyAction=研习
+//////Asian skins
+ameliaAsianSkin=闪耀之羽
+andrinAsianSkin=荣誉驱使
+breeAsianSkin=神圣号角
+evelynAsianSkin=狐巫
+heinerAsianSkin=钢铁将军
+magnusAsianSkin=龙帝
+nezgelektAsianSkin=大地守护者
+ottisAsianSkin=耙夫
+regenaldAsianSkin=沉默之掌
+thulsAsianSkin=鎏金恶鬼
+cardbackChinese=苍天和谐
+cardbackJapanese=宁静之池
+//
+cardbackHalloween=邪恶诱惑
+fluffCountDialogStart=死亡之舞自有其节奏，英雄们。你们跟得上吗？
+bloodsorcerer=鲜血术士
+bloodalchemist=鲜血炼金术师
+grimreaper=幽冥收割者
+masquerader=假面者
+
+//Batch 3
+customMainperkLeech0a=敌人身上的每层吸血会减少 1.5% 的全抗性，但在爆炸时不再提供治疗效果。
+count_dialogue_2=相当不错。看来我确实低估了你们，英雄们。这场小闹剧，到此为止了。
+chooseVanish=选择要消耗的卡牌。
+
+//patch
+thorn_increase=受到的荆棘伤害提升 <y><CustomAuxValue>%</y>

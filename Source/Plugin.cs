@@ -58,6 +58,9 @@ namespace MoreTranslations
         [HarmonyPatch(typeof(GameManager), "Start"), HarmonyPrefix]
         static void Start()
         {
+
+
+
             // Carico il font CantoraOne-Regular Fix SDF.asset dalla cartella attuale
             string thisPath = Paths.PluginPath; // use bepinex path. fonts are expected to be in the Plugins folder along with the dll
             selectedLanguage = PlayerPrefs.GetString("linguaSelezionata");
@@ -127,6 +130,12 @@ namespace MoreTranslations
                 PlayerPrefs.SetString("linguaSelezionata", selectedLanguage.ToLower());
                 AlertManager.Instance.AlertConfirm(Texts.Instance.GetText("selectLanguageChanged"));
             });
+        }
+
+        [HarmonyPatch(typeof(GameManager), "Start"), HarmonyPostfix]
+        static void Start_AutoUpdate()
+        {
+            AutoUpdateTranslations();
         }
 
         static void CreateLanguageDropdown()
@@ -531,5 +540,41 @@ namespace MoreTranslations
                 longLang = "svenska";
             return longLang;
         }
+
+        public static void AutoUpdateTranslations()
+        {
+            if (GameManager.Instance != null && IsNewVersion())
+            {
+                Debug.Log("Automatically Updating Translations for verioin " + GameManager.Instance.gameVersion);
+                ExportTextForTranslation();
+
+            }
+
+
+        }
+
+        public static bool IsNewVersion()
+        {
+            if (GameManager.Instance != null)
+            {
+                string currentVersion = GameManager.Instance.gameVersion;
+                string lastVersion = PlayerPrefs.GetString("lastVersionForTranslations", "0.0.0");
+                if (currentVersion != lastVersion)
+                {
+                    Debug.Log("New Game Version Detected: " + currentVersion + " (last: " + lastVersion + ")");
+                    PlayerPrefs.SetString("lastVersionForTranslations", currentVersion);
+                    PlayerPrefs.Save();
+                    return true;
+                }
+                else
+                {
+                    Debug.Log("No New Game Version Detected: " + currentVersion + " (last: " + lastVersion + ")");
+                    return false;
+                }
+            }
+            return false;
+        }
+
+
     }
 }

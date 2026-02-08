@@ -158,12 +158,12 @@ pillage=掠夺
 sausagefactory=香肠工厂
 feedtherich=喂饱富人
 givetothepoor=赈济穷人
-//////////////////////////////// TRANSLATION ENDS HERE
+////////////////////////////////
 threestarchef_description=“屠夫”天赋可以确保获得“精肉”。“开饭啦”天赋会将“变质肉”替代为“精肉”。
 overflow=漫流
 overflow_description=生命值全满时，超度给你治疗的 35% 将给予身边的单位。
-hatred=憎恶
-hatred_description=> 当前生命值低于最大生命值的 50% 时，造成的所有伤害 +30%。生命值 50% 之下的每 1% 生命值损失，都会提供 4% 的所有额外伤害。 
+hatred=憎恶海怪
+hatred_description=当前生命值低于最大生命值的 50% 时，造成的所有伤害 +30%。生命值 50% 之下的每 1% 生命值损失，都会提供 4% 的所有额外伤害。
 warriorduality=战士的两面
 warriorduality_description=打出一张“战士”卡牌时，将手牌中费用最高的“治疗”卡牌减少 1 费用，直到丢弃为止。打出“治疗”卡牌时，将手牌中费用最高的“战士”卡牌减少 1 费用，直到丢弃为止。（每回合 4 次）
 magicduality=魔法的两面
@@ -184,3 +184,104 @@ sacredfire=圣洁之火
 sacredfire_description=超度 +2，灼烧 +1。
 vampirism_description=流血+1，冰冻 +1。所有造成的伤害 +30%。造成伤害的 30% 将治疗自身。
 absolutedarkness_description=黑暗 +2。敌人身上的每层黑暗充能会使黑暗爆炸的伤害提高 1%。
+//////////////////////////////// TRANSLATION ENDS HERE
+eldritch=魔能
+eldritch_description=当打出一张费用大于等于 2 的“法术”牌时，获得 1 层法术之剑。
+timeloop=时间循环
+timeloop_description=将魔能“法术”卡牌类型要求改为任意卡牌类型。每次战斗中，当法术之剑达到 5 时，将消耗堆中的所有法师牌洗入牌组，洗入卡牌的费用降低 3 并获得 1 启迪。
+frostswords=冰霜之剑
+frostswords_description=将魔能的费用要求降至 1 或更多能量，但法术之剑每次充能会使所有伤害提高 1。当法术之剑达到 5 层时，将一张“霜冻释放”置入手牌。
+timeparadox=时间悖论
+timeparadox_description=获得“时间循环”特性。如果你已经拥有该特性，那么它在每场战斗中可以激活两次。每场战斗中仅一次，打出“魔能释放”卡牌时，加入一张该卡牌费用为 0 的复制卡牌置入牌组。
+unlimitedblades=无限刀锋
+unlimitedblades_description=如果在回合开始时的法术之剑充能少于 3 层，则至多获得 3 层法术之剑充能。法术之剑最大充能增至 12
+///////////////
+absolutedarkness_description=黑暗 +2。敌人身上的黑暗会使黑暗爆炸的伤害提高 35%。
+//////////////  Patch 1.4 //////////////////////
+loadedgun=上膛的枪
+loadedgun_description=在回合开始时，将手牌中“远程攻击”卡牌的费用减 2，直到丢弃为止。当你打出一张“远程攻击”卡牌，你会进入“装填”状态。
+doublebarrel=双管霰弹枪
+doublebarrel_description=打出一张“远程攻击”卡牌时，获得 2 狂怒和 1 迅捷。当你打出 2 张而非 1 张“远程攻击”后，你会进入“装填”状态。
+mountedcannon=机载大炮
+mountedcannon_description=打出一张耗费能量的“防御”牌时，将一张“爆破！”牌放入你的手牌中。
+greasedgears=上油齿轮
+greasedgears_description=所有伤害输出 +20%。免疫减速，该英雄身上的迅捷会使其造成的所有伤害加 1。
+exoskeleton=外骨骼
+exoskeleton_description=打出一张耗费能量的“防御”牌时，获得 1 能量和 1 坚守。（2 次/回合）
+//////////////  Patch 1.6 //////////////////////
+warmaiden=战争侍女
+warmaiden_description=你的回合开始时，获得 1 强效。若拥有诗节 II，你获得 2 强效；若拥有诗节 III，你获得 3 强效。
+hermit=隐士
+hermit_description=你的回合开始时，对一名随机敌人施加 1 毒素和 1 锈蚀。
+scoutduality=斥候的两面
+scoutduality_description=打出一张“斥候”卡牌时，将手牌中费用最高的“法师”卡牌减少 1 费用，直到丢弃为止。打出“法师”卡牌时，将手牌中费用最高的“斥候”卡牌减少 1 费用，直到丢弃为止。（3 次／回合）
+healerduality=治疗者的两面
+healerduality_description=打出一张“治疗者”卡牌时，将手牌中费用最高的“斥候”卡牌减少 1 费用，直到丢弃为止。打出“斥候”卡牌时，将手牌中费用最高的“治疗者”卡牌减少 1 费用，直到丢弃为止。（3 次／回合）
+warriorduality_description=打出一张“战士”卡牌时，将手牌中费用最高的“治疗者”卡牌减少 1 费用，直到丢弃为止。打出“治疗者”卡牌时，将手牌中费用最高的“战士”卡牌减少 1 费用，直到丢弃为止。（3 次／回合）
+magicduality=法师的两面
+magicduality_description=打出一张“法师”卡牌时，将手牌中费用最高的“战士”卡牌减少 1 费用，直到丢弃为止。打出“战士”卡牌时，将手牌中费用最高的“法师”卡牌减少 1 费用，直到丢弃为止。（3 次／回合）
+corrosion=侵蚀
+corrosion_description=锈蚀 +1。在你的回合结束时，对所有怪物施加状态，怪物身上每层潮湿施加 1 层毒素，每层锈蚀施加 1 层易伤。
+philosophersstone=贤者之石
+philosophersstone_description=在你的回合结束时，你身上每层锈蚀，赋予所有英雄 1 祝福和 1 活力。治疗者的两面每回合可激活 4 次。
+alkahest=万能溶剂
+alkahest_description=毒素 +2，锈蚀 +1，易伤 +1。怪物的最大易伤充能 +8。
+spellsinger=法术吟唱者
+spellsinger_description=打出一张“吟唱”卡牌时，以 0 费用在你的手牌中加入一张相同类型费用 +1 的火焰、寒冰或闪电随机法术卡牌，打出后消耗。（1 次／回合）
+valhalla=英灵殿
+valhalla_description=强效 +1。英雄身上的强效拥有 +8 最大充能。斥候的两面每回合可激活 4 次。
+ragnarok=诸神黄昏
+ragnarok_description=法术吟唱者每回合可激活两次，给予的免费法术基础费用在诗节 II +2，诗节 III +3（而非 +1）。
+unholyblight_description=敌人身上的“灾祸”可以叠加，并分散 100% 的黑暗充能。法师的两面每回合可激活 4 次。
+beaconoflight_description=超度 +1。“漫流”的加成提高到 70%，并取消了满生命值的要求。战士的两面每回合可激活 4 次。
+////
+ragnarok_description=获得“法术吟唱者”特性。如果你已拥有，则每回合可激活两次，给予的免费法术基础费用在诗节 II +2，诗节 III +3。
+hermit_description=你的回合开始时，对一名随机敌人施加 1 毒素和 1 锈蚀。
+philosophersstone_description=在你的回合结束时，赋予所有英雄 2 祝福和 2 活力，你身上每层锈蚀额外再加 1 层。治疗者的两面每回合可激活 4 次。
+///// 1.6 Sunken Temple  /////
+broodmother=育母蜘蛛
+broodmother_description=战斗开始时，将 1 张“蜘蛛幼崽”卡牌洗入每名英雄的牌组。
+templelurkers=神殿潜伏者
+templelurkers_description=超度 +1。 将育母蜘蛛的“蜘蛛幼崽”卡牌替换为“神殿潜伏者”卡牌。 拾起后，如果你拥有“丝茧”或“莲蒂”宠物，将其替换为“神殿潜伏者”宠物。
+mentalscavengers=心灵清道夫
+mentalscavengers_description=疯狂 +1，毒素 +1。 将育母蜘蛛的“蜘蛛幼崽”卡牌替换为“心灵清道夫”卡牌。 拾起后，如果你拥有“丝茧”或“莲蒂”宠物，将其替换为“心灵清道夫”宠物。
+spiderqueen=蜘蛛女王
+spiderqueen_description=将“神殿潜伏者”卡牌和“心灵清道夫”卡牌升级为腐化版本。 拾起后，如果你拥有“神殿潜伏者”或“心灵清道夫”宠物，将其腐化。
+webweaver=织网者
+webweaver_description=你的首个回合开始时，对所有敌人施加 6 疯狂、6 毒素和 1 束缚。 敌人身上的束缚会在回合结束时移除，并降低伤害输出 30%。 当敌人身上的束缚移除时，将遭受 2 减速。
+//////FRAG Dev
+reaping=收割
+reaping_description=当你拥有三枚红色符文时，将你手牌中“伤害”牌的费用减少 1，直到丢弃为止。
+replenishing=复苏
+replenishing_description=当你拥有三枚绿色符文时，将你手牌中“治疗法术”牌的费用减少 1，直到丢弃为止。
+vampirismbloodmage=血之契约
+vampirismbloodmage_description=当你对敌人施加“流血”时，施加 1 吸血。
+crimsonripple=血涌
+crimsonripple_description=流血 +1。敌人身上的流血每层还会使火焰抗性降低 0.5%。对敌人施加流血时，还会在目标两侧施加 1 层灼伤和 1 层黑暗。(每回合 2 次)
+voracious=贪婪
+voracious_description=吸血 +1。吸血爆炸的治疗提升 50%，并额外赋予所有英雄 1 再生。
+energyspike=能量尖刺
+energyspike_description=当吸血爆炸时，赋予所有英雄 1 激励。
+hemostasis=止血术
+hemostasis_description=当吸血爆炸时，赋予所有英雄 1 活力和 1 启迪。
+runeweaver=符文编织者
+runeweaver_description=当你打出一张牌时，每消耗 2 点能量，获得 1 个符文：<br>伤害类 = 红色符文<br>防御类 = 蓝色符文<br>治疗法术 = 绿色符文
+glareofdoom=末日凝视
+glareofdoom_description=标记 +1。现在敌人身上的标记每层会额外造成 +2 点伤害。<br>当你拥有 3 个蓝色符文时，在这些牌被弃置之前，你手中“技能”牌的费用减少 1 点。
+runicempowerment=符文赋能
+runicempowerment_description=当奈弗摩尔施加“加固”和“英勇”时，所有英雄将获得 1 灌注（3次/回合）。 当你拥有三枚蓝色符文时，将你手牌中“防御”牌的费用减少 1，直到丢弃为止。
+
+
+
+
+
+wrathfulresonance=Wrathful Resonance
+vitalresonance=Vital Resonance
+
+//Batch 3
+templelurkers_description=超度 +1。将育母蜘蛛的“蜘蛛幼崽”卡牌替换为“神殿潜伏者”卡牌。如果你拥有“丝茧”或“莲蒂”宠物，则将其替换为“神殿潜伏者”宠物。
+mentalscavengers_description=毒素 +1，疯狂+1。将育母蜘蛛的“蜘蛛幼崽”卡牌替换为“心灵清道夫”卡牌。如果你拥有“丝茧”或“莲蒂”宠物，则将其替换为“心灵清道夫”宠物。
+spiderqueen_description=腐化育母蜘蛛的“神殿潜伏者”或“心灵清道夫”卡牌，如果你拥有“神殿潜伏者”或“心灵清道夫”宠物，则将其腐化。
+webweaver_description=你的首个回合开始时，对所有敌人施加 6 疯狂、6 毒素和 1 束缚。 敌人身上的束缚会在回合结束时移除，并降低伤害输出 30%。 当敌人身上的束缚移除时，将遭受 2 减速。
+crimsonripple_description=流血 +1。敌人身上的每层流血还会减少 0.5% 火焰抗性。对敌人施加流血时，还会在目标两侧施加 1 层灼烧和 1 层黑暗。[每回合 2 次]
+glareofdoom_description=标记 +1。现在敌人身上的每层标记会使其承受的伤害增加 2 点。<br>当你拥有 3 个蓝色符文时，你手中“技能”牌的费用减少 1 点，直到丢弃为止。

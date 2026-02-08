@@ -1,6 +1,3 @@
-//////////////////////////////////////////////
-//  		CLASS
-//////////////////////////////////////////////
 archer_name=Sylvie
 archer_description=Sylvie ha vivido toda su vida en el bosque de Faeborg, y desde muy joven siempre tuvo una puntería excepcional, incluso para ser una elfa. El día que descendió la Calamidad Helada tuvo suerte, ya que estaba entrenando con su mascota Harley en el santuario de los búhos.<br><br>Desde entonces, se ocupa del búho guardián del este. Estaba perdiendo la esperanza cuando su guardián estaba casi agotado, pero algunos aventureros le dieron una piedra lunar que le permitió recargarlo.
 archer_strength=Exploradora especializada en ataques a distancia.
@@ -66,3 +63,29 @@ fallen_strength=Una guerrera que domina el arte de la magia.
 paladin_name=Laia
 paladin_description=Durante generaciones, los felinos de Ulminin, para mantener la bendición de Basthet, cumplen con su tradición de ofrecerle una joven cuando muere su paladina. Laia fue elegida para ser la siguiente. Y Basthet así la crio y entrenó.<br><br>Basthet le prometió que un día sería liberada de sus obligaciones y profetizó que encontraría un grupo de aventureros que demostrarían ser dignos de ella.
 paladin_strength=Una sanadora que domina el arte de la guerra.
+//////////////////////////
+queen_name=Amelia
+queen_description=Tras unificar el reino en las Guerras del Lobo, Amelia se dio cuenta de que sus poderes mágicos se estaban volviendo cada vez más inestables. Para proteger el reino, decidió exiliarse muy lejos.<br><br>Cuando se enteró del secuestro de su hija, sus poderes mágicos se desataron y, en ese momento, decidió usarlos para crear una grieta en el espacio y regresar a Senenthia lo antes posible.
+queen_strength=Mago especializado en magia de frío y eliminación de cartas.
+engineer_name=Nenukil
+engineer_description=Nenukil era el ingeniero jefe de la Fragua Negra. Fue salvado por Amelia cuando la antigua máquina de la Fragua Negra se activó, provocando una explosión de energía. Nenukil, sintiéndose en deuda con ella, advirtió a Amelia del inminente Levantamiento de Obsidiana.<br><br>Ayudó a sofocar el levantamiento y, una vez aplacado, se marchó con Amelia a Senenthia, permaneciendo a su lado hasta que ella se exilió.
+engineer_strength=Explorador especializado en combate táctico y defensa.
+//////////////////////////
+valkyrie_name=Sigrún
+valkyrie_description=Los pescadores de las aldeas sahti encontraron a Sigrún en una isla desierta donde apareció un gran cráter de la noche a la mañana. Había perdido parte de su memoria y no sabía cómo había llegado hasta allí.<br><br>Los lugareños creyeron que Sigrún era un ángel de una civilización que habita en las nubes y la acogieron en su aldea. Como muestra de agradecimiento por cuidar de ella, Sigrún ha decidido emprender un viaje para purgar las costas sahti de los piratas y los hombres pez.
+valkyrie_strength=Un mago que domina el arte de la exploración.
+alchemist_name=Bernard
+alchemist_description=El ermitaño que vive en una concha en el fondo del mar ve perturbado su sueño por la llegada de unos aventureros que buscan hierbas curativas para las tribus locales.<br><br>Con el fondo del mar y sus habitantes alterados por el despertar del obelisco, Bernard decide que es un buen momento para embarcarse en un último viaje en busca de la piedra filosofal y tratar de prolongar su ya larga vida.
+alchemist_strength=Un explorador que domina el arte de la curación.
+/////// 1.6 Sunken Temple
+priestess_name=Tulah
+priestess_description=Hace mucho, Tulah era una sacerdotisa que llegó demasiado lejos en su intento de ayudar a los demás y se corrompió durante el proceso. Se vio obligada a recluirse con su progenie y a alimentarse de quienes antaño protegía.<br><br>Afortunadamente, y gracias a la naturaleza caótica de las grietas y a la ayuda de un grupo entregado a la aventura, Tulah logró escapar de su destino y ahora puede ayudar en sus misiones.
+priestess_strength=Una sanadora especializada en invocar a su progenie.
+/////// Necropolis
+bloodmage_name=Velarion
+bloodmage_description=De sangre noble y linaje oscuro, Velarion, criado en los pasillos malditos del castillo, es el hijo mitad vampiro del conde. Iniciado en el arte de la magia de sangre, la influencia de su padre lo fue consumiendo lentamente hasta que un momento final de lucidez lo empujó a huir del castillo. Ahora, vaga por las Tierras del Crepúsculo y busca la redención a través de las artes prohibidas, canalizando su magia de sangre para curar a sus aliados y castigar a quienes derraman sangre inocente.
+bloodmage_strength=Un sanador que domina el arte de la magia.
+deathknight_name=Nevermoor
+deathknight_description=Nevermoor, otrora príncipe heredero de las Tierras del Crepúsculo, observó impotente cómo la corrupción del conde se extendía por su tierra natal, convirtiendo a sus familiares en monstruos y a él mismo en algo mucho peor. Ahora, convertido en un melancólico hombre cuervo atado por el deber y el dolor, Nevermoor vaga por el Bosque de las Brujas anhelando recuperar su trono..., aunque ello implique usar la misma oscuridad que se lo arrebató.
+deathknight_strength=Un guerrero que domina el arte de la sanación.
+////// DLC Threads of Dreams

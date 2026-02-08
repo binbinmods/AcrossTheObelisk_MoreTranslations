@@ -145,3 +145,42 @@ escapes_description=The character leaves the combat.
 escapes_descriptionExtended=The character leaves the combat.
 luckyscarab_description=Complete the requirements of each scarab to get a bonus at the end of the combat.<br3><y>Golden Scarab:</y> Kill it <w>before it escapes</w> to earn +150 gold per hero.<br3><col>Crystal Scarab:</col> Kill it <w>after it uses the Crystallize card</w> and <w>before it escapes</w> to earn +150 shards per hero. <br3><g>Jade Scarab:</g> Kill it <w>before it escapes</w> to earn +50 gold, +50 shards and +50 experience per hero.
 luckyscarab_descriptionExtended=Complete the requirements of each scarab to get a bonus at the end of the combat.<br3><y>Golden Scarab:</y> Kill it <w>before it escapes</w> to earn +150 gold per hero.<br3><col>Crystal Scarab:</col> Kill it <w>after it uses the Crystallize card</w> and <w>before it escapes</w> to earn +150 shards per hero. <br3><g>Jade Scarab:</g> Kill it <w>before it escapes</w> to earn +50 gold, +50 shards and +50 experience per hero.
+//////
+spellsword_description=Damage done <y>+2 per charge</y>.<br3>Damage taken <y>-1 per charge</y>.<br3>Maximum charges <y>5</y>.<br3>Charges cannot be increased by card effects.
+spellsword_descriptionExtended=Damage done <y>+2 per charge</y>.<br3>Damage taken <y>-1 per charge</y>.<br3>Maximum charges <y>5</y>.<br3>Charges cannot be increased by card effects.
+reloading_description=Unable to play <b>"Ranged Attack"</b> cards.<br3>Remove 1 charge at the <w>end of the turn</w>.<br3>Can't be dispelled or prevented.
+reloading_descriptionExtended=Unable to play <b>"Ranged Attack"</b> cards.<br3>Remove 1 charge at the <w>end of the turn</w>.<br3>Can't be dispelled or prevented.
+/////
+rust_description=<w>Increases the effect</w> of Crack, Poison and Slow by <y>50%</y>.<br3><w>Reduces the effect</w> of Fast, Sharp and Wet by <y>50%</y>.<br3>Prevents<g>  1  </g><y>Reinforce per charge</y>, remove 1 charge when this happens.<br3><w>Removes <b>Reinforce</b> from the target when applied.</w><br3>Remove 1 charge at the <w>end of the turn</w>.
+rust_descriptionExtended=<w>Increases the effect</w> of Crack, Poison and Slow by <y>50%</y>.<br3><w>Reduces the effect</w> of Fast, Sharp and Wet by <y>50%</y>.<br3>Prevents<g>  1  </g><y>Reinforce per charge</y>, remove 1 charge when this happens.<br3><w>Removes <b>Reinforce</b> from the target when applied.</w><br3>Remove 1 charge at the <w>end of the turn</w>.
+/////
+metamorph_description=This character transforms into a different one, resetting its life and status effects.
+metamorph_descriptionExtended=This character transforms into a different one, resetting its life and status effects.
+////
+leech_description=All resistances <r>-1% per charge</r>. Upon reaching <w>25 charges</w>, it explodes: Remove all charges, then apply <r>1 Bleed per charge</r> and heal all allies for <g>1 HP per charge</g>.
+leech_descriptionExtended=All resistances <r>-1% per charge</r>. <br>Upon reaching <w>25 charges</w>, it explodes: Remove all charges, then apply <r>1 Bleed per charge</r> and heal all allies for <g>1 HP per charge</g>. <br>Remove 1 charge at the <w>end of the turn</w>.
+
+infuse_description=<w>Increases the effect</w> of Reinforce, Insulate, and Courage by <y>50%</y>. <br><w>Reinforce on target</w> increases <w>Physical damage</w> by <y>+1 per Infuse charge</y>. <br><w>Insulate on target</w> increases <w>Elemental damage</w> by <y>+1 per Infuse charge</y>. <br><w>Courage on target</w> increases <w>Mystical damage</w> by <y>+1 per Infuse charge</y>.
+infuse_descriptionExtended=<w>Increases the effect</w> of Reinforce, Insulate, and Courage by <y>50%</y>. <br><w>Reinforce on target</w> increases <w>Physical damage</w> by <y>+1 per Infuse charge</y>. <br><w>Insulate on target</w> increases <w>Elemental damage</w> by <y>+1 per Infuse charge</y>. <br><w>Courage on target</w> increases <w>Mystical damage</w> by <y>+1 per Infuse charge</y>. <br>Maximum charges <y>10</y>. <br>Remove 1 charge at the <w>end of the turn</w>.
+
+runeblue_description=<bl>Fortify</bl> <y>+1 per charge</y>. <br>In addition to this, upon reaching <y>2</y> charges, <w>blocking damage grants</w> <bl>10 Shield</bl>. <br>Upon reaching <y>3</y> charges, <w>blocking damage also grants</w> <bl>10 Shield</bl> to all allies.
+runeblue_descriptionExtended=<bl>Fortify</bl> <y>+1 per charge</y>. <br>In addition to this, upon reaching <y>2</y> charges, <w>blocking damage grants</w> <bl>10 Shield</bl>. <br>Upon reaching <y>3</y> charges, <w>blocking damage also grants</w> <bl>10 Shield</bl> to all allies. <br>Maximum charges <y>3</y>. Can't be purged unless specified.
+
+runered_description=<r>Mark</r> <y>+1</y>. In addition to this, upon reaching 2 charges, <w>damaging an enemy applies Mark on them</w>. <br>Upon reaching <y>3</y> charges, <w>damaging an enemy also applies Mark on target sides</w>.
+runered_descriptionExtended=<r>Mark</r> <y>+1</y>. <br>In addition to this, upon reaching <y>2</y> charges, <w>damaging an enemy applies Mark on them</w>. <br>Upon reaching <y>3</y> charges, <w>damaging an enemy also applies Mark on target sides</w>.<br>Maximum charges <y>3</y>. Can't be purged unless specified.
+
+runegreen_descrition=Heal done <y>+2 per charge</y>. <br>In addition to this, upon reaching <y>2</y> charges, <w>heal done grants</w> <bl>2 Vitality</bl>. <br>Upon reaching <y>3</y> charges, <w>heal done grants</w> <bl>2 Vitality</bl> <w>to all allies</w>. 
+runegreen_descriptionExtended=Heal done <y>+2 per charge</y>. <br>In addition to this, upon reaching <y>2</y> charges, <w>heal done grants</w> <bl>2 Vitality</bl>. <br>Upon reaching <y>3</y> charges, <w>heal done grants</w> <bl>2 Vitality</bl> to all allies</w>. <br>Maximum charges <y>3</y>. Can't be purged unless specified.
+
+////
+invulnerableunremovable_description=Immune to damage and harmful effects. This is a corrupted form of invulnerable and it cannot be purged.
+invulnerableunremovable_descriptionExtended=Immune to damage and harmful effects.<br3>This is a corrupted form of invulnerable and it cannot be purged.
+
+//// DLC Threads of Dreams
+nightmareEcho_descriptionExtended=Create a corrupted copy of a random Hero card. When played, deals <w>15 Mind damage</w> to the Hero and applies <w>4 Insane</w> instead of its original effect.
+nightmareEchoA_descriptionExtended=Create a corrupted copy of a random Hero card. When played, deals <w>20 Mind damage</w> to the Hero and applies <w>4 Insane</w> instead of its original effect.
+nightmareEchoB_descriptionExtended=Create a corrupted copy of a random Hero card. When played, deals <w>15 Mind damage</w> to the Hero and applies <w>7 Insane</w> instead of its original effect.
+corruptedEcho_descriptionExtended=When an enemy use a damage-dealing card, they take all the damage themselves.
+transferPain_descriptionExtended=Swaps HP with Reweaver Servant.
+nightmareImage_descriptionExtended=Creates a nightmare image. Illusions are exact copies of real units. They mimic stats and abilities, but can be revealed by some skills, and take extra damage from all sources.
+sleep_descriptionExtended=<sla>Sleep</sla> – Skip the next turn, then remove <y>1 stack</y>. If <y>HP</y> is <y>50%</y> or less when applied, gain <y>2 stacks</y> instead. While active, incoming negative effects are doubled.

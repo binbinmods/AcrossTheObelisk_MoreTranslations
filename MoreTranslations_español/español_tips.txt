@@ -23,5 +23,6 @@ tip21=¿El combate es demasiado lento para ti? Puedes activar el modo rápido en
 tip22=Ten cuidado con las <icon=thorns>, ya que te dañarán si atacas a un monstruo protegido por este efecto.
 tip23=¿Son los monstruos elementales un problema para tu grupo?<br><icon=insulate> aumentará tus resistencias elementales.
 tip24=¿Quieres deshacerte de ese molesto efecto de <icon=burn>?<br><icon=wet> es una forma rápida de eliminarlo por completo.
+//////////////////////////////// TRANSLATION ENDS HERE
 tip25=¿Quieres jugar partidas más rápidas o a un modo más aleatorio? ¡Juega al Desafío del obelisco!
 tip26=Cuando un héroe equipe el mismo objeto dos veces, este se transformará en su versión corrupta.

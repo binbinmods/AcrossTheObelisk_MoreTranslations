@@ -65,9 +65,6 @@ blocked=Bloqueado
 evaded=Evadido
 resisted=Resistido
 currentHp=PS actuales
-#########
-######### CreateTextMenu
-#########
 menuPlay=Jugar
 menuLoadGame=Cargar partida
 menuChallenge=Desafío del obelisco
@@ -130,9 +127,6 @@ lightning=Rayo
 mind=Mente
 holy=Sagrado
 shadow=Sombra
-#########
-######### CreateTextGameplay
-#########
 index=Índice
 loading=Cargando
 deck=Mazo
@@ -306,9 +300,6 @@ youCanDiscardUpTo=Puedes descartar hasta {0} cartas.
 youCanVanishUpTo=Puedes eliminar hasta {0} cartas.
 youCanAdd=Puedes añadir 1 carta.
 youCanAddPlural=Puedes añadir {0} cartas.
-#########
-######### performance bonus
-#########
 roundNumber=Ronda {0}
 excellent=Excelente
 good=Bueno
@@ -321,9 +312,6 @@ performanceBonus=Bonif. de rendimiento
 combatPerformance=Rendimiento en combate
 combatPerformanceDes=Mata a tus enemigos rápidamente y usa menos rondas para obtener mejores recompensas. Cada ronda cuenta...
 dreadfulNoReward=Tu rendimiento en combate ha sido terrible, por lo que no recibes ninguna recompensa de cartas.
-#########
-######### rewards
-#########
 combatRewards=Recompensas de combate
 eventRewards=Recompensas de evento
 eventRewardsSubtitle=Elige una carta o un puñado de fragmentos
@@ -335,9 +323,6 @@ itemRewardsChosing=Personaje que elige:
 chooseCards=Elige una de estas cartas
 chooseDust=Elige fragmentos
 notEnoughGold=No hay suficiente oro/fragmentos
-#########
-######### finish run
-#########
 finishRun=Recompensa basada en el rendimiento en tu aventura. Al comienzo de una nueva partida, mientras estés en el pueblo, podrás reclamar dicha recompensa.
 questEndsIn=Tu búsqueda concluye en:
 actNumber=Acto {0}
@@ -357,9 +342,6 @@ currencyRetentionBonus=<q> % del total
 gameReward=Recompensa de la partida
 mpBonus=Bonif. multijugador (+<q> %)
 itemBonus=Bonif. de objeto (+<q> %)
-#########
-######### event rolls
-#########
 eventRolls=Tiradas de evento:
 singleDesc=Todos roban una carta y los resultados son individuales para cada personaje.
 groupDesc=Todos roban una carta y los resultados se suman.
@@ -376,9 +358,6 @@ rollCard=Carta {0}
 highest=más alta
 lowest=más baja
 closest=más cerca de
-#########
-######### event actions
-#########
 healPercent=[Cura {0} %]
 eventBag=Esta bolsa contiene todos los objetos útiles que encontrarás durante tu aventura.
 eventMissingOptions=Opciones ocultas
@@ -442,9 +421,6 @@ show=Mostrar
 chooseEnergy=Elige cuánta energía quieres gastar en lanzar este hechizo.
 chooseEnergyAvailable=Energía disponible:
 chooseEnergyMax=Energía máx. a asignar:
-#########
-######### CreateTextLobby
-#########
 exitGameConfirm=¿Seguro que quieres salir?
 exitGameConfirmLoss=Todo tu progreso se perderá.
 exitGameConfirmSave=Tu progreso actual se guardará.
@@ -482,9 +458,6 @@ regionEU=Región UE
 regionUS=Región EE. UU.
 regionASIA=Región ASIA
 lfgLobby=<color=#DB9D6A>¿Buscas gente para jugar en modo cooperativo?</color><br>¡Únete al canal #LFG en nuestro Discord oficial!
-#########
-######### CreateTextSelection
-#########
 adventure=Aventura
 beginAdventure=Empezar la aventura
 teamSelection=Selección de equipo
@@ -527,9 +500,6 @@ cantLevelUp=Solo puedes subir de nivel mientras estás en el pueblo o en la pant
 cantGiveGoldDivination=No puedes dar oro ni fragmentos mientras haya una ronda de adivinación pendiente.
 gameSeed=Semilla de juego
 gameSeedInput=Introduce una nueva semilla de juego
-#########
-######### CreateTextCards
-#########
 requireSkill=Requiere {0}
 priority=Prioridad: {0}
 global=Global
@@ -596,9 +566,6 @@ look=Mira
 onDraw=Al robar
 onEndTurn=Al finalizar el turno
 endTurn=Finalizar turno
-#########
-######### CreateTextCombat
-#########
 newTurn=Nuevo turno
 chooseDiscard=Elige las cartas que quieras descartar.
 chooseTopDeck=Elige las cartas que quieras colocar al principio del mazo.
@@ -743,7 +710,7 @@ itemInitialCurrency=Oro y fragmentos iniciales {0}
 itemCharges=Cargas de {0} {1}
 itemEnergyRegeneration=Regeneración de {0} {1}
 itemAllDamages=Todo el daño {0}
-itemSingleDamage={0} {1} daño /// +1 damage
+itemSingleDamage={0} {1} daño 
 itemXDamages=Daño de  {0}{1}
 itemHealDone=Curación realizada {0}
 itemCombatStart=Comienzo del combate
@@ -768,20 +735,20 @@ itemWhenHandEmpty=Si juegas una <sprite name=card> que deja tu mano vacía
 itemChanceToDispel={0} de probabilidad de <br> disipar {1}
 itemEveryRound=Cada turno
 itemEveryNRounds=Cada {0} turnos
-itemForEveryCharge=Por cada carga de {0} que aplicas, /// "haste"
-itemApplyEnemies=Aplica {0} a todos los enemigos/// "haste"
-itemApplyHeroesFromMonster=Aplica {0} a todos los héroes/// "haste"
-itemApplyHeroes=Todos los héroes obtienen {0}/// "haste"
-itemApplyRandomHero=Un héroe al azar obtiene {0}/// "haste"
-itemApplyRandomEnemy=Aplica {0} a un monstruo al azar/// "haste"
-itemApplyHighestFlatHpEnemy=Aplica {0} al monstruo con más PS/// "haste"
-itemApplyLowestFlatHpEnemy=Aplica {0} al monstruo con menos PS/// "haste"
-itemApplyHighestFlatHpHero=Aplica {0} al héroe con más PS/// "haste"
-itemApplyLowestFlatHpHero=Aplica {0} al héroe con menos PS/// "haste"
-itemApplyForEvery=Por cada carga de {0} que apliques, aplica {1}/// "haste"
+itemForEveryCharge=Por cada carga de {0} que aplicas, 
+itemApplyEnemies=Aplica {0} a todos los enemigos
+itemApplyHeroesFromMonster=Aplica {0} a todos los héroes
+itemApplyHeroes=Todos los héroes obtienen {0}
+itemApplyRandomHero=Un héroe al azar obtiene {0}
+itemApplyRandomEnemy=Aplica {0} a un monstruo al azar
+itemApplyHighestFlatHpEnemy=Aplica {0} al monstruo con más PS
+itemApplyLowestFlatHpEnemy=Aplica {0} al monstruo con menos PS
+itemApplyHighestFlatHpHero=Aplica {0} al héroe con más PS
+itemApplyLowestFlatHpHero=Aplica {0} al héroe con menos PS
+itemApplyForEvery=Por cada carga de {0} que apliques, aplica {1}
 itemApplyForEnergyUsed=Por cada {0} que usas:
-itemWhenYouPlay=Cuando juegas un {0}/// "Cold spell"
-itemWhenYouApply=Cuando aplicas un {0}/// "Cold spell"
+itemWhenYouPlay=Cuando juegas un {0}
+itemWhenYouApply=Cuando aplicas un {0}
 itemCustomTextMaxChargesIncrasedYouApply=El estado {0} que aplicas tiene {1} cargas máximas
 itemCustomTextMaxChargesIncrasedOnHeroes={0} en los héroes tiene {1} cargas máximas
 itemCustomTextMaxChargesIncrasedOnEnemies={0} en los monstruos tiene {1} cargas máximas
@@ -795,11 +762,12 @@ itemLastUses=Dura {0} usos
 itemOncePerCombat=Una vez por combate
 itemTheNext=La siguiente carta {0} {1}
 itemRecoverSelf=Recuperas {0} PS
+itemRecoverMonsters=Todos los monstruos recuperan {0} PS
 itemRecoverLowestHPMonster=El monstruo con menos PS recupera {0} PS
-itemRecoverHeroes=Todos los héroes recuperan {0} PS/// All heroes gain "haste"
-itemReduce=Reduce el coste de las {0} cartas {1} al azar de tu mano en {2} {3}/// reduce the cost of 1 random "Song" in your hand by 1
-itemReduceTurn=Reduce el coste de las {0} cartas {1} al azar de tu mano en {2} hasta que se descarte {3}/// reduce the cost of 1 random "Song" in your hand by 1 this turn
-itemReduceHighestTurn=Reduce el coste de las {0} cartas {1} más caras de tu mano en {2} hasta que se descarte {3}/// reduce the cost of 1 random "Song" in your hand by 1 this turn
+itemRecoverHeroes=Todos los héroes recuperan {0} PS
+itemReduce=Reduce el coste de las {0} cartas {1} al azar de tu mano en {2} {3}
+itemReduceTurn=Reduce el coste de las {0} cartas {1} al azar de tu mano en {2} hasta que se descarte {3}
+itemReduceHighestTurn=Reduce el coste de las {0} cartas {1} más caras de tu mano en {2} hasta que se descarte {3}
 itemReduceHighestPermanent=Reduce el coste de las {0} cartas {1} más caras de tu mano en {2} {3}
 itemDiscount={0} de descuento adicional en la fragua mágica, los altares y las tiendas de objetos
 itemDieRetain=Cuando mueres, conservas {0} más de oro y fragmentos
@@ -884,7 +852,7 @@ customUpwindA=<gl>Todos los monstruos:</gl><br>Velocidad <bl>+3</bl><br>Todas la
 customUpwindB=<gl>Todos los monstruos:</gl><br>Velocidad <bl>+4</bl><br>Todas las resistencias <bl>+15 %</bl><br><gl>-Comienzo del combate-</gl><br>Todos los héroes sufren <bl>3</bl><i=slow>
 customUpwindRare=<gl>Todos los monstruos:</gl><br>Velocidad <bl>+5</bl><br>Todas las resistencias <bl>+20 %</bl><br><gl>-Comienzo del combate-</gl><br>Todos los héroes sufren <bl>4</bl><i=slow>
 
-customSacredGround=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+1</bl><br><gl>-Comienzo del combate-</gl><br>Todos los héroes sufren <bl>7</bl><i=sanctify>
+customSacredGround=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+1</bl><br><i=holy> resistencia <bl>+15 %</bl><br><gl>-Comienzo del combate-</gl><br>Todos los héroes sufren <bl>7</bl><i=sanctify>
 customSacredGroundA=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br><i=holy> resistencia <bl>+20 %</bl><br><gl>-Comienzo del combate-</gl><br>Todos los héroes sufren <bl>11</bl><i=sanctify>
 customSacredGroundB=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br><i=holy> resistencia <bl>+25 %</bl><br><gl>-Comienzo del combate-</gl><br>Todos los héroes sufren <bl>15</bl><i=sanctify>
 customSacredGroundRare=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+3</bl><br><i=holy> resistencia <bl>+30 %</bl><br><gl>-Comienzo del combate-</gl><br>Todos los héroes sufren <bl>19</bl><i=sanctify>
@@ -1051,13 +1019,13 @@ act0Intro=¿Cómo sucedió, preguntas? Fue durante el decimosexto cumpleaños de
 act1Intro=El grupo cruzó el obelisco y, al instante, se encontraron en otro lugar, lejos del bosque de Senenthia.<br><br>Uno de los misterios del obelisco había sido revelado. En la antigüedad, el obelisco se usaba como medio de transporte, puesto que llegar a estas tierras a pie habría supuesto meses de viaje.<br><br>El grupo buscó señales de que la princesa y lord Hanshek habían pasado por allí, pero no hubo suerte. No parecía que nadie hubiera estado en el lugar desde hacía mucho tiempo.<br><br>Por suerte, en el horizonte alcanzaron a ver otro obelisco que también parecía estar activo. Su única esperanza ahora era llegar hasta allí y probar suerte con otro destino.
 act2Intro=El grupo atravesó el segundo obelisco. Al llegar, continuaron buscaron señales de la princesa o de lord Hanshek... y esta vez sí encontraron dos pares de huellas que, a juzgar por su profundidad, parecían recientes y se alejaban del lugar donde estaban.<br><br>El grupo finalmente tenía una pista que seguir, a pesar de que realmente no sabían a dónde se dirigían.<br><br>Mientras el grupo oteaba el horizonte, vieron otro obelisco que brillaba intensamente (de la misma manera que los otros dos obeliscos brillaron cuando leyeron sus runas).<br><br>Se percataron de que en ese mismo instante lord Hanshek y la princesa estaban atravesando el obelisco, por lo que si eran lo suficientemente rápidos, podrían alcanzarlos.
 act3Intro=Acto 4, introducción (text work in progress)
-actEndGame=¡Felicidades! has completado el juego en la dificultad normal.<br><br>Has desbloqueado los niveles de Locura. Ahora podrás incrementar la dificultad del juego y adaptarla a tus preferencias, como por ejemplo, luchar contra enemigos aleatorios en cada combate.<br><br>Además, en los niveles de Locura podrás encontrar nuevos objetos corruptos (versiones mucho más poderosas). Cada nivel de dificultad aumenta la probabilidad de que aparezcan cartas y objetos corruptos.<br><br>Esperamos que hayas disfrutado el juego. ¡Aun hay mucho más por venir! Sinceramente Adam, Javier y Juanjo.
+actEndGame=¡Enhorabuena! Has completado el juego en dificultad normal.<br><br>Has desbloqueado niveles de Locura. Ahora podrás aumentar la dificultad del juego y adaptarla a tus preferencias, como por ejemplo enfrentarte a enemigos aleatorios en cada combate.<br><br>Además, los niveles de Locura incluyen nuevos objetos corruptos, versiones mucho más poderosas que los objetos normales. Cada nivel de dificultad aumenta la probabilidad de que aparezcan cartas y objetos corruptos.<br><br>Esperamos que hayas disfrutado del juego. ¡Hay mucho más por venir! Un saludo de Adam, Javier y Juanjo.
 goldDescription=Oro, utilizado para comprar equipamiento, quitar cartas y completar objetivos en algunos eventos.
 dustDescription=Fragmentos, utilizados para elaborar y transmutar cartas.
 supplyDescription=Suministros, utilizados para mejorar los edificios del pueblo y sus servicios<br>(Máx. 500)
 corruptionReward=Recompensa de corrupción
 corruptionAltarUpgrade=El grupo obtendrá acceso a un <color=#E0A44E>altar de mejora</color>
-corruptionGainGold=El grupo ganará<br><sprite name=gold> {0} <sprite name=dust> {1} 
+corruptionGainGold=El grupo ganará<br><sprite name=gold> {0} <sprite name=dust> {1}
 corruptionGainGold2=El grupo ganará<br><sprite name=gold> {0} <sprite name=dust> {1} <sprite name=supply> {2}
 corruptionRemoveCard=Cada héroe podrá <color=#E0A44E>quitar una carta</color> de su mazo gratis
 corruptionRemoveCard2=Cada héroe podrá <color=#E0A44E>quitar dos cartas</color> de su mazo gratis
@@ -1142,7 +1110,7 @@ savedDeckDeleteConfirm=¿Quieres eliminar este mazo?
 craftDeck=Crear mazo
 craftWillCost=Crear este mazo costará:
 craftCant=No puedes crear este mazo
-craftDeckNeed=Para poder crear una baraja guardada necesitas que todas las cartas estén disponibles en la fragua mágica.<br><br>Si tu mazo actual incluye alguna <color=#FFF>carta de lesión, de bendición, especial o corrupta</color>, <color=#F00>no podrás</color> guardar/cargar.
+craftDeckNeed=Para poder crear una baraja guardada necesitas que todas las cartas estén disponibles en la fragua mágica.<br><br>Si tu mazo actual incluye alguna <color=#FFF>carta de lesión, de bendición, especial o corrupta</color>, <color=#F88>no podrás</color> guardar/cargar.
 conflictPlayerChooses={0} elige
 conflictPlayerWins={0} gana
 ngDescription=Modo de juego más difícil destinado a héroes de alto rango y pueblos mejorados. En este modo, las cartas corruptas aparecen con más frecuencia.
@@ -1231,7 +1199,7 @@ madnessCorruptor0Help=En combate, cuando el rendimiento es "Decepcionante", todo
 madnessCorruptor1=<i=decay> Decadencia
 madnessCorruptor1Help=Todos los héroes sufren -3 a la curación realizada y <nobr>-25 %</nobr> a la curación recibida.
 madnessCorruptor2=<i=bless> Poder restringido
-madnessCorruptor2Help=Auras/Maldiciones con cargas máximas:<line-height=120%><br></line-height>(50) Bendición, Marca, Regeneración, Afilado, Sigilo, Vitalidad, Mojado<line-height=120%><br></line-height>(100) Grieta, Furia, Locura, Santificar, Visión<line-height=120%><br></line-height>(200) Sangrado, Quemadura, Enfriamiento, Veneno, Escudo, Chispa, Espinas<line-height=120%><br></line-height>(400) Bloqueo
+madnessCorruptor2Help=Auras/Maldiciones con cargas máximas:<line-height=120%><br></line-height>(50) Bendición, Marca, Regeneración, Afilado, Sigilo, Vitalidad, Mojado<line-height=120%><br></line-height>(100) Grieta, Furia, Insano, Santificar, Visión<line-height=120%><br></line-height>(200) Sangrado, Quemadura, Enfriamiento, Veneno, Escudo, Chispa, Espinas<line-height=120%><br></line-height>(400) Bloqueo
 madnessCorruptor3=<i=insulate> Monstruos resistentes
 madnessCorruptor3Help=Todas las resistencias de los monstruos aumentan un 15 %.
 madnessCorruptor4=<i=gold> Pobreza
@@ -1428,6 +1396,7 @@ minstrel=Juglar
 paladin=Paladín
 valkyrie=Valquiria
 warlock=Brujo
+bloodmage=Mago de Sangre
 AdventureCompletedCardback=Aventura
 AdventureCompletedMadnessCardback=Locura
 ObeliskCompletedCardback=Obelisco
@@ -1506,7 +1475,7 @@ customMainperkRegeneration1a=Regeneración en este héroe también cura a los h�
 customMainperkRegeneration1b=Regeneración en los héroes incrementa la curación recibida en un 1 % por carga.
 customMainperkRegeneration1c=Regeneración en los héroes incrementa la resistencia a Sombra en un 0,5 % por carga y deja de perder cargas al comienzo del turno.
 customMainperkPowerful1b=Las cargas máximas de Poderoso en este héroe se incrementan a 12. Las cargas se reducen por 1 al final del turno.
-customMainperkPowerful1c=Poderoso en este héroe incrementa el daño y curación realizada en un 10 % por carga y pierde todas las cargas al final del turno.
+customMainperkPowerful1c=Cuando este héroe obtiene Poderoso, su daño infligido y su curación realizada aumentan un 8 % por carga. Las cargas máximas se reducen en 2 y pierde todas las cargas al final del turno.
 customMainperkEnergy2a=Cuando este héroe juega una carta que cueste 6 de Energía o más, devuelve 1 de Energía.
 customMainperkEnergy2b=En la ronda 2, este héroe gana 1 de Energía al comienzo del turno.
 customMainperkEnergy2c=En la ronda 4, este héroe gana 2 de Energía al comienzo del turno.
@@ -1521,7 +1490,7 @@ customMainperkStealth1c=Sigilo en los héroes incrementa todas las resistencias 
 customMainperkFury1b=Furia en este héroe incrementa el daño en un 1 % por carga y deja de aplicar Sangrado al final del turno.
 customMainperkFury1c=Furia en este héroe incrementa el daño en un 5 % por carga. Sangrado en este héroe hace un 50 % más de daño y no puede ser prevenido por Absorción o inmunidad a Sangrado.
 customMainperkBleed2b=Sangrado en este héroe aplica su daño al final del turno y no puede ser disipado a menos que se especifique. Las cargas máximas de Furia en este héroe son 25.
-customMainperkBleed2c=Cargas que aplicas +2. Sangrado en los enemigos hace su daño al final del turno y no puede ser prevenido por Absorción o inmunidad a Sangrado.
+customMainperkBleed2c=Aumenta en +2 las cargas que aplicas. Los enemigos afectados por Sangrado reciben daño al final del turno, pero no se puede prevenir mediante Absorción o inmunidad a la Absorción.
 customMainperkSharp1a=Afilado en este héroe incrementa el daño de Corte en un 1,5 por carga y deja de incrementar el daño de Perforación.
 customMainperkSharp1b=Afilado en este héroe incrementa el daño de Perforación en un 1,5 por carga y deja de incrementar el daño de Corte.
 customMainperkSharp1c=Afilado en los héroes no pierde cargas al final del turno y no puede ser purgado a menos que se especifique.
@@ -1555,20 +1524,21 @@ customMainperkCrack2c=Grieta en los enemigos aplica 1 Vulnerable por cada 14 car
 emptySave=[ranura vacío]
 madnessCorruptor1Help=Todos los héroes sufren -3 a la curación realizada, <nobr>-25 %</nobr> a la curación recibida y Vitalidad solo cura el 50 % de los PS ganados
 faeborg=El bosque de Faeborg
-act1Intro=El grupo atravesó el obelisco y, al instante, se encontraron en otro lugar, lejos del bosque de Senenthia.<br><br>Uno de los misterios del obelisco les había sido revelado. En la antigüedad, el obelisco se usaba como medio de transporte, pues llegar a estas tierras a pie habría supuesto varios días de viaje.<br><br>El grupo buscó señales de que la princesa y lord Hanshek habían pasado por allí y encontró dos pares de huellas que se alejaban del lugar.<br><br>Miraron al horizonte y vieron que había otro obelisco en la zona y que estaba activo. Era evidente que la princesa y lord Hanshek tenían algo que ver con la activación de los obeliscos, así que el siguiente destino del grupo estaba claro. 
+act1Intro=El grupo atravesó el obelisco y, al instante, se encontraron en otro lugar, lejos del bosque de Senenthia.<br><br>Uno de los misterios del obelisco les había sido revelado. En la antigüedad, el obelisco se usaba como medio de transporte, pues llegar a estas tierras a pie habría supuesto varios días de viaje.<br><br>El grupo buscó señales de que la princesa y lord Hanshek habían pasado por allí y encontró dos pares de huellas que se alejaban del lugar.<br><br>Miraron al horizonte y vieron que había otro obelisco en la zona y que estaba activo. Era evidente que la princesa y lord Hanshek tenían algo que ver con la activación de los obeliscos, así que el siguiente destino del grupo estaba claro.
 act2Intro=El grupo atravesó el segundo obelisco y, al igual que antes, hallaron un rastro más reciente de la princesa y lord Hanshek.<br><br>Recordaron que la reina de Senenthia, conocida por sus formidables poderes mágicos, también desapareció hace algunos años. ¿Habrá heredado la princesa dichos poderes, y estará lord Hanshek aprovechándose de ello?<br><br>Tenían demasiadas preguntas como para dar media vuelta; debían encontrar a lord Hanshek costara lo que costara.<br><br>No les sorprendió ver a lo lejos otro obelisco activo.<br><br>Esta vez, el grupo tenía la sensación de que si se daban prisa, alcanzarían a la princesa y a lord Hanshek.
 act3Intro=Aunque se habían acostumbrado a cruzar los obeliscos, esa vez la sensación fue distinta.<br><br>Al mirar a su alrededor, se quedaron boquiabiertos. Infinitas nubes y ruinas antiguas flotaban a su alrededor... ¿Dónde estaban? Sin duda, en un lugar al que no se podía llegar a pie o de ninguna otra manera normal.<br><br>El grupo podía sentir la intensidad de la magia que los rodeaba. Este tenía que ser el objetivo de lord Hanshek en su búsqueda de los obeliscos.<br><br>En el horizonte vieron una gran escalera que se elevaba por encima de las nubes... Ese era su destino si querían averiguar qué tramaba lord Hanshek.
+act3bIntro=Aunque ya se habían acostumbrado a cruzar los obeliscos, esta vez la sensación había sido algo más ominosa.<br><br>Cuando abrieron los ojos, se encontraron en un bosque retorcido envuelto en niebla y susurros... Sentían como si los hubieran arrancado por completo a otro mundo.<br><br>En el suelo, cerca de ellos, yacía el cuerpo sin vida de Lord Hanshek. Su collar enjoyado estaba roto, le faltaba una gema. Un hombre de su poder no podía haber caído tan fácilmente.<br><br>A lo lejos, la torre de un castillo oscuro se alzaba hacia el cielo. Fuera lo que fuese lo que mató a Hanshek, y fuera cual fuera el destino de la princesa, se encontraba dentro de sus muros.
 actEndGame=¡Enhorabuena! Has completado el juego en dificultad normal.<br><br>Has desbloqueado niveles de Locura. Ahora podrás aumentar la dificultad del juego y adaptarla a tus preferencias, como por ejemplo enfrentarte a enemigos aleatorios en cada combate.<br><br>Además, los niveles de Locura incluyen nuevos objetos corruptos, versiones mucho más poderosas que los objetos normales. Cada nivel de dificultad aumenta la probabilidad de que aparezcan cartas y objetos corruptos.<br><br>Esperamos que hayas disfrutado del juego. ¡Hay mucho más por venir! Un saludo de Adam, Javier y Juanjo.
 cinematicIntro0=Todo comenzó en el decimosexto cumpleaños de la princesa.
 cinematicIntro1=De repente, una ráfaga de energía estalló en los aposentos de la princesa
 cinematicIntro2=y se propagó por todo el reino de Senenthia.
-cinematicIntro3=Los guardias reales exploraron cada rincón del castillo, 
+cinematicIntro3=Los guardias reales exploraron cada rincón del castillo,
 cinematicIntro4=pero no hallaron rastro alguno de la princesa ni de lord Hanshek, el mago de la corte.
 cinematicIntro5=El rey envió soldados a todas las partes del reino, pero ninguno regresó.
-cinematicIntro6=El rastro de la princesa se perdía en las profundidades del Bosque Viejo, 
+cinematicIntro6=El rastro de la princesa se perdía en las profundidades del Bosque Viejo,
 cinematicIntro7=cerca de un antiguo obelisco inactivo desde hacía siglos...
 cinematicIntro8=Desesperado, el rey proclamó un decreto real.
-cinematicIntro9=En él se anunciaba una recompensa para quien trajera de vuelta a la princesa sana y salva. 
+cinematicIntro9=En él se anunciaba una recompensa para quien trajera de vuelta a la princesa sana y salva.
 cinematicIntro10=La noticia se propagó rápidamente por todo el reino.
 cinematicIntro11=Muchos grupos de aventureros se prepararon para investigar el obelisco.
 cinematicIntro12=Esta es la historia de uno de esos grupos.
@@ -1644,7 +1614,7 @@ customTrickorTreat=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+1</bl><br
 minDeckCards=Número mínimo de cartas en un mazo (excluyendo Bendiciones y Lesiones): <size=+1><color=#FFFFFF><n></color>
 profileMenu=Perfil actual: <size=+5><color=#B0B0B0>{0}</color></size>
 profileCreate=[Crear perfil]
-challengeThirdFloorReward=Alcanza el tercer piso del desafío para desbloquear este dorso de carta.
+challengeThirdFloorReward=Alcanza el tercer piso del desafío para desbloquear estos dorsos de carta.
 langCommunity=*Creado por la comunidad
 itemCorruptionUpgrade=* Cuando un héroe equipe el mismo objeto dos veces, este se transformará en su versión corrupta.
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -1667,7 +1637,7 @@ intensecoldDesc=Enfriamiento en los enemigos reduce la Velocidad en 1 por cada 4
 lethalpoison=Veneno Letal
 lethalpoisonDesc=Veneno hace un 50 % más de daño y pierde todas las cargas al final del turno.
 hemorrhage=Hemorragia
-hemorrageDesc=Cargas que aplicas +2. Sangrado hace su daño al final del turno y no puede ser prevenido por Absorción o inmunidad a Sangrado.
+hemorrhageDesc=Cargas que aplicas +2. Sangrado en los enemigos hace su daño al final del turno y no puede ser prevenido por Absorción o inmunidad a Sangrado.
 containedfury=Furia Contenida
 containedfuryDesc=Furia incrementa el daño en un 2 % por carga y deja de aplicar Sangrado al final del turno.
 
@@ -1696,10 +1666,10 @@ customBombLotteryA=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br
 customBombLotteryB=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+1</bl><br><gl>-Cada ronda-</gl><br>Baraja <crd=bomb,1> en la baraja de un heroe aleatorio.
 customBombLotteryRare=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+3</bl><br><gl>-Cada ronda-</gl><br>Baraja <crd=bomb,1> en la baraja de un heroe aleatorio.
 
-customAshySky=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br>Todas las resistencias <bl>+5%</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=ashstorm,1> a un monstrou aleatorio.
-customAshySkyA=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br>Todas las resistencias <bl>+10%</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=ashstorm,1> a un monstrou aleatorio.
-customAshySkyB=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+3</bl><br>Todas las resistencias <bl>+15%</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=ashstorm,1> a un monstrou aleatorio.
-customAshySkyRare=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+4</bl><br>Todas las resistencias <bl>+20%</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=ashstorm,1> a un monstrou aleatorio.
+customAshySky=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br>Todas las resistencias <bl>+5%</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=ashstorm,1> a un monstruo aleatorio.
+customAshySkyA=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br>Todas las resistencias <bl>+10%</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=ashstorm,1> a un monstruo aleatorio.
+customAshySkyB=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+3</bl><br>Todas las resistencias <bl>+15%</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=ashstorm,1> a un monstruo aleatorio.
+customAshySkyRare=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+4</bl><br>Todas las resistencias <bl>+20%</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=ashstorm,1> a un monstruo aleatorio.
 
 customSnowfall=<gl>Todos los monstruos:</gl><br>PS máx. <bl>+15</bl><br><gl>-Comienzo del combate-</gl><br>Pon <crd=coldhands,1> encima la baraja de cada hereo y aplica <rd>5<i=chill>
 customSnowfallA=<gl>Todos los monstruos:</gl><br>PS máx. <bl>+25</bl><br><gl>-Comienzo del combate-</gl><br>Pon <crd=coldhands,1> encima la baraja de cada hereo y aplica <rd>8<i=chill>
@@ -1718,10 +1688,10 @@ customLavaBursts=<gl>Todos los monstruos:</gl><br>PS máx. <bl>+25</bl><br><gl>-
 
 customColdFront=<gl>Todos los monstruos:</gl><br>PS máx. <bl>+25</bl><br><gl>-Cada turno-</gl><br>Inflige <rd>5<i=cold></rd> y aplica <rd>2<i=chill></rd> a un heroe aleatorio.
 
-customLonelyBlob=<gl>Todos los monstruos:</gl><br>PS máx. <bl>+15</bl><br><gl>-Comienzo del combate-</gl><br>Añade un <i=card><color=#5E3016>Blob</color> aleatorio, a un monstrou aleatorio.
-customLonelyBlobA=<gl>Todos los monstruos:</gl><br>PS máx. <bl>+25</bl><br><gl>-Comienzo del combate-</gl><br>Añade un <i=card><color=#5E3016>Blob</color> aleatorio, a un monstrou aleatorio.
-customLonelyBlobB=<gl>Todos los monstruos:</gl><br>PS máx. <bl>+35</bl><br><gl>-Comienzo del combate-</gl><br>Añade un <i=card><color=#5E3016>Blob</color> aleatorio, a un monstrou aleatorio.
-customLonelyBlobRare=<gl>Todos los monstruos:</gl><br>PS máx. <bl>+45</bl><br><gl>-Comienzo del combate-</gl><br>Añade un <i=card><color=#5E3016>Blob</color> aleatorio, a un monstrou aleatorio.
+customLonelyBlob=<gl>Todos los monstruos:</gl><br>PS máx. <bl>+15</bl><br><gl>-Comienzo del combate-</gl><br>Añade un <i=card><color=#5E3016>Blob</color> aleatorio, a un monstruo aleatorio.
+customLonelyBlobA=<gl>Todos los monstruos:</gl><br>PS máx. <bl>+25</bl><br><gl>-Comienzo del combate-</gl><br>Añade un <i=card><color=#5E3016>Blob</color> aleatorio, a un monstruo aleatorio.
+customLonelyBlobB=<gl>Todos los monstruos:</gl><br>PS máx. <bl>+35</bl><br><gl>-Comienzo del combate-</gl><br>Añade un <i=card><color=#5E3016>Blob</color> aleatorio, a un monstruo aleatorio.
+customLonelyBlobRare=<gl>Todos los monstruos:</gl><br>PS máx. <bl>+45</bl><br><gl>-Comienzo del combate-</gl><br>Añade un <i=card><color=#5E3016>Blob</color> aleatorio, a un monstruo aleatorio.
 
 customColorfulPuddle=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+1</bl><br>PS máx. <bl>+15</bl><br><gl>-Comienzo del combate-</gl><br>Añade un <i=card><color=#5E3016>Blob</color> aleatorio, a todos los monstruos.
 customColorfulPuddleA=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br>PS máx. <bl>+25</bl><br><gl>-Comienzo del combate-</gl><br>Añade un <i=card><color=#5E3016>Blob</color> aleatorio, a todos los monstruos.
@@ -1769,16 +1739,16 @@ freezingCold=Frío Helado
 holyGround=Tierra Santa
 graveyard=Cementerio
 poisonousAir=Aire Venenoso
-frozenSewers=Las Alcantarillas Congeladas
+frozenSewers=Las alcantarillas heladas
 blackForge=La Fragua Negra
 wolfWars=Las Guerras Lobo
 wolfWarsIntro=Varios años después de casarse con el Rey de Senenthia, la reina Amelia inició una campaña para estrechar lazos y dar la bienvenida a todas las diferentes razas del reino bajo un mismo estandarte.<br><br>La mayoría de las razas, siempre acosadas y perseguidas por los hombres lobo, aceptaron la propuesta con esperanza. Sin embargo, el Cacique Gorio quería seguir gobernando la parte noreste del bosque y reclamó el derecho a cazar libremente para sus hombres lobo.<br><br>Después de meses de conversaciones entre la Reina Amelia y el Cacique Gorio, este último rompió las negociaciones. Gorio declaró que sus hombres lobo no serían domesticados y que cualquiera que entrara en el bosque sería su presa.<br><br>Movida por la súplica de todas las razas del reino y con la esperanza de protegerlas, la reina Amelia decidió lanzar un ofensiva para derrocar a Gorio.
 bandit=Bandido
 food=Comida
-roadmapHomeText=<tit>Welcome, everyone!</tit>We have just released version 1.1 of the game, with a lot of free content such as two new sub-zones, new items, and new features like the combat log.<br><br>Also, we have released our first story DLC, The Wolf Wars, which includes a new hero, skins, etc. We hope you like it!<br><br><tit>What's next?</tit>We'll work on the heropedia with a little twist. And we will focus on the first big DLC, a big zone for acts 2 and 3 full of new enemies, items, events, and new heroes!
+roadmapHomeText=<tit>¡Os damos la bienvenida!</tit>Acabamos de lanzar la versión 1.1 del juego y, con ella, muchísimo contenido gratuito; encontraréis dos nuevas subzonas, objetos nuevos y nuevas herramientas, como el Registro de combate.<br><br>Además, hemos lanzado nuestra primera historia DLC: The Wolf Wars, que incluye un nuevo héroe, aspectos y más. ¡Esperamos que os guste!<br><br><tit>¿Y lo próximo?</tit>Trabajaremos en la heroepedia con una pequeña sorpresa; y nos centraremos en el primer gran DLC, ¡una zona enorme para los actos 2 y 3 repleta de nuevos enemigos, objetos, eventos y héroes!
 requiredEvent=Necesitas completar el evento "{0}"
 
-challengeHydra=Aguas Peligrosas
+challengeHydra=Aguas peligrosas
 icydeluge=Diluvio Helado
 icydelugeDesc=Cargas de Mojado +2. Mojado en los enemigos también incrementa el daño de Hielo recibido en 1 por carga.
 
@@ -1803,8 +1773,8 @@ itemRecoverLowestHPHero=El héroe con menos PS recupera {0} PS
 customButchersTable=PS máx. <bl>+10</bl><br><gl>[Cada turno]</gl><br>Añade <crd=premiummeat,1>, <crd=meat,1> o <crd=spoiledmeat,1> en tu mano.
 customButchersTableRare=PS máx. <bl>+20</bl><br><gl>[Cada turno]</gl><br>Añade <crd=premiummeat,1>, <crd=meat,1> o <crd=bloodsausage,1> en tu mano.
 
-customMainperkFortify1c=Fortificar en los héroes otorga 7 Bloqueo por carga al final del turno.
-customMainperkFortify1c=Fortify en los héroes pierde todas las cargas al final de la ronda y otorga 10 cargas de Bloqueo por cada carga eliminada.
+customMainperkFortify1c=Fortificar en los héroes pierde todas las cargas al final del turno y también otorga 10 Bloqueo por carga extraída.
+requiredDLCandQuest=Necesitas tener el DLC <nobr>"<color=#FFF>{0}</color>"</nobr> y completar un evento.
 characterSkin=Skin de personaje
 playerDontHaveDLC=Este jugador no tiene el DLC <nobr>"<color=#FFF>{0}</color>"</nobr>
 enableKeysOption=Activar atajos de teclado.
@@ -1860,7 +1830,7 @@ cardsXEqualsYourVanishedCards=(X es igual a la carta eliminada <space=.1><sprite
 cardsXEqualsTargetMissingHealth=(X es igual a la salud que le falta al objetivo {0})
 cardsXEqualsYourMissingHealth=(X es igual a la salud que te falta {0})
 itemEveryRoundRoundN=Cada {0} rondas
-itemReduceCost=(Precio: >{0})
+itemReduceCost=(Precio: >={0})
 scarabBonus=Bonif. de escarabajos: {0}/héroe
 itemTwicePerCombat=Dos veces por combate
 itemThricePerCombat=Tres veces por combate
@@ -1868,7 +1838,7 @@ customCrystallize=Genera una recompensa adicional de 150 <i=dust> por héroe.
 escapes=Escapa
 luckyscarab=Escarabajo de la suerte
 useSupplies=Usa los suministros para aumentar el rango de este personaje.
-useSuppliesAvailable=[ {0}  <sprite name=supply> disponible]  /// 10 <supplies> disponibles
+useSuppliesAvailable=[ {0}  <sprite name=supply> disponible]  
 useSuppliesRequirement=*Requiere el rango de personaje 10 y el desbloqueo de todas las mejoras del pueblo.
 
 customMeatBagA=Resistencia a <i=slashing> <bl>+3 %</bl><br><act>[Primer turno]</act><br>Baraja <crd=premiummeat,1>, <crd=meat,1> o <crd=spoiledmeat,1> en tu mazo.
@@ -1884,7 +1854,7 @@ impedingDoomDesc=Todos los héroes sufren 3 de "Perdición" cuando el rendimient
 resistantMonstersDesc=Todas las resistencias de los monstruos aumentan un 10 %.
 decadenceDesc=Todos los héroes sufren <nobr>-20 %</nobr> a la curación recibida. Vitalidad solo restablece un 50 % de los PS máx. obtenidos.
 
-customMainperkPowerful1c=Cuando este héroe obtiene Poderoso, su daño infligido y su curación realizada aumentan un 10 % por carga. Las cargas máximas se reducen en 3 y pierde todas las cargas al final del turno.
+customMainperkPowerful1c=Cuando este héroe obtiene Poderoso, su daño infligido y su curación realizada aumentan un 8 % por carga. Las cargas máximas se reducen en 2 y pierde todas las cargas al final del turno.
 customMainperkInspire0a=Este héroe obtiene 1 de Inspiración al comienzo del turno.
 customMainperkSharp1d=Cuando este héroe obtiene Afilado, el daño de Sombra aumenta en 1 por carga.
 
@@ -1893,10 +1863,10 @@ cardPlayerPairsDescription=Después de barajar estas cartas, los personajes eleg
 finishGame=Finalizar partida
 cardPlayerPairsRound=<color=#FFF>Ronda [{0}/{1}]</color><br><color={2}>Turno de {3}</color>
 
-customArmagedon=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br><i=fire><i=blunt> Todas las resistencias <bl>+30 %</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=meteorite,1> a todos los monstruos.
-customArmagedonA=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br><i=fire><i=blunt> Todas las resistencias <bl>+40 %</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=meteorite,1> a todos los monstruos.
-customArmagedonB=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+3</bl><br><i=fire><i=blunt> Todas las resistencias <bl>+450 %</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=meteorite,1> a todos los monstruos.
-customArmagedonRare=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+4</bl><br><i=fire><i=blunt> Todas las resistencias <bl>+45 %</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=meteorite,1> a todos los monstruos.
+customArmagedon=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br>Resistencia a <i=fire><i=blunt> <bl>+30 %</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=meteorite,1> a todos los monstruos.
+customArmagedonA=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br>Resistencia a <i=fire><i=blunt> <bl>+40 %</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=meteorite,1> a todos los monstruos.
+customArmagedonB=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+3</bl><br>Resistencia a <i=fire><i=blunt> <bl>+45 %</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=meteorite,1> a todos los monstruos.
+customArmagedonRare=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+4</bl><br>Resistencia a <i=fire><i=blunt> <bl>+45 %</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=meteorite,1> a todos los monstruos.
 
 customHeavenlyArmaments=<gl>Todos los monstruos:</gl><br>PS máx. <bl>+15</bl><br><gl>-Cada ronda-</gl><br>Ganan <bl>2</bl><i=bless><bl>2</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=zeal><bl>1</bl><i=fast>.
 customHeavenlyArmamentsA=<gl>Todos los monstruos:</gl><br>PS máx. <bl>+30</bl><br><gl>-Cada ronda-</gl><br>Ganan <bl>3</bl><i=bless><bl>3</bl><i=regeneration><bl>2</bl><i=vitality><bl>2</bl><i=zeal><bl>1</bl><i=fast>.
@@ -1972,8 +1942,9 @@ always=Siempre
 all=Todo
 disabled=Deshabilitado
 
-card=Carta
 ////////////// Christmas DLC
+card=Carta
+
 keyQ=Q
 keyW=W
 keyE=E
@@ -2000,18 +1971,394 @@ keyV=V
 keyB=B
 keyN=N
 keyM=M
-keyShift=Mayúsculas
-keyReturn=Aceptar
-keyDelete=Borrar
+keyShift=Mayús
+keyReturn=Entrar
+keyDelete=Retroceso
 
-customScaraby=Todas las resistencias <bl>+5%</bl><br>Incrementa la probabilidad de que aparezca un es escarabajo el el acto 2 y 3 hasta un <bl>40%</bl>.
-customScarabyrare=Todas las resistencias <bl>+8%</bl><br>Incrementa la probabilidad de que aparezca un es escarabajo el el acto 2 y 3 hasta un <bl>50%</bl>.<br>Los escarabajos de Azote no aparecen.
+customScaraby=Todas las resistencias <bl>+5 %</bl><br>Aumenta la probabilidad de aparición de un escarabajo en los actos 2 y 3 en hasta un <bl>40 %</bl>.
+customScarabyrare=Todas las resistencias <bl>+8 %</bl><br>Aumenta la probabilidad de aparición de un escarabajo en los actos 2 y 3 en hasta un <bl>50 %</bl>.<br>Los escarabajos del flagelo no aparecen.
 
 queen=Reina
 princess=Princesa
-empress=Empreratiz
+empress=Emperatriz
 engineer=Ingeniero
 mechanic=Mecánico
-artificer=Artificero
-chatWelcome=Bienvenido a la partida de <u>{0}</u>. Podrás comunicarte con el resto de jugadores a través de esta ventana de chat. Ten en cuenta que se hará referencia a cada uno de los jugadores con el mismo color durante el resto del juego. ¡Disfruta!
-maximumEnchantments=Un personaje puede tener un máximo de tres encantamientos activos. Si se aplica uno nuevo, se eliminará el más antiguo.
+artificer=Artesano
+chatWelcome=Te damos la bienvenida al juego <u>{0}</u>. Podrás comunicarte con el resto de jugadores a través de esta ventana de chat. Ten en cuenta que cada jugador se identificará mediante un color específico durante el resto del juego. ¡Que te diviertas!
+maximumEnchantments=Cada jugador puede tener un máximo de tres encantamientos activos. Si se aplica uno nuevo, se eliminará el más antiguo.
+
+login=Iniciar sesión
+loginParadoxAccount=Inicia sesión con tu cuenta de Paradox
+loginIntroduce=Introduce los datos de tu cuenta
+forgotPassword=¿Has olvidado tu contraseña?
+createAccount=Crear una cuenta nueva
+emailAddress=Correo electrónico
+rememberMe=Recordarme
+send=Enviar
+createParadoxAccount=Crear cuenta de Paradox
+createReceiveNews=<space=35>Quiero recibir noticias y ofertas de Across the Obelisk y Paradox Interactive
+dateBirth=Fecha de nacimiento
+termsUse=Leer Términos de uso
+privacyPolicy=Leer Política de privacidad
+disclaimer=Al hacer clic en "Crear cuenta" confirmas que has leído, entendido y aceptado nuestros Términos de uso y Política de privacidad.
+createAccount=Crear cuenta
+year=Año
+month=Mes
+day=Día
+region=País/Región
+month1=Enero
+month2=Febrero
+month3=Marzo
+month4=Abril
+month5=Mayo
+month6=Junio
+month7=Julio
+month8=Agosto
+month9=Septiembre
+month10=Octubre
+month11=Noviembre
+month12=Diciembre
+
+pdxErrorEmail=La dirección de correo electrónico no es válida.
+pdxErrorPassword=La contraseña no es válida, debe contener entre 6 y 128 caracteres.
+pdxErrorRegion=Debes seleccionar tu país/región.
+pdxErrorBirth=Debes seleccionar tu fecha de nacimiento.
+pdxErrorInvalidAuthentication=La contraseña proporcionada no es válida.
+pdxErrorUnknownAuthorization=Error de autorización desconocido.
+pdxErrorMiscErrorRetry=Se ha producido un error con tu solicitud. Vuelve a intentarlo en unos minutos.
+pdxErrorLoginFields=Debes introducir tu correo electrónico y contraseña.
+pdxCreateSuccess=¡Gracias por crear una cuenta de Paradox! Te hemos enviado un enlace para que confirmes tu dirección de correo electrónico.
+pdxLogoutConfirm=¿Quieres cerrar sesión de Paradox?
+pdxSteamLinkConfirm=¿Quieres vincular tu cuenta de Paradox con Steam?
+
+holypenance=Penitencia sagrada
+holypenanceDesc=Cuando alguien golpea a un objetivo con Santificar, inflige también un 25 % de las cargas de Santificar del objetivo en forma de daño sagrado.
+challengeChristmas=Nochebuena
+cardbackWeeklyChristmas=Nochebuena
+customHolyNight=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+1</bl><br><gl>-Cada ronda-</gl><br>Todos los héroes sufren <rd>2</rd><i=sanctify> y <rd>2</rd><i=chill>
+customThreeGhost=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=pastghost,1>, <crd=presentghost,1> o <crd=futureghost,1> a todos los monstruos.
+customTheGrinch=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=stealcorruption,1> a todos los monstruos.
+customChristmasTree=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+1</bl><br><gl>-Comienzo del combate-</gl><br>Baraja <crd=goodkid,1> o <crd=badkid,1> en el mazo de cada héroe.
+
+reloading=Recargando
+spellsword=Espada mágica
+
+//////////////
+
+itemCustomTextMaxChargesIncrasedOnThisHero={0} en este héroe tiene +{1} cargas máximas.
+shadyDeal=Trato turbio
+shadyDealDesc=Intercambia fragmentos por oro en un trato desigual. Puedes usarlo una vez por cada personaje que controles.
+shadyDealLeft={0} usos restantes
+shopIncrease={0} coste aumentado 
+shopDiscount={0} coste reducido 
+halloween=Halloween
+
+///////////
+combatLogRoll=Pasa el cursor sobre el nombre de la carta para más detalles.
+deleteProfile=Eliminar perfil [{0}]
+doYouWantToDeleteProfile=¿Quieres eliminar el perfil {0}?
+challengeLunar=Año Nuevo lunar
+cardbackWeeklyLunar=Año Nuevo lunar
+
+///////////
+customMysticNight=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+1</bl><br><gl>-Cada ronda-</gl><br>Todos los héroes sufren <br><rd>2</rd><i=insane>, <rd>2</rd><i=sanctify> y <rd>1</rd><i=dark>.
+customThreeDragons=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br><gl>-Cada ronda-</gl><br>Añade <crd=greendragon,1>, <crd=yellowdragon,1> o <crd=bluedragon,1> a todos los monstruos.
+customLanternFestival=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+2</bl><br><gl>-Cada turno-</gl><br>Un monstruo aleatorio gana <rd>2<i=bless> y 2</rd><i=buffer>.
+customFirecrackers=<gl>Todos los monstruos:</gl><br>Todo el daño <bl>+1</bl><br><gl>-Cada turno-</gl><br>Inflige <rd>5<i=fire></rd> y aplica <rd>2<i=burn></rd> a un héroe aleatorio.
+logout=Cerrar sesión
+
+///////////////////////////// new patch 1.4
+uprising=El Levantamiento de Obsidiana
+uprisingIntro=Hace mucho tiempo, una expedición de enanos encontró una antigua máquina en el interior del volcán Velkarath. Con el tiempo, los enanos construyeron una ciudad alrededor de la máquina, la cual nunca llegaron a poner en funcionamiento.<br><br>Todo cambió con la visita de Amelia, la recién nombrada consejera del reino de Senenthia. Cuando el ingeniero jefe Nenukil le mostró la máquina, esta reaccionó a los poderes latentes de Amelia y se produjo una explosión de energía.<br><br>Amelia utilizó su magia para contener la explosión y proteger a Nenukil. A partir de entonces, la máquina comenzó a funcionar, generando una energía nunca antes vista.<br><br>Unas semanas después, Nenukil acudió a Amelia para informarle de que los dos generales enanos que gobernaban la Fragua Negra se disponían a tomar Velkarath, construyendo máquinas de guerra con su nuevo poder.<br><br>Amelia no tuvo más remedio que reunir un pequeño ejército para sofocar el levantamiento antes de que fuera demasiado tarde.
+floorNumber=Planta {0}
+multiclass=Multiclase
+mapLegendRift=Grieta sobrenatural
+legacySounds=Efectos de sonido antiguos
+legacySoundsDes=Utiliza los efectos de sonido antiguos siempre que sea posible.
+legacySoundsSheepOwl=Sonidos antiguos de "Oveja" y "Búho"
+legacySoundsSheepOwlDes=Utiliza siempre los sonidos antiguos para estos monstruos.
+customRocketBoots=Rapidez se puede acumular en este héroe, pero pierde todas las cargas al comienzo del turno.
+customRocketBootsA=Todas las resistencias <bl>+3 %</bl><br>Rapidez se puede acumular en este héroe, pero pierde todas las cargas al comienzo del turno.
+customRocketBootsB=Todas las resistencias <bl>+6 %</bl><br>Rapidez se puede acumular en este héroe, pero pierde todas las cargas al comienzo del turno.
+customRocketBootsRare=Todas las resistencias <bl>+10 %</bl><br>Velocidad <bl>+1</bl><br>Rapidez se puede acumular en este héroe, pero pierde todas las cargas al comienzo del turno.
+challengeRise=El auge de las máquinas
+cardbackRiseOfTheMachines=rptd_challengeRise
+gunner=Artillero
+itemReduceAll=Reduce el coste de todas las cartas {0} de tu mano {2} en {1}
+itemReduceTurnAll=Reduce el coste de todas las cartas {0} de tu mano {2} en {1} hasta que se descarte
+itemIncrease=Aumenta el coste de {0} carta {1} al azar de tu mano {3} en {2}
+itemIncreaseAll=Aumenta el coste de todas las cartas {0} de tu mano {2} en {1}
+itemIncreaseTurn=Aumenta el coste de {0} carta {1} al azar de tu mano {3} en {2} hasta que se descarte
+itemIncreaseTurnAll=Aumenta el coste de todas las cartas {0} de tu mano {2} en {1} hasta que se descarte
+itemRecoverRandomHPHero=Un héroe al azar recupera {0} PS
+itemRecoverRandomHPMonster=Un monstruo al azar recupera {0} PS
+
+//////// to be updated
+crossplayToggle=Juego cruzado entre plataformas
+enabled=Activado
+region=Región
+customTurboBoots=Todas las resistencias <bl>+14 %</bl><br>Velocidad <bl>+1</bl><br>Rapidez se puede acumular en este héroe, pero pierde todas las cargas al comienzo del turno.
+customTurboBootsRare=Todas las resistencias <bl>+22 %</bl><br>Velocidad <bl>+2</bl><br>Rapidez se puede acumular en este héroe, pero pierde todas las cargas al comienzo del turno.
+howToContent=Cómo acceder a este contenido
+howToDLCSkin=Para elegir cualquier diseño incluido en este contenido descargable, tendrás que jugar una nueva partida. Después, en la pantalla de selección de personaje, tendrás que hacer clic en el icono del pergamino de un personaje para abrir su menú personalizado. A continuación, deberás hacer clic en el botón "DISEÑOS" y podrás seleccionar el diseño personalizado.
+howToDLCCharacter=Este personaje se desbloqueará por defecto al poseer este contenido descargable.<br><br>Para jugar con este personaje, en la pantalla de selección de personaje, solo tienes que arrastrarlo a la posición que quieras ocupar.
+howToDLCUlminin=Al final tanto del Acto 1 como del Acto 2, ahora podrás cruzar el portal amarillo que os teletransportará a ti y a tu equipo a las antiguas tierras de Ulminin.<br><br>Para jugar con los nuevos personajes incluidos en este contenido descargable, tendrás que desbloquearlos completando sus respectivas misiones en Ulminin. Después, podrás seleccionarlos al comienzo de cada aventura.
+howToDLCWW=Mientras juegas en el Acto 1, Senenthia, encontrarás el campamento de Yogger al noreste del mapa. Una vez que hayas completado su encuentro, tendrás acceso a su diario. Léelo y tu aventura comenzará.<br><br>Para elegir cualquier diseño incluido en este contenido descargable, tendrás que jugar una nueva partida. Después, en la pantalla de selección de personaje, tendrás que hacer clic en el icono del pergamino de un personaje para abrir su menú personalizado. A continuación, deberás hacer clic en el botón "DISEÑOS" y podrás seleccionar el diseño personalizado.
+howToDLCObsidian=Para acceder al contenido descargable del Levantamiento de Obsidiana, al final tanto del Acto 1 como del Acto 2, tú y tu equipo tendréis que cruzar el portal rojo y viajar a las tierras de Velkarath. En el centro de Velkarath, podrás inspeccionar una gran grieta sobrenatural que ha aparecido en la ladera del volcán.<br><br>Para elegir cualquier diseño incluido en este contenido descargable, tendrás que jugar una nueva partida. Después, en la pantalla de selección de personaje, tendrás que hacer clic en el icono del pergamino de un personaje para abrir su menú personalizado. A continuación, deberás hacer clic en el botón "DISEÑOS" y podrás seleccionar el diseño personalizado.
+crossplayDescription=** Para desactivar el juego multiplataforma, desconéctate del servidor actual y marca la casilla.
+/// after 1.4.0
+howToDLCPet=Este pack también incluye una mascota. Para conseguirla y usarla, tendrás que comprarla en el edificio de la armería mientras tu personaje visita cualquiera de los pueblos del juego (debes adquirir la tienda de mascotas en las mejoras del pueblo).
+sellSupplies=Vender suministros
+networkKick=Expulsar
+networkMute=Silenciar
+networkUnmute=Desilenciar
+flask=Frasco
+whatIf=¿Y si?
+magnuswhatiftext=¿Y si Magnus hubiera sido criado por Gorio como un mago?
+gustavwhatiftext=¿Y si Gustav hubiera sido invocado a este mundo en lugar de reencarnarse?
+sylviewhatiftext=¿Y si Sylvie hubiera sido poseída por el espíritu del zorro?
+nezglektwhatiftext=¿Y si Nezglekt hubiera sido el capitán del barco volador en lugar de Tsnemo?
+malukahwhatiftext=¿Y si Malukah hubiera sido maldecida por el dios serpiente de Aquarfall?
+laiawhatiftext=¿Y si Laia no hubiera sido elegida paladina de Basthet cuando era niña?
+navaleawhatiftext=¿Y si Navalea no hubiera sido enviada a Ulminin y se hubiera quedado con los suyos?
+yoggerwhatiftext=¿Y si Yogger hubiera sido vegetariano?
+ottiswhatiftext=¿Y si Ottis hubiera adorado a otro tipo de dios?
+evelynwhatiftext=¿Y si Evelyn no se hubiera ido con Amelia y se hubiera quedado con su abuelo?
+corneliuswhatiftext=¿Y si Cornelius hubiera elegido otro tipo de magia para especializarse?
+andrinwhatiftext=¿Y si Andrin se hubiera unido a un gremio de asesinos un tanto peculiar?
+rust=Óxido
+ping=Ping
+players=Jugadores
+crossPlayDisabled=Cross-Network Play está desactivado.
+crossPlayDisabledByPDXAccount=Para poder usar Cross-Network Play, debes iniciar sesión con una cuenta de Paradox.
+crossPlay=Multiplataforma
+loggedPDXitem=Para poder usar este objeto, debes iniciar sesión con una cuenta de Paradox.
+brokenBarriers=Barreras rotas
+roomDoesNotExist=La sala a la que intentas unirte no existe o tu configuración de crossplay no coincide con la de la sala
+///// 1.5 Patch
+alchemist=Alquimista
+apothecary=Boticario
+sage=Sabio
+skald=Poeta
+angel=Ángel
+madnessCorruptor8=<i=experience> Ecualizador
+madnessCorruptor8Help=Todas las recompensas del indicador de la actuación en combate se igualan a la recompensa de actuación "Genial" en ese mismo combate.
+madnessPermanentInjuries=<i=paralyze> Las lesiones son permanentes y no se pueden eliminar.
+dreadnought=El Acorazado
+sahti=Las islas sahti
+cardAlreadyInDeck=Ya tienes esta carta base
+cardNameAlreadyInDeck={0} ya está en tu mazo
+cardWillOverwrite=Tu copia de {0} se sobrescribirá con esta carta. ¿Quieres escogerla?
+staticElectricity=Electricidad estática
+eerieAtmosphere=Atmósfera inquietante
+dampCavern=Caverna húmeda
+randomCombats=Combates aleatorios
+despair=Desesperación
+randomCombatsDesc=Los combates que no pertenecen a un evento se generan aleatoriamente. En cada combate aleatorio aparecerá un monstruo "campeón" que obtendrá una inmunidad aleatoria.
+despairDesc=Los enemigos disponen de las cartas y encantamientos más poderosos.
+requiredSingularityComplete=Tienes que completar el modo Singularidad.
+requiredSingularityLevel=Tienes que completar el modo Singularidad en el nivel de Locura {0}.
+singularity=Singularidad
+singularityCompletedCardback=Singularidad
+singularityCompletedMadnessCardback=Histeria
+mainMenuSingularityDescription=<color=#FFD98F>Vive la aventura con un nuevo conjunto de reglas, los mismos desbloqueos y diez nuevos niveles de Locura.</color><br><br>Los héroes solo pueden tener una copia de cualquier carta jugable y empiezan con un mazo nuevo.<br><br>Las cartas de recompensas mejoradas serán más comunes, pero las mejoras de altar son limitadas y las adivinaciones están desactivadas.<br><br>Otra novedad es que no habrá mejoras del pueblo ni recompensas de cofres entre partidas.
+madnessSingularityBeat=Si superas el modo Singularidad en un nivel de Locura, accederás al siguiente nivel.
+singularityCards=Cartas de singularidad
+//// 2nd batch
+singularitySingleplayer=Singularidad (un jugador)
+singularityMultiplayer=Singularidad (multijugador)
+singularityCardsDescription=En Singularidad, los personajes comienzan con una selección de cartas diferente a la del modo Aventura. Estas son las cartas iniciales de este personaje.
+singularityDifferentInitialCards=En Singularidad, cada personaje tiene un nuevo conjunto de cartas iniciales distinto al del modo Aventura.<br><br>Haz clic en el botón <color=#F1D2A9>Cartas de Singularidad</color> para consultarlas.
+mainMenuSingularityShortDescription=<color=#FFD98F>Una nueva forma de jugar a la aventura.</color><br><br>Los héroes solo pueden tener una copia de cualquier carta jugable y más reglas únicas.
+metamorph=Metamorfosis
+cardsMetamorph=Este personaje se metamorfosea en {0}
+evolve=Evolución
+cardsEvolve=Este personaje evoluciona a {0}
+cannotBeDispelled=No se puede disipar a menos que se especifique.
+cannotBePurged=No se puede purgar a menos que se especifique.
+cannotBePrevented=No se puede prevenir.
+cannotBeDispelledOrPrevented=No se puede disipar ni prevenir.
+lossesAllChargesEndOfTurn=Pierde todas las cargas al <w>final del turno</w>.
+notLoseChargesStartTurn=No pierde cargas al <w>comienzo del turno</w>.
+notLoseChargesEndTurn=No pierde cargas al <w>final del turno</w>.
+notLoseChargesPreventingStealth=No pierde cargas cuando previene Sigilo.
+canStackCharges=Puede ganar cargas.
+allResistances=Todas las resistencias <g>+<ResistAux1> %</g>.
+allResistancesNegative=Todas las resistencias <r>-<ResistAux1> %</r>.
+bluntResistance=<blu>Resistencia a Impacto</blu> <g>+<ResistAux1> %</g>.
+bluntResistanceNegative=<blu>Resistencia a Impacto</blu> <r>-<ResistAux1> %</r>.
+holyResistance=<hol>Resistencia a Sagrado</hol> <g>+<ResistAux1> %</g>.
+mindResistance=<min>Resistencia a Mente</min> <g>-<ResistAux1> %</g>.
+shadowResistance=<sha>Resistencia a Sombra</sha> <g>+<ResistAux1> %</g>.
+shadowResistanceNegative=<sha>Resistencia a Sombra</sha> <r>-<ResistAux1> %</r>.
+maximumCharges=Cargas máximas <y><MaxCharges></y>.
+healingDonePercentPerStack=Curación realizada <y>+<HealDonePercentPerStack> %</y>.
+healReceivedPercentPerStack=Curación recibida <y>+<HealReceivedPercentPerStack> %</y>.
+maxHPModified=PS máx. <y><CharacterStatModifiedPerStack></y>.
+speedModified=Velocidad <r><CharacterStatModifiedValuePerStackTotal></r>.
+chargesReducedByEndTurn=Las cargas se reducen en un {0} al <w>final del turno</w>.
+lossesAllChargesEndRound=Pierde todas las cargas al <w>final de la ronda</w>.
+lossesAllChargesEndRoundGainBlock=Pierde todas las cargas al <w>final de la ronda</w> y también otorga <y>{0} Bloqueo</y>.
+sahtiIslands=Las islas sahti
+shoresOfSahti=Las costas sahti
+sandsOfUlminin=Arenas de Ulminin
+challengePirates=¡Piratas a la vista!
+cardbackPiratesAhoy=¡Piratas a la vista!
+communityCardback=Dorso de carta comunitaria
+communityCardbackWinnerAug24=Ganadora del concurso de dorsos de cartas comunitarias del 24 de agosto.<br><color=#FFF>Diseño original de Kate.</color>
+itemIncreaseHighestDiscarded=Aumenta el coste de las {0} cartas más caras {1} de tu mano {3} un {2} hasta que se descarten
+cardbackWolfWars=Guerras del Lobo
+cardbackObsidianUprising=Levantamiento de Obsidiana
+cardbackTrickOrTreat=Truco o trato
+dlcHomeText=Información del contenido descargable<br><size=-5><color=#B0B0B0>Mostrar paquetes</color></size>
+dlcHomeClose=<< Cerrar
+disabledInSingularity=<color=#ff8888>Este edificio está desactivado mientras se juega al modo Singularidad</color>
+howToDLCSahti=Al final tanto del Acto 1 como del Acto 2, ahora podrás cruzar el portal amarillo que os teletransportará a ti y a tu equipo a las costas sahti infestadas de piratas.
+cantAccessDLC=No puedes cargar esta partida guardada porque a tu cuenta le falta contenido: {0}
+cantAccessDLCCoop=No puedes cargar esta partida guardada porque a uno de los jugadores le falta contenido: {0}
+///////
+visitDLCPage=Visita la página del contenido descargable
+characterDies=<b>{0}</b> muere
+characterResurrects=<b>{0}</b> resucita
+relatedCard=Carta relacionada
+noCharactersWereAffected=Ningún personaje afectado
+///// 1.6 Sunken Temple  /////
+priestess=Sacerdotisa
+matriarch=Matriarca
+weaver=Tejedora
+sunken=El Templo Sumergido
+sunkenIntro=Hace más de cien años, el templo de Aquarfall fue la sede de poder del culto del Gran Pájaro, que situaba a los humanos de Aquarfall por encima de todas las razas de sangre fría que habitaban el pantano. Bajo la influencia del Gran Pájaro, estas razas de sangre fría pasaron siglos esclavizadas.<br><br>El culto del Gran Pájaro trajo prosperidad a los humanos de Aquarfall, pero a expensas de los incontables sacrificios de los hombres lagarto, los naga y los hombres cocodrilo.<br><br>Sin embargo, las razas de sangre fría no podían soportar más la insaciable sed de sangre del Gran Pájaro. Cada vez exigía más y más esclavos para sus rituales, por lo que si querían sobrevivir, debían rebelarse contra sus amos despiadados y la tiránica deidad alada.<br><br>Cuando empezaron a resonar susurros sobre la libertad, el culto del Gran Pájaro recrudeció sus medidas. Aun así, llegó el punto de inflexión gracias al esfuerzo y sacrificio de una humilde sacerdotisa desconocida...
+madnessPermanentInjuries=<i=paralyze> Las lesiones no se pueden eliminar en los pueblos.
+///////
+howToDLCTemple=Para acceder al contenido del DLC Sunken Temple al final tanto del Acto 1 como del Acto 2, tu equipo y tú deberéis cruzar el portal verde que os llevará a las tierras de Aquarfall. En el centro de Aquarfall, podrás inspeccionar una gran grieta sobrenatural que ha aparecido allí.<br><br>Para elegir cualquier diseño incluido en este contenido descargable, tendrás que jugar una nueva partida. Después, en la pantalla de selección de personaje, tendrás que hacer clic en el icono del pergamino de un personaje para abrir su menú personalizado. A continuación, haz clic en el botón "DISEÑOS" para seleccionar el diseño personalizado.
+challengeThirdFloorReward=Alcanza el tercer piso del desafío para desbloquear estos dorsos de carta.
+SunkenTemple=Templo Sumergido
+////// FOR 1.6 //////////////////
+soldier=Soldado
+outlaw=Forajido
+sectarium=Sectarium
+/////FRAG/////
+itemLoseHPSelf=pierde {0} PS
+cardsGainOneOf=Ganas una de {0}
+cardsSufferOneOf=Ganas una de {0}
+cardsGrantOneOf=Ganas una de {0}
+cardHealAllHeroesPerDamage=Cura a todos los héroes una cantidad igual al {0} % del daño infligido
+itemChanceToPurge={0} de probabilidad de: <br> purga {1}
+itemChanceToDispelSelf={0} de probabilidad de: <br> se autodisipa {1}
+cardsDispelSelf=Se autodisipa {0}
+itemWhenBlockReachesZero=Cuando el bloqueo llegue a cero
+leech=Sanguijuela
+infuse=Infundir
+runered=Runa roja
+runeblue=Runa azul
+runegreen=Runa verde
+dojo=Herramienta de prueba de combate
+card_oblivion=Hace que se eliminen todas las cartas tras su uso.<br>
+card_puppeteer=Escapa del combate al perder el 25 % de PS.
+dealDamageToAllMonsters=Inflige {0} de daño a todos los monstruos
+dealDamageToAllHeroes=Inflige {0} de daño a todos los héroes
+cardsStealAurasFromRandomEnemy=Roba {0} auras a un monstruo al azar
+locked=Bloqueado
+optionalTelemetry=Telemetría opcional
+optionalTelemetryDescription=Para mejorar el rendimiento del juego y tu experiencia, recopilamos datos de juego en función de nuestro legítimo interés.
+optionalTelemetryTooltip=Si el jugador opta por no participar en la telemetría opcional, se seguirá recopilando la telemetría necesaria si el jugador no es menor de edad y ha aceptado los documentos legales pertinentes.
+
+witchwoods=Las Tierras del Crepúsculo
+castlecourtyard=Patio del castillo
+castlespire=Aguja del castillo
+
+howToDLCNecro=Al final del Acto 3, ahora podrás cruzar el portal negro que os teletransportará a ti y a tu equipo al reino embrujado de las Tierras del Crepúsculo.<br><br>Los personajes se desbloquearán por defecto al poseer este contenido descargable. Para jugar con los nuevos personajes, en la pantalla de selección de personaje, solo tienes que arrastrarlos a la posición que quieras ocupar.<br><br>Este pack también incluye tres mascotas. Para conseguir y usar las dos primeras, tendrás que comprarlas en el edificio de la armería mientras tu personaje visita cualquiera de los pueblos del juego (debes adquirir la tienda de mascotas en las mejoras del pueblo). Para conseguir y usar la tercera, tendrás que desbloquearla completando su misión correspondiente en las Tierras del Crepúsculo. Después de esto, también podrás comprarla en el edificio de la armería.
+
+itemCorruptionTitle=Corrupción de objetos
+itemCorruptionDesc=Puedes corromper un objeto que elijas y transformarlo en su versión más poderosa.<br><br>Sin embargo, no es una tarea fácil y fallar dañará el objeto.<br><br>También puedes aumentar la probabilidad de éxito haciendo algunos sacrificios.
+
+itemApplyFrontEnemy=Aplica {0} al monstruo al frente
+itemLeechExplosion=Al explotar Sanguijuela en monstruos
+
+equipmentOfHero=heroEquipment=<color=#bbb><hero> Equipment</color>
+
+customUselessI=-Los grandes sueños pueden hacerse añicos-
+customDeformedI=-No todo lo que brilla perdura-
+cardbackNecropolis=Necrópolis de los malditos
+
+dontApplyOnBosses=(No se aplica a jefes)
+sighthero=Visión
+invulnerableunremovable=Invulnerable
+
+bloodMist=Niebla de Sangre
+infestation=Infestación
+
+spooky=Espeluznante
+
+modePractice=Modo de práctica
+
+//new perks
+customMainperkInfuse0a=Este héroe gana 1 de Infundir al comienzo del combate.
+customMainperkInfuse0b=Infundir en este héroe aumenta el efecto de Reforzar, Aislamiento y Valor un 75 %, pero ya no aumenta el daño.
+customMainperkInfuse0c=Cuando este héroe gane Infundir, gana 1 de Absorción.
+customMainperkLeech0a=Sanguijuela en los enemigos ahora provoca que todas las resistencias		se reduzcan un 1,5 % por carga, pero ya no cura al explotar.
+customMainperkLeech0b=Ahora, Sanguijuela en los enemigos explota a las 18 cargas.
+customMainperkLeech0c=En lugar de Sangrado, la explosión de Sanguijuela ahora provoca Enfriamiento en los enemigos.
+customMainPerkRust0b=Herrumbre en los enemigos aumenta el efecto de Grieta, Veneno y Lentitud un 20 % por carga. (Cargas máximas 12)
+customMainPerkRust0c=Herrumbre en los enemigos aumenta el daño de Espinas recibido un 5 % por carga, pero ya no impide 1 de Reforzar por carga.
+customMainPerkScourge0b=Flagelo en los enemigos también inflige 1 de daño de Sombra por cada carga de Quemadura.
+customMainPerkScourge0c=Flagelo en los enemigos también inflige 1 de daño de Sombra por cada carga de Insano.
+customMainPerkZeal0b=Las cargas de Fervor en los héroes se eliminan en 1 al final del turno.
+customMainPerkZeal0c=Fervor en este héroe se puede acumular hasta 10 cargas y aumenta todas las resistencias un 5 % por carga y la curación recibida de Santificar un 12 % por carga, pero ya no aumenta el daño infligido. Elimina 1 carga al final del turno.
+cardsanditems=Cartas y objetos
+enemySelection=Selección de enemigo
+zoneSelection=Selección de zona
+zoneList=Lista de zonas
+combatSelection=Selección de combate
+customAuxValuePerCharge={0} % por carga
+
+/////// DLC Threads of Dreams
+dreams=El Mundo de los Sueños
+howToDLCDream=Para acceder al contenido descargable Threads of Dreams, tu equipo y tú tendréis que cruzar el portal morado al final tanto del Acto 1 como del Acto 2 y viajar al Mundo de los Sueños.
+dreamIntro=El aire brilla con ondas invisibles, como si la propia realidad empezara a desvanecerse. En escritos ancestrales de Senenthia aparece mencionado el velo onírico, un misterioso artefacto que antaño separaba el mundo real del reino de los sueños. Ahora, esa barrera se está desmoronando.<br><br>Aparecen extrañas señales por todas partes: las sombras se mueven en direcciones imposibles, el agua refleja lugares que no existen y las estrellas brillan en pleno día. Los lugareños hablan en voz baja sobre visiones que les persiguen incluso estando despiertos.<br><br>Antiguos pergaminos mencionan a los tejesueños, una tribu mítica que vivía entre la vigilia y el sueño. Mantenían el equilibrio, pero uno de ellos rompió su juramento.<br><br>El velo ha desaparecido. Y cada hora que pasa, la frontera entre los mundos se vuelve más tenue.
+sleep=Somnolencia
+illusionTutorialTitle=Ilusión
+illusionTutorialText=Las ilusiones son copias exactas de las unidades reales. Imitan sus estadísticas y habilidades, pero pueden ser reveladas por algunas habilidades y recibir daño extra de todas las fuentes.
+descriptionTransferPain=-Intercambia PS con el sirviente del Retejedor-
+descriptionNightmareImage=<size=-.15><color=#5E3016>[Al final de la ronda]</color><br><br>-Crea una imagen de pesadilla-
+descriptionNightmareEcho=-Crea una copia corrupta de una carta de héroe-
+descriptionMasterReweaver=<size=-.15><color=#444>[Los siguientes ({0}) <color=#5E3016>ataques</color> de héroe]</color><br>Reciben todo el daño<br><br></color>
+descriptionMindSpike=Añade <color=#263abc>+{0}</color> de daño<br> <color=#444>[por cada <color=#64381d>eco de pesadilla</color>  <sprite name=card> que se juegue en esta partida]</color>
+nightmareecho=Eco de pesadilla
+nightmareechoa=Eco de pesadilla
+nightmareechob=Eco de pesadilla
+corruptedEcho=Eco corrupto
+transferPain=Transferencia de dolor
+nightmareImage=Imagen de pesadilla
+mindSpike=Púa mental
+prepareAction=Prepararse
+rushAction=Arremeter
+studyAction=Estudiar
+//////Asian skins
+ameliaAsianSkin=Pluma radiante
+andrinAsianSkin=Honorable
+breeAsianSkin=El cuerno sagrado
+evelynAsianSkin=Bruja vulpina
+heinerAsianSkin=General de hierro
+magnusAsianSkin=Emperador dragón
+nezgelektAsianSkin=Guardián de la tierra
+ottisAsianSkin=Portarrastrillos
+regenaldAsianSkin=Palma silenciosa
+thulsAsianSkin=Demonio dorado
+cardbackChinese=Armonía celestial
+cardbackJapanese=Remanso de serenidad
+//
+cardbackHalloween=Obsequios malvados
+fluffCountDialogStart=El baile de la muerte tiene su propio ritmo, héroes. ¿Podéis mantenerlo?
+bloodsorcerer=Hechicero de Sangre
+bloodalchemist=Alquimista de Sangre
+grimreaper=Segador Sombrío
+masquerader=Mascarada
+
+//Batch 3
+customMainperkLeech0a=Sanguijuela en los enemigos ahora reduce todas las resistencias un 1,5 % por carga, pero ya no cura al explotar.
+count_dialogue_2=Nada mal. Es evidente que os he subestimado, héroes, pero esta pequeña distracción termina aquí.
+chooseVanish=Elige las cartas que quieras eliminar.
+
+//patch
+thorn_increase=El daño recibido por Espinas aumenta un <y><CustomAuxValue> %</y>
